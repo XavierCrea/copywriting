@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "default_library_root": "library",
+  "catalog": "catalog.json",
+  "note": "默认目录相对于技能文件夹。可用 --library 或 COPYWRITING_LIBRARY_ROOT 指定自己的库，命令选项优先。随包资料提供案例卡、方法和书目定位。"
+}

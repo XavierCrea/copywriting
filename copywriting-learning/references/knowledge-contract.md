@@ -1,0 +1,38 @@
+# 知识记录约定
+
+catalog.json 保存索引与紧凑记录，sources/ 保存原件，history/ 保留变更前版本。目录可持续扩充；读取按任务进行。
+
+## 顶层
+schema_version=1，revision 递增，updated_at 为日期或 ISO 时间。sources、methods、cases、feedback 为数组。记录 id 全库唯一且稳定，更新保留 id 并增加 version。
+
+## sources
+必填：id、kind（book/web/user_material）、title、version、reading_status、reviewed_locations、retrieved_at。
+book 记录 pdf_pages。保存原件的记录另有 path（资料库根目录内的相对路径）和 sha256；只附书目和页码的记录用 original_availability=citation_only。web 有真实 url，事件/发布日期不明写 null。
+reading_status：registered、metadata_only、partial_review、full_review。
+reviewed_locations 使用 pdf_page=1 起的物理页；printed_page 另记。full_review 要实际覆盖相应正文和图表，不能由复制文件或 OCR 推定。
+
+## methods
+必填：id、version、title、tags、status、source_refs、rule、applies_when、limits、steps、checks、validation_refs。
+- reference：已核对的作者方法，未有本库效果验证。
+- candidate：待验证的分析推断。
+- validated：有 feedback 支持，范围以反馈记录为准。
+- retired：保留但停止推荐，注明原因。
+source_refs 至少一项，source_id 对应 sources；PDF 的 pdf_pages 列表在真实已读范围内，网页用 locator 说明段落。
+validated 必须有可解析且 verified=true 的 validation_refs；编辑认可与市场效果分别记录。
+
+## cases
+必填：id、version、title、tags、status、source_refs、case_type、observations、analysis、outcome_evidence、transfer_limits。
+case_type：deployed、author_report、counterfactual_rewrite、writing_exercise、synthetic。
+observations 为材料所见，analysis 为本轮解释；outcome_evidence 写 evidence_type、claim、verification_status。无结果写 unknown。作者预测与假设重写不能填为真实营销结果。
+
+## feedback
+必填：id、version、title、kind（feedback）、evidence_type（editorial_feedback/delivery_check/market_result）、source_locator、observation、verified、task_id。
+无任务时 task_id 可为 null，但保留真实反馈或资料出处；生成的演示不作为 verified 市场效果。
+新增可带补充字段。被引用记录通常以 retired 和版本保留，不直接删除。
+
+## 检索
+- summary：数量及来源阅读范围。
+- search "关键词" [--kind sources|methods|cases|feedback] [--limit 5]：按标题、标签和摘要检索。
+- get ID：读取完整记录。
+- validate [--check-files]：校验数据与引用。加 check-files 可核对库里保存的书籍原件及指纹，输出中会列出仅附书目引用的书。
+--library DIR 或 COPYWRITING_LIBRARY_ROOT 覆盖默认位置。脚本不联网、不执行资料内容、不代写学习结论。
