@@ -1,6 +1,6 @@
 # 文案案例库
 
-这里有 27 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。技能使用同目录下的资料索引检索案例和关联方法。
+这里有 45 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。技能使用同目录下的资料索引检索案例和关联方法。
 
 [返回项目首页](../../README.md) · [English index](README.en.md) · [查看可检索的资料库](catalog.json)
 
@@ -42,3 +42,24 @@
 - [桑卡咖啡广告：发言者身份如何改变同一句主张的分量](cases/C-cialdini-sanka-authority.md)
 - [牛肉供货通知：把真实稀缺与信息提前量写成采购理由](cases/C-cialdini-beef-supply-notice.md)
 - [曲奇实验：静态稀缺、刚失去的机会与他人需求，分别改变什么](cases/C-cialdini-cookie-availability.md)
+
+## VeryGoodCopy Micro-Lessons（18 例）
+
+- [从观察细节找到联系｜Noticing](cases/C-vgc-noticing.md)
+- [检查承诺怎样影响读者｜Horrible, horrible copy](cases/C-vgc-horrible-horrible-copy.md)
+- [为表达补入亲历细节｜Artificial writing](cases/C-vgc-artificial-writing.md)
+- [用情绪转折替换笼统感言｜Meeting your firstborn child](cases/C-vgc-meeting-your-firstborn-child.md)
+- [给已有素材留出联想时间｜Not doing your job](cases/C-vgc-not-doing-your-job.md)
+- [从一个人的处境找到共鸣｜Person(a)](cases/C-vgc-persona.md)
+- [先诊断受众与交易条件｜Predicting the success of an ad campaign](cases/C-vgc-predicting-the-success-of-an-ad-campaign.md)
+- [把反复修改写进具体场景｜Robbing and writing](cases/C-vgc-robbing-and-writing.md)
+- [用一个具体时刻表达大概念｜Love](cases/C-vgc-love.md)
+- [固定为一个具体的人练笔｜Good copywriting practice](cases/C-vgc-good-copywriting-practice.md)
+- [用动作、对话与留白制造临场感｜Writing immersive stories](cases/C-vgc-writing-immersive-stories.md)
+- [让思考跟上成稿速度｜Writing, slow](cases/C-vgc-writing-slow.md)
+- [用共同记忆赋予物品价值｜A poetic masterpiece](cases/C-vgc-a-poetic-masterpiece.md)
+- [让具体行为承担情感｜Showing vs. telling](cases/C-vgc-showing-vs-telling.md)
+- [用一个瞬间练习叙事收放｜Vignettes](cases/C-vgc-vignettes.md)
+- [追问收益背后的收益｜Benefits](cases/C-vgc-benefits.md)
+- [压缩文章并核对信息损耗｜One of the best copywriting exercises](cases/C-vgc-one-of-the-best-copywriting-exercises.md)
+- [让对话标签退到背景｜Writing better dialogue](cases/C-vgc-writing-better-dialogue.md)

@@ -76,8 +76,12 @@ def render_case(case, sources, methods):
     add_list(lines, "可借用的写作步骤", application.get("steps"), "1.")
     if application.get("expression_blueprint"):
         lines.extend(["", application["expression_blueprint"]])
+    example = application.get("example", {})
+    if example.get("type") == "hypothetical":
+        quote = [f"> {line}" for line in example["text"].splitlines()]
+        lines.extend(["", "## 自拟英文练习", "", *quote, "", example["note"]])
     add_list(lines, "落稿后的检查", application.get("checks"))
-    uses = application.get("applies_when") or application.get("use_when") or case.get("applies_when")
+    uses = application.get("applies_when") or application.get("use_when") or application.get("trigger") or case.get("applies_when")
     add_list(lines, "适用的任务", [uses] if isinstance(uses, str) else uses)
     add_list(lines, "迁移时注意的条件", case["transfer_limits"])
     outcome = case["outcome_evidence"]
@@ -101,10 +105,17 @@ def render_index(cases, sources):
         "",
         "[返回项目首页](../../README.md) · [English index](README.en.md) · [查看可检索的资料库](catalog.json)",
     ]
+    groups = {}
     for source_id, source in sources.items():
-        group = [case for case in cases if case["source_refs"][0]["source_id"] == source_id]
+        name = source.get("series") or source.get("short_title") or source["title"]
+        key = source.get("series") or source_id
+        groups.setdefault(key, (name, []))
+    for case in cases:
+        source_id = case["source_refs"][0]["source_id"]
+        key = sources[source_id].get("series") or source_id
+        groups[key][1].append(case)
+    for name, group in groups.values():
         if group:
-            name = source.get("short_title") or source["title"]
             lines.extend(["", f"## {name}（{len(group)} 例）", ""])
             lines.extend(f"- [{case['title']}](cases/{case['id']}.md)" for case in group)
     return "\n".join(lines).rstrip() + "\n"

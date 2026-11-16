@@ -2,7 +2,7 @@
 
 [English](MAINTAINING.en.md)
 
-本项目按版本发布。想法或反馈可以先记在 GitHub Issues。准备修改时，新建一个分支，按具体任务试用。确认写法、证据和交付符合预期后，再通过 Pull Request 合并到 `main`。这样每次更新的差异都能单独查看。 [项目反馈](https://github.com/XavierCrea/copywriting/issues)
+本项目按版本发布。想法或反馈可以先记在 GitHub Issues。准备修改时，新建一个分支，按具体任务试用。确认写法、证据和交付符合预期后，再通过 Pull Request 合并到 `main`。这样每次更新的差异都能单独查看。 [项目反馈](https://github.com/XavierCrea/copywriting-learning/issues)
 
 ## 改哪里
 
