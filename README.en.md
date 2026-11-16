@@ -4,13 +4,13 @@
 
 `copywriting-learning` is an AI skill for writing and editing English ads, product pages, marketing emails, and customer replies. It uses your brief and verified facts to find a relevant example, then adapts the writing technique to your audience and channel. It can also analyze campaigns and books and turn real feedback into reusable writing methods.
 
-**v0.1.2** includes **27 cases with source references and 24 writing methods**. The English index tells you what to look for in each case. The detailed notes and searchable catalog are in Chinese. [Browse the English case index](copywriting-learning/library/README.en.md)
+**v1.1.2** includes **45 cases and exercises with source references** and **24 searchable writing methods**. The new entries cover 18 VeryGoodCopy Micro-Lessons by Eddie Shleyner. The English index explains what to look for in each entry and links to detailed notes in Chinese. [Browse the English case index](copywriting-learning/library/README.en.md)
 
-[Changelog](CHANGELOG.en.md) · [Report a problem or suggest an improvement](https://github.com/XavierCrea/copywriting/issues)
+[Changelog](CHANGELOG.en.md) · [Report a problem or suggest an improvement](https://github.com/XavierCrea/copywriting-learning/issues)
 
 ## Getting started
 
-Download **Source code (zip)** from the release page and extract the entire `copywriting-learning` folder. For a local Codex project, put the folder in the project's `.agents/skills/` directory and select the skill from the skill list. [Download the latest release](https://github.com/XavierCrea/copywriting/releases/latest) · [OpenAI installation guide](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
+Download **Source code (zip)** from the release page and extract the entire `copywriting-learning` folder. For a local Codex project, put the folder in the project's `.agents/skills/` directory and select the skill from the skill list. [Download the latest release](https://github.com/XavierCrea/copywriting-learning/releases/latest) · [OpenAI installation guide](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
 
 ### What to give the skill
 
@@ -56,6 +56,8 @@ The case identifies the specification buyers keep asking for. The phrase `the sc
 4. **Retain.** When you have actual feedback, you can ask the skill to record what changed, which technique it used, and what the feedback supports.
 
 This workflow draws on case-based reasoning. [Aamodt and Plaza's paper](https://www.iiia.csic.es/~enric/papers/Aamodt_1994_Case.pdf)
+
+The writing guide explains how to choose which benefit to emphasize, use a detail or a short scene, shape sentence rhythm, and cut words while preserving meaning. [Writing guide in Chinese](copywriting-learning/references/writing.md)
 
 ## Learning from a case
 

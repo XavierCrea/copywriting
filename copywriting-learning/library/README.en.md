@@ -2,7 +2,7 @@
 
 [项目中文首页](../../README.md) · [English homepage](../../README.en.md) · [中文案例索引](README.md)
 
-The index covers all 27 cases and exercises. Each entry tells you which writing problem the case can help with and links to its detailed notes in Chinese. Those notes give the source, observations, conditions for reuse, and any reported results.
+The index covers all 45 cases and exercises. Each entry tells you which writing problem the case can help with and links to its detailed notes in Chinese. Those notes give the source, observations, conditions for reuse, and any reported results.
 
 Tell the skill which case you want by name or by the ID at the end of its link. You can also open a record from the skill folder with `python3 scripts/library.py get C-zebra-saddle-creek-workflow-proof`. [Searchable catalog](catalog.json)
 
@@ -44,3 +44,26 @@ Tell the skill which case you want by name or by the ID at the end of its link. 
 - [Sanka coffee ad](cases/C-cialdini-sanka-authority.md) – Consider how a speaker's role affects credibility and match their real expertise to the claim.
 - [Beef supply notice](cases/C-cialdini-beef-supply-notice.md) – Explain a documented supply constraint in terms a purchaser can act on.
 - [Cookie availability experiment](cases/C-cialdini-cookie-availability.md) – See how low stock, a recent drop in availability, and demand from others shape perceived scarcity.
+
+## VeryGoodCopy Micro-Lessons
+
+These entries include observations, suggested applications, and original English exercises. [Eddie Shleyner's lesson index](https://www.verygoodcopy.com/microlessons)
+
+- [Noticing](cases/C-vgc-noticing.md) – Return to a real task and find a detail that answers a reader's question.
+- [Horrible, horrible copy](cases/C-vgc-horrible-horrible-copy.md) – Check which outcome a reader may infer from a promise and what evidence supports it.
+- [Artificial writing](cases/C-vgc-artificial-writing.md) – Use firsthand details from interviews to give a draft a recognizable voice.
+- [Meeting your firstborn child](cases/C-vgc-meeting-your-firstborn-child.md) – Show what changes a person's understanding and how they react.
+- [Not doing your job](cases/C-vgc-not-doing-your-job.md) – Revisit the same facts from another angle when headline ideas start repeating.
+- [Person(a)](cases/C-vgc-persona.md) – Start with a real reader's situation and see how often it occurs among similar customers.
+- [Predicting the success of an ad campaign](cases/C-vgc-predicting-the-success-of-an-ad-campaign.md) – Look at the audience, offer, and creative when diagnosing weak ad performance.
+- [Robbing and writing](cases/C-vgc-robbing-and-writing.md) – Use a physical action between lines of dialogue to pace a scene and mark a change.
+- [Love](cases/C-vgc-love.md) – Express a broad feeling through a small moment the reader can recognize.
+- [Good copywriting practice](cases/C-vgc-good-copywriting-practice.md) – Write for one reader to practice deciding what to explain and what to leave out.
+- [Writing immersive stories](cases/C-vgc-writing-immersive-stories.md) – Use action and dialogue to build a scene with enough context to follow what happens.
+- [Writing, slow](cases/C-vgc-writing-slow.md) – Check the claim, evidence, and logical connection behind each polished sentence.
+- [A poetic masterpiece](cases/C-vgc-a-poetic-masterpiece.md) – Use repetition to connect shared memories to a clear request.
+- [Showing vs. telling](cases/C-vgc-showing-vs-telling.md) – Replace an abstract description with an action or object that lets the reader picture it.
+- [Vignettes](cases/C-vgc-vignettes.md) – Expand or compress a single moment and end when the detail has made its point.
+- [Benefits](cases/C-vgc-benefits.md) – Trace a feature to the outcome that matters to the reader and check each link in the chain.
+- [One of the best copywriting exercises](cases/C-vgc-one-of-the-best-copywriting-exercises.md) – Shorten a passage and check which facts, conditions, and relationships survive.
+- [Writing better dialogue](cases/C-vgc-writing-better-dialogue.md) – Read aloud and simplify speech tags while keeping the speaker clear.

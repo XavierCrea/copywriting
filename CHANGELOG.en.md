@@ -2,6 +2,13 @@
 
 [简体中文](CHANGELOG.md)
 
+## v1.1.2
+
+- Expanded the writing guide with practical ways to select information for a reader, develop a benefit, make language concrete, build a short scene, shape rhythm, and tighten copy while preserving meaning.
+- Added guidance for diagnosing weak ads and checking what readers might infer from a claim.
+- Removed workbench roles and handoff instructions from the skill.
+- Added 18 VeryGoodCopy Micro-Lesson notes with sources, conditions for reuse, and English exercises. Both case indexes now cover 45 entries.
+
 ## v0.1.2
 
 - Added English versions of the homepage, case index, changelog, and maintainer guide, along with English text in the skill's interface.

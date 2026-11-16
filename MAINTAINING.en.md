@@ -2,7 +2,7 @@
 
 [简体中文](MAINTAINING.md)
 
-Start from a branch and try the change on a realistic writing task. Use a pull request to review the copy, supporting evidence, and deliverable before merging into `main`. [Open an issue or share feedback](https://github.com/XavierCrea/copywriting/issues)
+Start from a branch and try the change on a realistic writing task. Use a pull request to review the copy, supporting evidence, and deliverable before merging into `main`. [Open an issue or share feedback](https://github.com/XavierCrea/copywriting-learning/issues)
 
 ## Where to make changes
 

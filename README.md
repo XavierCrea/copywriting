@@ -4,15 +4,15 @@
 
 `copywriting-learning` 是一套以英文文案为重点的 AI 技能。它根据产品事实、读者需求和发布场景撰写或改写广告、产品卖点、详情页、营销邮件与客户回复。它也能拆解广告、提炼书中的写法，并把实际反馈整理成以后可以检索的记录。
 
-**当前版本 v0.1.2。** 公开资料包含 **27 个有出处的案例和 24 条写作方法**。读者可以直接浏览案例页，技能可以按任务检索案例与方法。 [浏览全部案例](copywriting-learning/library/README.md)
+**v1.1.2** 随附 **45 个有出处的案例和练习**，以及 **24 条可检索的写作方法**。新增 Eddie Shleyner 的 18 篇 VeryGoodCopy 短课提炼。 [浏览全部案例](copywriting-learning/library/README.md)
 
-[查看更新记录](CHANGELOG.md) · [反馈问题或建议](https://github.com/XavierCrea/copywriting/issues)
+[查看更新记录](CHANGELOG.md) · [反馈问题或建议](https://github.com/XavierCrea/copywriting-learning/issues)
 
 当你手里有一份规格表、一堆访谈或一版旧稿时，可以先让技能回答三个问题。读者要做什么判断？哪条产品事实能帮他判断？怎样写，他在这个渠道里最容易理解？
 
 ## 开始使用
 
-在版本下载页选择 **Source code (zip)**，解压后保留整个 `copywriting-learning` 文件夹。在本地 Codex 项目中，可以把它放到项目的 `.agents/skills/` 目录，再从技能列表选择它。 [版本下载](https://github.com/XavierCrea/copywriting/releases/latest) · [OpenAI 安装说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
+在版本下载页选择 **Source code (zip)**，解压后保留整个 `copywriting-learning` 文件夹。在本地 Codex 项目中，可以把它放到项目的 `.agents/skills/` 目录，再从技能列表选择它。 [版本下载](https://github.com/XavierCrea/copywriting-learning/releases/latest) · [OpenAI 安装说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
 
 ### 先给技能三样信息
 
@@ -58,6 +58,8 @@
 2. **借用。** 从主案例提取一个可用的写作动作，如先回答安装条件，再写使用价值。需要再处理另一项难题时，可以借第二例打磨标题或精简文字。
 3. **修订。** 用自己的产品事实写成新稿，保留参数和适用条件。客户回复关注如何接住顾虑和推进下一步，广告关注利益说得是否具体、文字是否精炼准确。
 4. **留存。** 有实际反馈时，可以请技能记录借了哪种写法、哪句话改了、反馈能说明什么。
+
+写作指南说明了怎样按任务选择利益角度、使用具体细节或微场景、推敲用词和节奏，以及精简时保留原意。 [写作指南](copywriting-learning/references/writing.md)
 
 ## 怎样从案例学习
 

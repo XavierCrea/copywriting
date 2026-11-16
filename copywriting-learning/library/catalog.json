@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "revision": 7,
-  "updated_at": "2026-11-15",
+  "revision": 8,
+  "updated_at": "2026-11-16",
   "sources": [
     {
       "id": "S-sugarman-adweek-cn-2011",
@@ -422,6 +422,302 @@
           ]
         }
       ]
+    },
+    {
+      "id": "S-vgc-noticing",
+      "kind": "web",
+      "title": "Noticing",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/noticing",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文行83–121及两幅画作配图。官网的Degas图展示局部，画外细节未作推断。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-horrible-horrible-copy",
+      "kind": "web",
+      "title": "Horrible, horrible copy",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/horrible-horrible-copy",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文行82–152与癌症广告配图全文；家庭照的身份按原文说明，未用其作方法依据。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-artificial-writing",
+      "kind": "web",
+      "title": "Artificial writing",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/artificial-writing",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文行83–153，包括电影对话、作者评论与电影剧照。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-meeting-your-firstborn-child",
+      "kind": "web",
+      "title": "Meeting your firstborn child",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/meeting-your-firstborn-child",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文行83–123，两个88词段落、作者评论与孩子照片均已查看。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-not-doing-your-job",
+      "kind": "web",
+      "title": "Not doing your job",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/not-doing-your-job",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文行82–112及Mad Men剧照。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-persona",
+      "kind": "web",
+      "title": "Person(a)",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/persona",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文行82–107及Schulz肖像配图。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-predicting-the-success-of-an-ad-campaign",
+      "kind": "web",
+      "title": "Predicting the success of an ad campaign",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/predicting-the-success-of-an-ad-campaign",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文开篇师徒交流至结束；40/40/20、List、Offer、Creative 全部章节",
+        "正文 40/40/20 图：已逐项确认 List 40%、Offer 40%、Creative 20%；装饰与站内推广不计课程正文"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-robbing-and-writing",
+      "kind": "web",
+      "title": "Robbing and writing",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/robbing-and-writing",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文开车听播客开场、写作与抢劫的对照、调节车内暖气及末尾回应；正文无教学图表，站内推广不计课程正文"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-love",
+      "kind": "web",
+      "title": "Love",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/thinking/2024/9/23/love",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文提问、分行叙事、对话回应及 zoom in 方法结尾全部读完；分行段未摘引",
+        "正文黑白双人照片已查看，图注 Her；站内推广不计课程正文"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-good-copywriting-practice",
+      "kind": "web",
+      "title": "Good copywriting practice",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/good-copywriting-practice",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文建立孩子邮箱、完整示例信、自由写作与定向写作对照、结尾全部读完",
+        "正文父子与水牛雕像照片及图注已查看；站内推广不计课程正文"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-writing-immersive-stories",
+      "kind": "web",
+      "title": "Writing immersive stories",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/writing-immersive-stories",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "三篇完整示例 Dry、Birthday、Sanpaku Eyes；事实/动作/对话分类；末尾 realism 三条总结与文案应用段",
+        "Birthday 后父亲抱新生儿的黑白照片及图注已查看；站内推广不计课程正文"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-writing-slow",
+      "kind": "web",
+      "title": "Writing, slow",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/writing-slow",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文行83–105，手写与手机输入经验、建议全文。正文无信息性配图。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-a-poetic-masterpiece",
+      "kind": "web",
+      "title": "A poetic masterpiece:",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/a-poetic-masterpiece",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文全部：教堂募款背景、A few reasons it worked so well、Let’s read it募款信、开头拆解及结尾（网页正文行82–150）；正文无独立信息图，页首/尾推广素材不属本课正文。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-showing-vs-telling",
+      "kind": "web",
+      "title": "Showing vs. telling:",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/showing-vs-telling",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "全文行82–130：父亲身份引入、Chivas Regal广告、Abbott引述、两种阅读立场、展示/告知结论。",
+        "正文五张图片均已打开视觉核验：广告全文、独立誊录全文、两张家庭照片及五组改写对照；页首/尾推广素材不属本课正文。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-vignettes",
+      "kind": "web",
+      "title": "Vignettes:",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/vignettes",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "全部正文行83–155：定义、First example、Second example、Third example及As a copywriter结尾；第三例含歌曲片段，已读但不摘录。",
+        "三张正文配图均已视觉查看；页首/尾推广素材不属本课正文。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-benefits",
+      "kind": "web",
+      "title": "Benefits:",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/benefits",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "正文全部行82–118：Escher类比、导师建议、反复追问收益及假设售画示例。",
+        "两张正文图已视觉查看：作品图和完整特征→收益→深层动机链；页首/尾推广素材不属本课正文。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-one-of-the-best-copywriting-exercises",
+      "kind": "web",
+      "title": "One of the best copywriting exercises:",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/one-of-the-best-copywriting-exercises",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "全文行83–105：压缩练习、Wikipedia选材理由、HubSpot原段落与51词版本、建议练习频率；正文无关键图片。",
+        "只读取本页展示的历史段落，不代表核验当前Wikipedia条目或HubSpot公司史。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
+    },
+    {
+      "id": "S-vgc-writing-better-dialogue",
+      "kind": "web",
+      "title": "Writing better dialogue:",
+      "author": "Eddie Shleyner",
+      "version": 1,
+      "url": "https://www.verygoodcopy.com/writing/writing-better-dialogue",
+      "published_at": null,
+      "retrieved_at": "2026-11-16",
+      "reading_status": "full_review",
+      "reviewed_locations": [
+        "全部正文行82–148：与初级文案作者通话、朗读检查、dialogue tags定义、said-bookisms和adverbial tags示例、删减/简化标签建议及结尾；正文无关键图片。"
+      ],
+      "publisher": "VeryGoodCopy",
+      "series": "VeryGoodCopy Micro-Lessons"
     }
   ],
   "methods": [
@@ -5485,6 +5781,910 @@
         "M-011",
         "M-014"
       ]
+    },
+    {
+      "id": "C-vgc-noticing",
+      "version": 1,
+      "title": "从观察细节找到联系｜Noticing",
+      "tags": [
+        "观察",
+        "产品研究",
+        "创意",
+        "noticing",
+        "observation",
+        "details"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-noticing",
+          "locator": "slow looking案例及末段细节、联系与创意的论述"
+        }
+      ],
+      "observations": [
+        "作者借持续看画与审阅录像说明，延长观察能发现初看遗漏的关系。两幅配图用于支持观察练习。"
+      ],
+      "analysis": "本轮迁移到文案研究时，应让细节回答一个读者问题。感官想象可用于构思，产品性质仍需可核对资料。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "提供个人观察经验，营销效果未知。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "文中的三小时练习属于该教学情境，任务耗时由资料与目标决定。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "成稿只有通用优点，缺乏产品特有的表达。",
+        "steps": [
+          "复看一段真实操作，记录具体动作和障碍。",
+          "把细节联系到使用目标，再核对证据。",
+          "用这一细节写标题或场景开头。"
+        ],
+        "checks": [
+          "细节能回答读者的哪个问题？",
+          "可见事实与作者想象是否有标记？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "One hand on the handle. One free for the stairs.",
+          "note": "自拟搬运工具练习，需先验证单手操作条件。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-horrible-horrible-copy",
+      "version": 1,
+      "title": "检查承诺怎样影响读者｜Horrible, horrible copy",
+      "tags": [
+        "承诺",
+        "证据",
+        "读者情绪",
+        "promises",
+        "claim review"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-horrible-horrible-copy",
+          "locator": "三段时间推进的叙事与广告图"
+        }
+      ],
+      "observations": [
+        "作者从童年、亲人病危写到丧亲后见到广告。配图宣称癌症解决方案、97%成功率与全天然，未展示相应证明。"
+      ],
+      "analysis": "本轮解释，前文先使读者经历承诺所触及的情感，再呈现广告，令夸大承诺的代价具体可感。复核文案时要检查读者可能推导出的结果。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "作者叙述自己的反感和撕广告行为。该广告效果及数据依据未知。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "图中文字可核对，医疗效果未经验证。个体反应不能代表受众总体。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "标题以希望、成功率或确定结果打动读者。",
+        "steps": [
+          "写下读者读完可能相信的具体结果。",
+          "逐项找支持该承诺的证据及适用范围。",
+          "让条件紧邻主张，并给出可兑现的下一步。"
+        ],
+        "checks": [
+          "暗示的结果是否超出已验证的能力？",
+          "证据的对象、条件与承诺一致吗？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "Compare the course outline with the skills your next role requires.",
+          "note": "自拟课程文案练习，需提供实际课程大纲。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-artificial-writing",
+      "version": 1,
+      "title": "为表达补入亲历细节｜Artificial writing",
+      "tags": [
+        "真实经历",
+        "叙事",
+        "AI写作",
+        "voice",
+        "lived experience"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-artificial-writing",
+          "locator": "电影谈话及作者关于个人经验的评论"
+        }
+      ],
+      "observations": [
+        "作者用《心灵捕手》谈话引出亲历经验的价值，并承认自己用AI提高效率。他关于AI能力的断言属于个人观点。"
+      ],
+      "analysis": "本轮迁移，差异来自所掌握的素材与视角。为AI提供采访、具体动作和真实措辞，可让初稿拥有可追溯的个人经验。本文没有评测模型性能。",
+      "outcome_evidence": {
+        "evidence_type": "author_opinion",
+        "claim": "个人写作主张，未提供对照实验或市场指标。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "电影台词作为叙事示例；作者的技术判断不视作当前模型能力结论。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "品牌或客户故事语言流畅，却缺乏人物自己的声音。",
+        "steps": [
+          "询问当时发生了什么、人物注意到什么及说了什么。",
+          "选一项与本次主题有关的亲历细节。",
+          "把推测留作待核实，再请当事人核对草稿。"
+        ],
+        "checks": [
+          "第一人称经历有真实提供者吗？",
+          "删除人物名字后，是否仍能认出这段独特经历？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "I kept the first rejected sketch. It reminds me why we moved the handle.",
+          "note": "自拟创始人访谈练习，使用前须确认确有该草图与改动。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-meeting-your-firstborn-child",
+      "version": 1,
+      "title": "用情绪转折替换笼统感言｜Meeting your firstborn child",
+      "tags": [
+        "场景",
+        "情绪转折",
+        "对话",
+        "specificity",
+        "emotional arc"
+      ],
+      "status": "reference",
+      "case_type": "writing_exercise",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-meeting-your-firstborn-child",
+          "locator": "AI段落与作者88词对照"
+        }
+      ],
+      "observations": [
+        "作者以同样字数展示两种表达。他的段落从担心孩子过于安静，经护士解释，转到父子对视与问候；情绪通过对话推进。"
+      ],
+      "analysis": "本轮解释，字数相同时，挑选有变化的瞬间能承载更多意义。读者跟随一次理解上的变化，结尾情绪便有来由。",
+      "outcome_evidence": {
+        "evidence_type": "writing_demonstration",
+        "claim": "单次写作对照，未给出模型、版本、控制条件或读者测试。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "作者关于AI未来能力的判断不由这次对照得到验证。真实故事需要真实素材。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "故事只写感动、开心等感受，缺少发展过程。",
+        "steps": [
+          "找到人物最初的疑问或误解。",
+          "用真实动作或对话展示使他改变理解的信息。",
+          "以改变后的反应结束，并核对字数。"
+        ],
+        "checks": [
+          "情绪变化是否有可见触发点？",
+          "对白是否获得原始记录或本人确认？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "“Will it fit?” She slid the case under the seat. “We can keep it with us.”",
+          "note": "自拟旅行产品练习，适配条件待核实。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-not-doing-your-job",
+      "version": 1,
+      "title": "给已有素材留出联想时间｜Not doing your job",
+      "tags": [
+        "创意",
+        "孵化",
+        "灵感",
+        "incubation",
+        "ideation"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-not-doing-your-job",
+          "locator": "Mad Men情境与两步创意过程"
+        }
+      ],
+      "observations": [
+        "作者以广告公司休息场景讨论创意，先积累经验与知识，再通过暂时转换活动促成意外联系。"
+      ],
+      "analysis": "本轮应用需带着已明确的问题离开稿件，回来后检验新联想是否能服务卖点。资料欠缺时先补资料。",
+      "outcome_evidence": {
+        "evidence_type": "author_opinion",
+        "claim": "电视剧片段与作者经验阐述；神经机制和效率提升未在本文获得实证支持。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "模型执行可采用换角度检查与重新组合素材的程序；不能据此声称其休息时发生人类式潜意识孵化。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "研究材料齐备，仍反复生成同一种标题。",
+        "steps": [
+          "列出核心读者问题、三条已核实事实及当前卡点。",
+          "换一种情境类比或让人类作者短暂转换活动。",
+          "回来提出几种联系，淘汰依赖虚构事实的方案。"
+        ],
+        "checks": [
+          "联想是否来自已确认的材料？",
+          "标题是否仍让读者理解产品价值？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "Your desk, packed for the next stop.",
+          "note": "自拟便携办公包练习，需核实容纳物品与使用场景。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-persona",
+      "version": 1,
+      "title": "从一个人的处境找到共鸣｜Person(a)",
+      "tags": [
+        "受众",
+        "用户访谈",
+        "具体读者",
+        "persona",
+        "audience research"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-persona",
+          "locator": "Peanuts创作经验、作者自述与结尾研究建议"
+        }
+      ],
+      "observations": [
+        "作者从Schulz个人经验与漫画角色的关系，提出研究一位真实潜在客户的视角，并报告读者会在他的个人故事中看到自身处境。"
+      ],
+      "analysis": "本轮应用从真实个体提取语言与决策处境，再用其他同类材料检查代表性。具体可以产生辨识度，共鸣范围仍需验证。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "创作经验和读者共鸣为作者叙述，未提供抽样研究或营销效果。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "单人研究可产生表达假设，无法单独证明整个市场的需求。群体差异需要保留。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "用户画像只有年龄、职业等标签，难以指导一句具体文案。",
+        "steps": [
+          "选取有记录的一次实际咨询或购买决策。",
+          "写清当时的任务、担忧与客户原话。",
+          "先为这位客户写一句，再核对同类客户是否也关心它。"
+        ],
+        "checks": [
+          "问题来自真实记录吗？",
+          "是否把个例的生活经历套给整个群体？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "Need to reach your charger before boarding? Keep it in the front pocket.",
+          "note": "自拟旅行收纳练习，用户情境与口袋适配需验证。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-predicting-the-success-of-an-ad-campaign",
+      "version": 1,
+      "title": "先诊断受众与交易条件｜Predicting the success of an ad campaign",
+      "tags": [
+        "投放诊断",
+        "受众",
+        "offer",
+        "direct response",
+        "40/40/20"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-predicting-the-success-of-an-ad-campaign",
+          "locator": "40/40/20 图及 List、Offer、Creative 三节"
+        }
+      ],
+      "observations": [
+        "作者以访谈解释 40/40/20：受众、交易条件、创意；受众要看相关购买及渠道行为，不能只看人口属性。",
+        "Offer 分为需求、价格、激励；Creative 分文案、设计、形式。作者以一次失败促销说明改稿未必能补救需求问题。"
+      ],
+      "analysis": "本轮解释：先检验谁会买、为什么接受交易，再优化表达；该比例适合作诊断提示，文章未提供能把它换算为成功概率的统计模型。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "访谈中的失败推广为当事人自述，缺少原始数据；40/40/20 未获本库效果验证。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "不把 40/40/20 当预测公式或适用于所有渠道的实测权重；稀缺、优惠、保证必须真实且已授权。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "广告效果差，团队准备只重写标题时。",
+        "steps": [
+          "列出已确认的购买行为、交易条件、创意三类证据。",
+          "找证据最弱且影响购买的一项，单独提出可检验假设。",
+          "先定指标与测试范围，再写与该假设一致的版本。"
+        ],
+        "checks": [
+          "是否把不匹配的受众误当作文案问题？",
+          "是否以真实条件支持价格及立即行动理由？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "For teams replacing cracked sample cases: request the hinge-test report before ordering.",
+          "note": "本轮自拟；仅在买家情境及测试报告真实时可用，非原文或实测广告。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-robbing-and-writing",
+      "version": 1,
+      "title": "把反复修改写进具体场景｜Robbing and writing",
+      "tags": [
+        "修改",
+        "叙事节奏",
+        "revision",
+        "scene beats"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-robbing-and-writing",
+          "locator": "播客对话与车内温度动作交替的正文全篇"
+        }
+      ],
+      "observations": [
+        "作者转述 Joe Loya 对冲动行动与反复写作的对照；播客讲话之间插入开暖气、试温、关闭暖气等动作，最后回到自己的感受。"
+      ],
+      "analysis": "本轮解释：动作间隔让抽象的创作痛苦可感，也为长对话提供停顿；车内温度渐趋合适与耐心调整形成可读的呼应。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "可见的是叙事构造与作者个人共鸣，没有商业效果数据。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "播客经历仅为本文转述；不能据此把痛苦视为好写作的必要条件。动作必须服务场景，生硬插入会拖慢信息。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "访谈或创始人故事被抽象感受、连续引语占满时。",
+        "steps": [
+          "保留一条核心思想线。",
+          "在思想转折处加入现场真实可观察的动作。",
+          "让最后一个动作显示状态变化，再用短句收束。"
+        ],
+        "checks": [
+          "删掉该动作，节奏或意义是否真的损失？",
+          "是否把推测情绪写成了人物事实？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "She read the opening again. Then crossed out the first sentence. The story finally started.",
+          "note": "本轮自拟的虚构练习，非原文或真实客户经历。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-love",
+      "version": 1,
+      "title": "用一个具体时刻表达大概念｜Love",
+      "tags": [
+        "具体化",
+        "微场景",
+        "zoom in",
+        "sensory detail"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-love",
+          "locator": "分行叙事及结尾两段方法说明；正文黑白照片"
+        }
+      ],
+      "observations": [
+        "作者用一个与伴侣有关的日常感官瞬间回答抽象提问，再明确建议：把大概念缩到读者能联系自身经验的具体时刻。"
+      ],
+      "analysis": "本轮解释：先给可感知的细节，让读者推得情感；熟悉的微场景能减少解释，但效果取决于目标读者是否有对应经验。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "文中呈现对话对象理解后的回应；无独立读者研究或营销结果。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "单一生活经验并不普遍；复杂功能、规格与必要条件不能全用感性瞬间代替。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "文案充满安心、可靠、关怀等抽象词，却缺乏可信画面时。",
+        "steps": [
+          "从真实用户材料找一个体现该价值的时刻。",
+          "选一个动作和一项感官细节，删去抽象评语。",
+          "让目标读者复述含义，确认联想没有跑偏。"
+        ],
+        "checks": [
+          "这个时刻是否真实且与购买价值相关？",
+          "读者能否从场景推回目标价值？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "At 6 a.m., the spare mug was already warming beside hers.",
+          "note": "本轮自拟的虚构场景，仅演示关怀的具体化，非作者原作。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-good-copywriting-practice",
+      "version": 1,
+      "title": "固定为一个具体的人练笔｜Good copywriting practice",
+      "tags": [
+        "读者意识",
+        "练习",
+        "one reader",
+        "deliberate practice"
+      ],
+      "status": "reference",
+      "case_type": "writing_exercise",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-good-copywriting-practice",
+          "locator": "示例信与后半段十五分钟定向练笔说明"
+        }
+      ],
+      "observations": [
+        "作者把无指定读者的晨间自由写作，改为每天用十五分钟给儿子写信，并自述面向具体读者写作变得更自然。"
+      ],
+      "analysis": "本轮解释：明确收件人会迫使作者选择信息、语气和背景解释，练的是读者适配，而非机械添加第二人称。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "作者报告自身写作习惯变化，未提供商业效果或对照实验。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "练习对象的偏好不能直接代表客户；亲密语气也不能自动迁到商务场景。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "草稿像面向所有人的广播，信息取舍和语气漂移时。",
+        "steps": [
+          "选一个具体且了解的人，用十五分钟说明一件小事。",
+          "删掉对方已知背景，补上他真正需要的解释。",
+          "转入客户文案时，用已核实的客户问题替换练习对象。"
+        ],
+        "checks": [
+          "是否能说清这位读者已知什么、担心什么？",
+          "每段是否给这位读者带来信息或理由？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "Maya, start with the side pocket. Your charger fits there, so you can reach it without unpacking.",
+          "note": "本轮自拟，演示针对一个人的信息选择；袋型与容量均为假设。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-writing-immersive-stories",
+      "version": 1,
+      "title": "用动作、对话与留白制造临场感｜Writing immersive stories",
+      "tags": [
+        "场景",
+        "留白",
+        "realism",
+        "present tense",
+        "dialogue"
+      ],
+      "status": "reference",
+      "case_type": "writing_exercise",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-writing-immersive-stories",
+          "locator": "Dry 后方法拆解；三篇示例；Recapping the rules of realism"
+        }
+      ],
+      "observations": [
+        "作者以三篇故事示范事实、动作、对话的组合，强调少解释内心、控制背景细节，并提出现在时可增强事件正在发生的感觉。"
+      ],
+      "analysis": "本轮解释：让可观察的动作承担情绪，让读者自行连线；留白应删掉冗余描写，保留理解事件所需的因果。",
+      "outcome_evidence": {
+        "evidence_type": "textual_demonstration",
+        "claim": "已见写作示范与作者解释，未见读者实验或投放数据。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "本文的 realism 是教学性用法，不是文学流派的完整定义；并非所有叙事都必须禁用内心描写或现在时。客户案例不得编造动作与引语。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "案例故事直接宣告焦虑、满意等感受，读者却看不到过程时。",
+        "steps": [
+          "圈出抽象情绪与内心解释。",
+          "用已核实的动作、对话或身体反应替换其中一处。",
+          "保留必要背景，试写现在时并检查整段时态一致。"
+        ],
+        "checks": [
+          "读者能从现场证据推得情绪吗？",
+          "省略的信息是否使因果不清？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "The latch clicks. He lifts the case by one handle, pauses, then puts the sample inside.",
+          "note": "本轮自拟的虚构练习；不能作为真实测试或客户证言。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-writing-slow",
+      "version": 1,
+      "title": "让思考跟上成稿速度｜Writing, slow",
+      "tags": [
+        "慢写",
+        "初稿",
+        "编辑",
+        "deliberate writing",
+        "draft review"
+      ],
+      "status": "reference",
+      "case_type": "writing_exercise",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-writing-slow",
+          "locator": "Obama手写引文、作者手机写作经验及末尾练习"
+        }
+      ],
+      "observations": [
+        "作者借手写与单指手机输入说明，为落笔增加阻力可以促使逐词思考，避免整洁外观掩盖尚未想清楚的意思。"
+      ],
+      "analysis": "本轮迁移到AI文案时，可在生成后逐句解释主张与证据，再检查连接关系。模拟输入缓慢本身无法保证思考质量。",
+      "outcome_evidence": {
+        "evidence_type": "author_experience",
+        "claim": "作者经验及援引观点，未提供写作速度与质量的对照数据。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "手写是可选练习。任务时限、身体条件与个人流程不同，验收应落到含义清晰。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "初稿顺畅整齐，但论点含糊或连接跳跃。",
+        "steps": [
+          "暂停扩写，用一句话说清当前段落要表达什么。",
+          "逐句标出主张、依据和前后关系。",
+          "精修最含糊的词，再朗读检查是否改变原意。"
+        ],
+        "checks": [
+          "能否解释每个关键判断的依据？",
+          "语言流畅是否掩盖了因果缺口？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "Abstract draft: Enjoy effortless organization. / Revision: Keep receipts in one pocket and tickets in the other.",
+          "note": "自拟双口袋文件袋练习，结构与用途待确认。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-a-poetic-masterpiece",
+      "version": 1,
+      "title": "用共同记忆赋予物品价值｜A poetic masterpiece",
+      "tags": [
+        "排比",
+        "anaphora",
+        "三段式",
+        "rule of three",
+        "募款",
+        "情感价值"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-a-poetic-masterpiece",
+          "locator": "募款信全文及开头修辞拆解"
+        }
+      ],
+      "observations": [
+        "作者展示教堂管风琴募款信：以重复句首和三项并列，连接物品与群体熟悉的人生仪式，再把“接受馈赠”转成回馈行动。",
+        "作者将效果同时归于熟悉教会的名单、清晰短文和情感节奏。"
+      ],
+      "analysis": "本轮解释：先唤起读者亲历的价值，再发出请求；重复结构应组织真实关联，而不是堆叠漂亮形容词。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "作者称115词信件带来40,000美元捐款；页面未提供原始账目或可比较测试。",
+        "verification_status": "unverified"
+      },
+      "transfer_limits": [
+        "熟悉群体的募款语境不可直接外推陌生客群；金额不能归因于修辞这一变量。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "受众有共同经历，且能证明产品或组织参与其中。",
+        "steps": [
+          "列三组具体使用时刻。",
+          "用同一句首串联不同价值；结尾把受益关系转成自然行动。"
+        ],
+        "checks": [
+          "各场景是否真实且与受众有关？",
+          "请求是否有明确对象和用途？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "It held your first sketches, your late revisions, your finished plans. Give the next designer a place to begin.",
+          "note": "本轮自拟练习；虚构共享工作室募款语境，非原作或已验证文案。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-showing-vs-telling",
+      "version": 1,
+      "title": "让具体行为承担情感｜Showing vs. telling",
+      "tags": [
+        "展示而非告知",
+        "showing vs telling",
+        "场景",
+        "情感文案",
+        "Chivas Regal"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-showing-vs-telling",
+          "locator": "广告全文、五组对照图及正文结论"
+        }
+      ],
+      "observations": [
+        "Abbott的父亲节广告用一串生活场景表达感谢，结尾连接赠酒；对照图把抽象品格改为可看见的动作或物件。",
+        "作者以儿子、父亲两种身份阅读同一广告，得到不同感受；他强调留白让读者补入自己的记忆。"
+      ],
+      "analysis": "本轮解释：细节应足够让人想象动作，但不必交代所有背景；品牌需要承担场景之后的合理行动。",
+      "outcome_evidence": {
+        "evidence_type": "author_response",
+        "claim": "可核对的是作者的阅读感受和图文表达；广告销售、转化结果未知。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "家庭经验不普遍，怀旧可能唤起失落；情绪强度不等于购买效果。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "草稿只用贴心、可靠等形容词，读者难以想象其含义。",
+        "steps": [
+          "给每个抽象评价找一个真实动作或物件。",
+          "删去不影响画面和意义的背景，再接合理产品动作。"
+        ],
+        "checks": [
+          "读者能画出这个瞬间吗？",
+          "场景是否真实，产品关联是否成立？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "Before the first customer arrived, she had already set a dry towel beside every wet umbrella.",
+          "note": "本轮自拟服务场景练习，非原广告或真实客户证言。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-vignettes",
+      "version": 1,
+      "title": "用一个瞬间练习叙事收放｜Vignettes",
+      "tags": [
+        "微场景",
+        "vignette",
+        "叙事练习",
+        "动作",
+        "情感留白"
+      ],
+      "status": "reference",
+      "case_type": "writing_exercise",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-vignettes",
+          "locator": "三个微场景及As a copywriter结尾"
+        }
+      ],
+      "observations": [
+        "三例分别围绕游戏中的对话、翻看旧居照片、陪伴老犬展开；对话、手部动作和背景声音承载情绪。",
+        "作者把微场景视为练习：聚焦一个瞬间，再压缩或展开。"
+      ],
+      "analysis": "本轮解释：结尾停在能改变读者理解的细节，通常比补一段情绪说明更有余味；这是从示例归纳的操作建议。",
+      "outcome_evidence": {
+        "evidence_type": "author_practice",
+        "claim": "页面提供练习示范和作者经验，未提供读者测试或商业效果。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "文学片段没有自动完成产品说明与行动引导；勿为了情绪编造真实人物经历。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "叙事泛泛而谈，或短内容需要迅速建立人物感受。",
+        "steps": [
+          "选一个时间地点中的单一动作。",
+          "保留关键对话与一个感官细节，分别写短版与展开版。",
+          "在意义已经显现处结束，删去重复解释。"
+        ],
+        "checks": [
+          "是否仍是一个聚焦瞬间？",
+          "删掉情绪形容词后，读者仍能感受到什么？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "The shop was dark. She turned the key, then reached back through the doorway to straighten the little OPEN sign.",
+          "note": "本轮自拟虚构微场景，非原作或真实营销案例。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-benefits",
+      "version": 1,
+      "title": "追问收益背后的收益｜Benefits",
+      "tags": [
+        "利益挖掘",
+        "benefit dimensionalization",
+        "so what",
+        "深层动机",
+        "产品文案"
+      ],
+      "status": "reference",
+      "case_type": "writing_exercise",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-benefits",
+          "locator": "You must dimensionalize、In other words及收益链图"
+        }
+      ],
+      "observations": [
+        "作者以反复追问收益对读者意味着什么，寻找更深的欲望。",
+        "假设售画图从大尺寸，经空间焦点和社交话题，推进到展示知识品位；它是示范推演，不是投放案例。"
+      ],
+      "analysis": "本轮解释：此法适合生成动机假设；链条越深，越需要检验中间条件，不能把想象的社交结果当承诺。",
+      "outcome_evidence": {
+        "evidence_type": "hypothetical_example",
+        "claim": "图示说明推导过程，未验证受众动机、购买或销量。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "产品特征不自动带来身份认同；不同受众可能重视不同层级，不必一律追到虚荣。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "草稿停留在规格或方便等初级收益。",
+        "steps": [
+          "从已核实特征写直接使用结果。",
+          "逐层追问这对目标读者有何意义，并标出每一步前提。",
+          "用访谈或行为证据选择有支持的一层。"
+        ],
+        "checks": [
+          "每个因果跳跃有依据吗？",
+          "更深收益是否真是该读者所求？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "A removable divider → room for a larger tool → one case for the job → less repacking before departure.",
+          "note": "本轮自拟虚构工具箱推演；各层前提待核验，不是产品承诺。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-one-of-the-best-copywriting-exercises",
+      "version": 2,
+      "title": "压缩文章并核对信息损耗｜One of the best copywriting exercises",
+      "tags": [
+        "精简",
+        "concision",
+        "编辑练习",
+        "信息保真",
+        "compression"
+      ],
+      "status": "reference",
+      "case_type": "writing_exercise",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-one-of-the-best-copywriting-exercises",
+          "locator": "Wikipedia练习说明及175词→51词对照"
+        }
+      ],
+      "observations": [
+        "作者建议把已较紧凑的百科段落压至约三分之一，并展示175词压为51词的示例。",
+        "示例合并融资细节并用增长倍数概括；作者认为固定练习能改善精简能力。"
+      ],
+      "analysis": "本轮解释：长度目标能迫使重新组织信息，但示例确有细节删减；压缩也可能把时间相邻写成因果或同步发生，不能默认等义。",
+      "outcome_evidence": {
+        "evidence_type": "writing_demonstration",
+        "claim": "页面可见压缩前后文本；长期练习效果是作者预测，没有测量数据。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "法律限定、技术规格和时间线可能不能合并；字数减少不自动意味着质量提升。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "需练习编辑，或草稿冗长但必须保留核心信息。",
+        "steps": [
+          "先列必须保留的事实、限定与关系。",
+          "压缩到约三分之一，合并重复信息。",
+          "逐项回查删失、数字、归因和时间；必要时放宽字数。"
+        ],
+        "checks": [
+          "有没有新增原文没有的因果？",
+          "关键限定与读者任务是否保留？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "Draft: Orders received before noon leave that afternoon. This schedule applies on working days only. / Edit: On working days, orders received before noon ship that afternoon.",
+          "note": "本轮自拟虚构物流练习，不是原作或真实服务承诺。"
+        }
+      }
+    },
+    {
+      "id": "C-vgc-writing-better-dialogue",
+      "version": 1,
+      "title": "让对话标签退到背景｜Writing better dialogue",
+      "tags": [
+        "对话",
+        "dialogue tags",
+        "said-bookisms",
+        "朗读",
+        "节奏"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "source_refs": [
+        {
+          "source_id": "S-vgc-writing-better-dialogue",
+          "locator": "朗读后的诊断、两类标签示例与said/asked建议"
+        }
+      ],
+      "observations": [
+        "作者把问题定位在频繁且抢眼的说话标签，而非对白本身。",
+        "他建议明确是谁说话时省略标签；需要时用said或asked，不附副词，同时承认标签可切分长对白、调整节奏。"
+      ],
+      "analysis": "本轮解释：让读者注意人物说什么，少用旁白重复规定情绪；省略的前提是说话者仍能辨认。",
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "页面以指导对话说明规则，未提供学生完整原稿、改后测量或营销结果。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "这是作者的风格规则，不是所有英语写作的硬性语法；多人场景与长间隔仍可能需要标识。"
+      ],
+      "application": {
+        "status": "candidate",
+        "trigger": "对白中标签或情绪副词密集，场景被解释性旁白打断。",
+        "steps": [
+          "朗读并标出每个说话标签。",
+          "删去可安全推知的标签，其余优先简化。",
+          "再读一遍，检查说话者、停顿和情绪是否清楚。"
+        ],
+        "checks": [
+          "去掉标签会认错人吗？",
+          "情绪能否从对白或真实动作体现？"
+        ],
+        "example": {
+          "type": "hypothetical",
+          "text": "“You kept the receipt?”\n“I kept every receipt.”\nShe opened the drawer. “Since the first day.”",
+          "note": "本轮自拟虚构对白，非作者原文或真实客户证言。"
+        }
+      }
     }
   ],
   "feedback": []
