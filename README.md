@@ -1,100 +1,272 @@
-# Copywriting 文案研究与案例学习
+# copywriting-learning
 
-[English](README.en.md)
+[简体中文](README.zh-CN.md) · [See it in action](#see-it-in-action) · [Get started](#get-started)
 
-`copywriting-learning` 是一套以英文文案为重点的 AI 技能。它根据产品事实、读者需求和发布场景撰写或改写广告、产品卖点、详情页、营销邮件与客户回复。它也能拆解广告、提炼书中的写法，并把实际反馈整理成以后可以检索的记录。
+## Find the right angle. Make every word earn its place.
 
-**v1.1.2** 随附 **45 个有出处的案例和练习**，以及 **24 条可检索的写作方法**。新增 Eddie Shleyner 的 18 篇 VeryGoodCopy 短课提炼。 [浏览全部案例](copywriting-learning/library/README.md)
+Turn product facts, customer questions, and rough drafts into English copy that gives people a reason to read, something worth remembering, and a clear next step.
 
-[查看更新记录](CHANGELOG.md) · [反馈问题或建议](https://github.com/XavierCrea/copywriting-learning/issues)
+Sometimes you know your product inside out but haven’t found the detail that makes its value click. Sometimes a prospect goes quiet, a headline feels flat, or a draft says everything except what matters most. `copywriting-learning` helps you work through those moments—from choosing the message to finding the words.
 
-当你手里有一份规格表、一堆访谈或一版旧稿时，可以先让技能回答三个问题。读者要做什么判断？哪条产品事实能帮他判断？怎样写，他在这个渠道里最容易理解？
+Drawing on documented advertising cases, marketing examples, and writing lessons, it helps you uncover a relevant benefit, anticipate a reader’s question, build a persuasive sequence, and give an idea a more distinctive expression. Use it to shape an ad, explain a product, write an email, respond to a customer, or sharpen a draft that isn’t quite there yet.
 
-## 开始使用
+The craft lives in the details: a concrete image that makes an abstract benefit tangible; a verb that brings a sentence to life; a pause that gives an idea weight; a shorter line that keeps everything essential. Each choice should serve your reader, your purpose, and the facts you can support.
 
-在版本下载页选择 **Source code (zip)**，解压后保留整个 `copywriting-learning` 文件夹。在本地 Codex 项目中，可以把它放到项目的 `.agents/skills/` 目录，再从技能列表选择它。 [版本下载](https://github.com/XavierCrea/copywriting-learning/releases/latest) · [OpenAI 安装说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
+You can also bring it an advertisement worth studying, a passage from a book, or feedback from your own work. Ask it to extract a reusable lesson and, with your approval, save that lesson with its source and limits for future tasks.
 
-### 先给技能三样信息
+**v1.1.2 · 45 sourced cases and exercises · 24 searchable methods**  
+[Explore the library](copywriting-learning/library/README.en.md) · [Changelog](CHANGELOG.en.md)
 
-1. **你要什么成品，用在哪。** 例如英文产品页的标题和副标题、广告开场，或一条邮件回复。有字数、语气或格式要求时一起写清楚。
-2. **写给谁，希望他做什么。** 比如写给正在评估设备的仓库主管，让他看懂打印机接在哪一道工序。
-3. **有哪些事实和要点可以写。** 提供已确认的卖点、规格、测试条件、旧稿或客户原话。标出必须保留的内容，以及需要核实的参数或承诺。
+## See it in action
 
-可以用中文交代需求，并指定英文成稿。手里只有规格表、访谈或旧稿时，也可以直接提交这些材料，请技能先从中提炼符合本次目标的候选卖点。
+![A trade-show follow-up: from a silent inbox to one useful question](docs/assets/follow-up.svg)
 
-### 用实际案例试写
+**01 · Known situation**  
+You met a prospect at a trade show, discussed a relevant application, and sent an email and catalog. No reply followed. What should you send next?
 
-以下两条示范从已有案例取材，展示提问、选择写法和英文成稿。
+*Worked example, not a customer success story.* For this demonstration, the brief specifies that the buyer needs a scale moved between workstations; the catalog lists capacity but not the scale’s own weight. The seller can confirm that weight. These are illustrative inputs, not facts about the original Sugarman case. The reason for the silence remains unknown.
 
-**为产品页写标题**
+**02 · Inside the skill**
 
-> 用 $copywriting-learning 给仓库主管写一行英文产品页标题和一句说明。参考 Zebra × Saddle Creek 案例中扫描商品条码、核对订单、打印发货标签的流程。让读者看清打印在核单之后。
-
-案例用岗位动作解释设备的用途。示范标题选三个短动词，让读者一眼扫到操作顺序。 [Zebra × Saddle Creek 案例](copywriting-learning/library/cases/C-zebra-saddle-creek-workflow-proof.md)
-
-> **Headline**　Scan. Verify. Print.
->
-> **Supporting line**　Staff scan the item barcode, verify the order, then print the shipping label.
-
-**回复客户的规格问题**
-
-> 用 $copywriting-learning 根据「秤的重量问询」案例写一条英文回复。买家问秤本身有多重，现有广告写了容量，自重还需核实。回应他的原问题，并说明下一步。
-
-案例定位了买家反复问到的规格。示范回复用 `the scale itself` 把自重说得清楚。 [秤的重量问询案例](copywriting-learning/library/cases/C-sugarman-scale-buyer-questions.md)
-
-> Thanks for asking. I’ll confirm what the scale itself weighs and send you the figure.
-
-**拆解一则案例**
-
-> 用 $copywriting-learning 拆解劳斯莱斯广告。解释电钟这个细节为什么能表现车厢的安静，以及把这种写法用到其他产品时需要核对什么条件。
-
-[劳斯莱斯案例](copywriting-learning/library/cases/C-rolls-royce-specific-detail.md)
-
-## 写作方法
-
-把客户原话、旧稿或已确认的产品资料交给技能，说明写给谁、发在哪里、希望读者接下来做什么。技能根据你卡住的地方，用案例推理把已有案例用到新稿。 [案例推理的方法出处](https://www.iiia.csic.es/~enric/papers/Aamodt_1994_Case.pdf)
-
-1. **检索。** 把「客户一直担心装不上」这类描述转成「安装、适配、顾虑」等检索词，打开处理同类问题的案例。
-2. **借用。** 从主案例提取一个可用的写作动作，如先回答安装条件，再写使用价值。需要再处理另一项难题时，可以借第二例打磨标题或精简文字。
-3. **修订。** 用自己的产品事实写成新稿，保留参数和适用条件。客户回复关注如何接住顾虑和推进下一步，广告关注利益说得是否具体、文字是否精炼准确。
-4. **留存。** 有实际反馈时，可以请技能记录借了哪种写法、哪句话改了、反馈能说明什么。
-
-写作指南说明了怎样按任务选择利益角度、使用具体细节或微场景、推敲用词和节奏，以及精简时保留原意。 [写作指南](copywriting-learning/references/writing.md)
-
-## 怎样从案例学习
-
-读到一则案例时，记录它写给谁、原文怎样展开、哪个表达可能影响读者的判断，以及换到什么任务时可以借用。同一张案例卡保留出处、实际阅读的页码或段落、原文观察、分析和已知结果。作者回顾、品牌方自述、实验结果与实际客户反馈各自注明来源。
-
-需要借鉴近期热点时，先核对事件时间、文章发布时间与原始出处，再判断这个话题是否和目标读者的处境或产品用途有关。阅读量、询盘和成交按各自能说明的问题记录。
-
-用到真实任务后，可以补记采用的写法与收到的反馈。编辑认可记录为文字反馈，交付验收记录为使用反馈，市场结果需要对应指标、周期和出处。依据这些记录修订方法时，保留旧版和变更原因。
-
-## 从这四例开始
-
-| 案例 | 能学到的写法 | 出处 |
-| --- | --- | --- |
-| [劳斯莱斯广告](copywriting-learning/library/cases/C-rolls-royce-specific-detail.md) | 用一个容易想象的听觉细节表达车厢的安静，再补上来源与购买时会关心的细节。适合练习从产品研究里找标题。 | 大卫·奥格威《奥格威谈广告（全彩版）》，机械工业出版社，2013 年版，印刷第 6–7、240 页。 |
-| [Magic Stat 恒温器](copywriting-learning/library/cases/C-sugarman-magicstat-objection-sequence.md) | 把安装和接线顾虑提到前面，再用起床、离家和睡觉等场景解释定时功能。适合练习长文案的信息顺序。 | 约瑟夫·休格曼《文案训练手册》，中信出版社，2011 年版，印刷第 212–216 页。 |
-| [Zebra × Saddle Creek](copywriting-learning/library/cases/C-zebra-saddle-creek-workflow-proof.md) | 把设备放回扫码、核单、打印标签的工作流程，让采购者理解它接在哪一步。改善属于供应商案例中的方案级报告。 | [Zebra 官方案例，PDF 第 2–3 页](https://www.zebra.com/content/dam/zebra_dam/en/success-story/logistics-success-story-saddle-creek-end-user-en-us.pdf) |
-| [曲奇供给实验](copywriting-learning/library/cases/C-cialdini-cookie-availability.md) | 用产品依据解释「为什么适合」，用真实供给情况解释「为什么现在考虑」。书中转述的是参与者对曲奇的评价和获得意愿。 | 罗伯特·B. 西奥迪尼《影响力》，中国人民大学出版社，2006 年版，印刷第 323–324、327–328、334 页。 |
-
-## 实现方式
-
-| 文件 | 用途 |
+| Actually consulted | What it contributes here |
 | --- | --- |
-| [`SKILL.md`](copywriting-learning/SKILL.md) | 告诉 AI 何时使用技能，以及怎样完成写作、案例拆解和后续更新。 |
-| [`references/`](copywriting-learning/references) | 保存写作流程、学习更新规则、案例来源指引和知识记录格式，按任务读取。 |
-| [`library/catalog.json`](copywriting-learning/library/catalog.json) | 把资料出处、方法、案例与反馈保存成可按主题检索的记录。 |
-| [`scripts/library.py`](copywriting-learning/scripts/library.py) | 用 Python 做关键词检索、读取单条记录、检查资料格式和引用。脚本只读，写作和经授权的案例更新由 AI 按工作流程完成。 |
+| **Research the product and buyer · M-001** | Start with the buyer’s stated task rather than guessing why they went quiet. |
+| **Make the next step clear · M-019** | Ask one relevant question and explain what the seller will send next. |
+| [**Sugarman’s scale inquiry**](copywriting-learning/library/cases/C-sugarman-scale-buyer-questions.md) | Distinguish capacity from the product’s own weight; find missing decision information. |
+| [**Zebra × Saddle Creek**](copywriting-learning/library/cases/C-zebra-saddle-creek-workflow-proof.md) | Connect a technical detail to a concrete task: moving the scale between stations. |
 
-如需手动试用检索，可在 `copywriting-learning` 文件夹内用 Python 3.9 或更高版本运行下面的命令。第一个命令查找和安装顾虑有关的案例，第二个读取一张完整案例卡，第三个检查资料库格式与引用关系。
+[Read the method records](copywriting-learning/library/catalog.json). M-024, about comparable customer evidence, was also reviewed but is **not used**: this brief supplies no matching customer deployment to cite. A relevant case supplies a writing move; it does not supply facts about your product.
+
+**03 · Writing decision**  
+Reconnect with the application discussed at the booth. Flag the missing specification and ask one question that will help assess portability. Don’t diagnose the buyer’s silence or invent urgency.
+
+**04 · English draft**
+
+> **Subject: A detail for moving the scale between stations**
+>
+> Hi [Name],
+>
+> At [Show], you mentioned moving the scale between workstations. The catalog I sent lists capacity, but leaves out another useful detail: what the scale itself weighs.
+>
+> Would your team carry it by hand or move it on a trolley? I can confirm the unit weight so you can assess how it would fit your setup.
+>
+> Best,  
+> [Your name]
+
+**05 · Why these words**  
+“Between workstations” reconnects to a stated need. “The scale itself” removes ambiguity. The question gives the buyer a concrete point to respond to; the next sentence explains what they will receive. No claim is made that this email will secure a reply.
+
+<details>
+<summary>Copy the brief and try it with your own customer</summary>
+
+```text
+Use copywriting-learning to help me follow up with a trade-show prospect.
+Here is what we discussed: [...]
+Here is my last email and the material I sent: [...]
+Here are the product facts and services I can confirm: [...]
+Identify plausible communication gaps without inventing a reason for silence.
+Read relevant cases, explain which writing moves fit, and draft one concise
+English follow-up with a useful next step. Flag any missing facts.
+```
+
+</details>
+
+## Five ways to put it to work
+
+These are original demonstrations, not historical ad quotations or measured campaign results. Product details below are fictional exercise inputs. Each card highlights a different kind of work; the prompts and drafts remain selectable text.
+
+### Advertising & marketing
+
+![Give an idea a memorable form.](docs/assets/advertising.svg)
+
+**The facts are there. Where is the idea?**
+
+**Exercise facts:** a notebook pairs a blank left page with a ruled right page.
+
+> **Room for the rough draft.**
+> Sketch on the left. Shape the words on the right.
+
+<details>
+<summary>Try this task · see the writing move</summary>
+
+The headline gives a physical feature a creative purpose; the supporting line makes the page layout explicit. The benefit remains tied to the supplied design.
+
+```text
+Use copywriting-learning to write an English notebook ad. Each spread has a blank left page and a ruled right page. Write for people who sketch before writing. Give me one headline and a supporting line; don’t invent paper quality or productivity claims.
+```
+
+[Benefits: follow a feature to a relevant use](copywriting-learning/library/cases/C-vgc-benefits.md)
+
+</details>
+
+### Customer communication
+
+![Keep the conversation moving.](docs/assets/conversation.svg)
+
+**“Your price is too high.” What next?**
+
+**Exercise context:** a customer compares two quotations; the competing scope is unknown. The seller can review scope but has not authorized a discount.
+
+> Thanks for being direct. Could you share what the other quote includes—particularly delivery and support? I can compare it with ours and explain any differences.
+
+<details>
+<summary>Try this task · see the writing move</summary>
+
+The reply acknowledges the objection, asks for comparison facts, and promises only a review. It does not invent a superior service or offer an unauthorized discount.
+
+```text
+Use copywriting-learning to reply in English to “Your price is too high.” Our quote: [...]. What we know about the competing offer: [...]. Ask for the missing comparison detail without assuming our offer is better or promising a discount.
+```
+
+[Find the information needed for a decision](copywriting-learning/library/cases/C-sugarman-scale-buyer-questions.md)
+
+</details>
+
+### Product benefits
+
+![Make the feature mean something.](docs/assets/benefit.svg)
+
+**You have specifications. What should the reader care about?**
+
+**Exercise facts:** a tool case has a removable divider; fit for the intended longer tools has been checked.
+
+> **Make room for the longer tools.**
+> Remove the divider to open up the full compartment.
+
+<details>
+<summary>Try this task · see the writing move</summary>
+
+One physical feature becomes one useful action. The draft does not jump from adjustable storage to unverified time savings or productivity.
+
+```text
+Use copywriting-learning to turn these confirmed features into an English product headline and supporting line: [...]. Reader and task: [...]. Show the link between feature and use. Keep any fit limits.
+```
+
+[Choose the benefit the facts can support](copywriting-learning/library/cases/C-vgc-benefits.md)
+
+</details>
+
+### Draft diagnosis & refinement
+
+![Keep the meaning. Lose the drag.](docs/assets/editing.svg)
+
+**Correct English. Still too much work to read?**
+
+**Exercise input:** the original draft below supplies the facts.
+
+> **Before:** Before you proceed with placing an order, we recommend that you first check whether the sample fits your existing holder.
+>
+> **After:** Before ordering, check that the sample fits your existing holder.
+
+<details>
+<summary>Try this task · see the writing move</summary>
+
+The revision preserves the sequence, the sample, and the existing holder. It removes scaffolding rather than deleting the condition that matters.
+
+```text
+Use copywriting-learning to tighten this English draft: [...]. Preserve facts, conditions, timing, terminology, and promises. Give me one revision and explain the most important wording changes.
+```
+
+[Writing guide: compress without changing meaning](copywriting-learning/references/writing.md)
+
+</details>
+
+### Learning from examples & feedback
+
+![Turn a good example into a usable lesson.](docs/assets/learning.svg)
+
+**What can you actually reuse from an ad you admire?**
+
+**Example source:** the Rolls-Royce case in the library.
+
+> **Observation:** a small, familiar sound gives the reader a way to imagine quietness.
+> **Reusable move:** find a concrete, supported detail that expresses an abstract quality.
+> **Limit:** the next product needs its own evidence; the historical claim does not transfer.
+
+<details>
+<summary>Try this task · see the writing move</summary>
+
+A learning record separates observation, interpretation, application, and limits. A later task can retrieve the move without borrowing another product’s claims.
+
+```text
+Use copywriting-learning to analyze this accessible ad or source: [...]. Separate observations from interpretations and reported results. Extract a reusable writing move and its limits. Show me the proposed record before saving it.
+```
+
+[Study the detail and the evidence behind it](copywriting-learning/library/cases/C-rolls-royce-specific-detail.md)
+
+</details>
+
+## Case reasoning & writing craft
+
+**Understand the problem → retrieve a relevant case → adapt the move → refine the words.**
+
+You don’t need to know a method number or pick a case yourself. Describe the task and supply the facts. The skill searches for a comparable writing problem, reads the relevant records, checks where the comparison holds, and writes for your reader and channel. When no case fits, it works from your facts and applicable methods rather than forcing a match.
+
+Case selection helps decide **what to say and in what order**. Writing craft shapes **how the idea lands**: choose the benefit that matters, make abstract qualities concrete, use a short scene where appropriate, sharpen verbs, shape rhythm, and cut repetition while preserving meaning. Wordplay earns its place only when both meanings serve the message.
+
+[Writing guide (Chinese)](copywriting-learning/references/writing.md) · [Case-based reasoning: Aamodt & Plaza](https://www.iiia.csic.es/~enric/papers/Aamodt_1994_Case.pdf)
+
+## Build on what you learn
+
+Bring a source the agent can read, a draft you revised, or feedback you can verify. Ask it to identify the writing move, the conditions under which it applies, and the evidence for any reported result. Review the proposed entry and authorize saving it to your writable library.
+
+**Source → observation → reusable move → limits → approved record → retrieval in a later task.**
+
+A note such as “this sounded like a mass email” is editorial feedback. A customer reply is evidence of that reply. Neither alone proves a sales lift. Records keep their sources, scope, and revisions so later work can build on what is actually known.
+
+Learning here means updating external records. It does not retrain the model or run an automatic background research process. [Learning workflow (Chinese)](copywriting-learning/references/learning.md)
+
+## Get started
+
+Download [the skill release](https://github.com/XavierCrea/copywriting-learning/releases/latest), extract it, and keep the entire inner `copywriting-learning` folder together. The README on the default branch may be newer than the documentation bundled in the release.
+
+For local Codex use, place that folder in your project’s `.agents/skills/` directory. Other skill-capable agents have their own installation conventions; follow your agent’s instructions. Python 3.9+ is required for the bundled library search script. The agent needs file access to the skill and library; web research needs a browsing tool, and saving learning records needs write access.
+
+Give it three things:
+
+1. **The deliverable and channel:** an ad, email, product page, reply, or revision; include length and tone constraints.
+2. **The reader and purpose:** who will read it, what they need to decide, and the next step you want to offer.
+3. **The facts and materials:** confirmed features, conditions, customer words, a source, or an existing draft. Mark what must stay and what needs checking.
+
+You can brief in English or Chinese and request English copy. If you don’t have a polished brief, start with your notes or draft; the skill can identify possible angles and the missing facts that matter.
+
+```text
+Use copywriting-learning to help me with [task].
+My reader is [audience], and I want them to [understand / decide / do].
+Here are the facts, source material, or draft: [...]
+Keep [...]. Don’t claim [...].
+Write in English for [channel], within [length].
+```
+
+English is the primary writing focus. The detailed library notes and operating guides currently include Chinese; the [English index](copywriting-learning/library/README.en.md) helps you navigate the entries. The skill drafts content; it does not send messages or publish campaigns by itself.
+
+## Sources & maintenance
+
+The library contains **45 cases and exercises and 24 methods**, including 18 notes on Eddie Shleyner’s VeryGoodCopy Micro-Lessons, alongside material from Ogilvy, Sugarman, Cialdini, and public brand cases. Entries distinguish original observations, author or vendor accounts, exercises, and our interpretations. A sourced case is not automatically proof of marketing effectiveness.
+
+[English library index](copywriting-learning/library/README.en.md) · [中文案例目录](copywriting-learning/library/README.md) · [Changelog](CHANGELOG.en.md) · [Contribute / maintain](MAINTAINING.en.md) · [Issues](https://github.com/XavierCrea/copywriting-learning/issues)
+
+<details>
+<summary>Files, library commands, and documentation maintenance</summary>
+
+| Path | Purpose |
+| --- | --- |
+| [SKILL.md](copywriting-learning/SKILL.md) | Task routing and skill behavior. |
+| [references/](copywriting-learning/references) | Writing, learning, and source-handling instructions. |
+| [library/catalog.json](copywriting-learning/library/catalog.json) | Searchable sources, methods, cases, and feedback. |
+| [scripts/library.py](copywriting-learning/scripts/library.py) | Read-only search, retrieval, and validation. |
+| [docs/assets/](docs/assets) | Text-based SVG cards used by both READMEs. |
+
+From the skill folder:
 
 ```bash
-python3 scripts/library.py search "安装 顾虑" --kind cases --limit 3
+python3 scripts/library.py search "MagicStat" --kind cases --limit 3
 python3 scripts/library.py get C-sugarman-magicstat-objection-sequence
 python3 scripts/library.py validate
 ```
 
-也可以在 `search`、`get` 等子命令前加 `--library "/path/to/your-library"`，或设置 `COPYWRITING_LIBRARY_ROOT`，使用自己的资料库。公开库提供书目、页码和公开链接。需要核对本地库保存的书籍原件时，可使用 `validate --check-files`。
+Use `--library "/path/to/library"` before the subcommand, or set `COPYWRITING_LIBRARY_ROOT`, to select another library. `validate --check-files` also checks locally available source files.
 
-[维护方式](MAINTAINING.md)
+The English README is the main introduction; [README.zh-CN.md](README.zh-CN.md) is its Chinese counterpart. Documentation-only revisions do not change the skill version or overwrite existing release tags. Demonstrations are illustrative unless explicitly supported by actual usage evidence.
+
+</details>
