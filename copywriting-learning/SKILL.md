@@ -1,8 +1,10 @@
 ---
 name: copywriting-learning
-description: 基于产品事实与用户洞察撰写或改写广告、卖点、详情页、营销邮件和品牌文案；从用户提供的书籍、营销案例与实际反馈提炼可追溯的方法，按任务检索并应用。用于文案创作、案例拆解、书籍学习和写作经验更新；不代替完整市场研究或店铺周月报分析。
+description: >-
+  Write or revise English ads, product pages, marketing emails, and customer replies from verified facts and relevant cases. Analyze campaigns and books or learn reusable techniques from feedback.
+  基于产品事实与用户洞察撰写或改写广告、卖点、详情页、营销邮件、客户回复和品牌文案。从书籍、营销案例和实际反馈提炼可追溯的写法，按任务检索应用。
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # 文案研究与案例学习
