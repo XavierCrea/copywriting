@@ -1,6 +1,6 @@
 # 让具体行为承担情感｜Showing vs. telling
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-vgc-showing-vs-telling.md) · 原广告或案例记录及作者、发布方的叙述
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Showing vs. telling:](https://www.verygoodcopy.com/writing/showing-vs-telling)
 
-案例编号 `C-vgc-showing-vs-telling`，记录版本 1。
+案例编号 `C-vgc-showing-vs-telling`，记录版本 2。

@@ -1,6 +1,6 @@
 # 让思考跟上成稿速度｜Writing, slow
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-vgc-writing-slow.md) · 写作练习
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Writing, slow](https://www.verygoodcopy.com/writing/writing-slow)
 
-案例编号 `C-vgc-writing-slow`，记录版本 1。
+案例编号 `C-vgc-writing-slow`，记录版本 2。

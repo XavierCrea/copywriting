@@ -1,6 +1,6 @@
 # 从一个人的处境找到共鸣｜Person(a)
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-vgc-persona.md) · 原广告或案例记录及作者、发布方的叙述
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Person(a)](https://www.verygoodcopy.com/thinking/persona)
 
-案例编号 `C-vgc-persona`，记录版本 1。
+案例编号 `C-vgc-persona`，记录版本 2。

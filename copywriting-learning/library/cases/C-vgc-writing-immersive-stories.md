@@ -1,6 +1,6 @@
 # 用动作、对话与留白制造临场感｜Writing immersive stories
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-vgc-writing-immersive-stories.md) · 写作练习
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Writing immersive stories](https://www.verygoodcopy.com/writing/writing-immersive-stories)
 
-案例编号 `C-vgc-writing-immersive-stories`，记录版本 1。
+案例编号 `C-vgc-writing-immersive-stories`，记录版本 2。

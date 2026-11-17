@@ -1,6 +1,6 @@
 # Nautilus拼写活动：把广告变成参与任务，同时区分解谜者与买家
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-sugarman-nautilus-participation.md) · 原广告或案例记录及作者、发布方的叙述
 
 - **背景**　Nautilus 运动设备的历史促销
 - **任务**　清理库存并引起参与
@@ -50,4 +50,4 @@
 
 关联写作方法包括从案例借结构并检查迁移条件、按沟通目标解释测试与实际反馈、写清真实的交易提案与下一步。
 
-案例编号 `C-sugarman-nautilus-participation`，记录版本 2。
+案例编号 `C-sugarman-nautilus-participation`，记录版本 3。

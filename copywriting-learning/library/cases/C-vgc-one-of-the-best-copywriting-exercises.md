@@ -1,6 +1,6 @@
 # 压缩文章并核对信息损耗｜One of the best copywriting exercises
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-vgc-one-of-the-best-copywriting-exercises.md) · 写作练习
 
 
 ## 原材料里看到什么
@@ -47,4 +47,4 @@
 
 - VeryGoodCopy。[One of the best copywriting exercises:](https://www.verygoodcopy.com/writing/one-of-the-best-copywriting-exercises)
 
-案例编号 `C-vgc-one-of-the-best-copywriting-exercises`，记录版本 2。
+案例编号 `C-vgc-one-of-the-best-copywriting-exercises`，记录版本 3。

@@ -1,6 +1,6 @@
 # 用一个瞬间练习叙事收放｜Vignettes
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-vgc-vignettes.md) · 写作练习
 
 
 ## 原材料里看到什么
@@ -47,4 +47,4 @@
 
 - VeryGoodCopy。[Vignettes:](https://www.verygoodcopy.com/writing/vignettes)
 
-案例编号 `C-vgc-vignettes`，记录版本 1。
+案例编号 `C-vgc-vignettes`，记录版本 2。

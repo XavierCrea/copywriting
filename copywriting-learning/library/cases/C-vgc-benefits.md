@@ -1,6 +1,6 @@
 # 追问收益背后的收益｜Benefits
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-vgc-benefits.md) · 写作练习
 
 
 ## 原材料里看到什么
@@ -47,4 +47,4 @@
 
 - VeryGoodCopy。[Benefits:](https://www.verygoodcopy.com/writing/benefits)
 
-案例编号 `C-vgc-benefits`，记录版本 1。
+案例编号 `C-vgc-benefits`，记录版本 2。

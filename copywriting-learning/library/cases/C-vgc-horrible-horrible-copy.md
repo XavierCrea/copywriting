@@ -1,6 +1,6 @@
 # 检查承诺怎样影响读者｜Horrible, horrible copy
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-vgc-horrible-horrible-copy.md) · 原广告或案例记录及作者、发布方的叙述
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Horrible, horrible copy](https://www.verygoodcopy.com/thinking/horrible-horrible-copy)
 
-案例编号 `C-vgc-horrible-horrible-copy`，记录版本 1。
+案例编号 `C-vgc-horrible-horrible-copy`，记录版本 2。

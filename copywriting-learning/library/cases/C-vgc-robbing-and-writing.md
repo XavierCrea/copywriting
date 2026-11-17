@@ -1,6 +1,6 @@
 # 把反复修改写进具体场景｜Robbing and writing
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-vgc-robbing-and-writing.md) · 原广告或案例记录及作者、发布方的叙述
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Robbing and writing](https://www.verygoodcopy.com/thinking/robbing-and-writing)
 
-案例编号 `C-vgc-robbing-and-writing`，记录版本 1。
+案例编号 `C-vgc-robbing-and-writing`，记录版本 2。

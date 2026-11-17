@@ -14,7 +14,8 @@
 
 你也可以提供一则值得研究的广告、一段书籍材料，或自己的实际反馈。请它提炼可复用的经验，经你同意后，连同出处与适用边界保存下来，供后续任务检索。
 
-**v1.1.2 · 45 个有出处的案例和练习 · 24 条可检索方法**  
+**v1.2.2 · 45 个有出处的案例和练习 · 24 条可检索方法**
+
 [浏览案例库](copywriting-learning/library/README.md) · [更新记录](CHANGELOG.md)
 
 ## 完整示范
@@ -313,7 +314,13 @@
 
 你不需要先记住方法编号，也不用自己挑选案例。描述任务并提供事实，技能会检索相近的写作问题、读取相关记录、判断哪些条件成立，再为当前读者和渠道写稿。没有合适案例时，依据当前事实和适用方法工作，不强行套用。
 
-案例选择帮助决定**说什么、按什么顺序说**；写作技法帮助决定**怎样让这层意思传达出来**：选择相关利益、用具体细节呈现抽象价值、按需使用短场景、推敲动词与节奏、删除重复并保留原意。双关只有在两层意思都服务于信息时才值得使用。
+案例帮助决定**说什么、按什么顺序说**，写作技法解决**怎样把这层意思说出来**。用场景和细节让读者看见利益，推敲动词与节奏，删掉重复并保留原意。双关的两层意思都要服务于信息。
+
+「产品比竞品贵，价格怎么解释？」可以找到壳牌车队用油案例。用量和费用已知时，可借它的方法给采购一份能重算的成本对比。型号太多、首屏取舍难，或者参数写得很强但读者感受不到用途，也可以从这个具体困境查案例。[壳牌车队用油案例](copywriting-learning/library/cases/C-shell-fleet-saving-calculation.md)
+
+写卖点先理清**可核实的事实、具体使用动作和适用条件**。例如确认隔板可拆，拆掉后能腾出整段仓位，再核对工具尺寸。确认放得下时，可以写 *Remove the divider to fit your longer tools.* 若还要写节省时间，需要对应的证据。
+
+完整邮件或详情页默认给一套主稿。标题、口号和首屏开场可探索两到三个有依据的角度，每个用一句话说明借鉴的案例动作及适合的读者。
 
 [写作指南](copywriting-learning/references/writing.md) · [案例推理的方法出处：Aamodt 与 Plaza](https://www.iiia.csic.es/~enric/papers/Aamodt_1994_Case.pdf)
 
@@ -323,13 +330,13 @@
 
 **来源 → 原文观察 → 可复用写法 → 适用边界 → 经确认的记录 → 后续检索。**
 
-“读起来像群发”是编辑反馈；客户回信证明收到一次回复；单凭这两者，都不能证明销量增长。记录保留来源、适用范围和版本，让后续工作建立在实际已知的信息上。
+「读起来像群发」是编辑反馈，客户回信证明收到一次回复。记录写清反馈具体能说明什么。你确认拟入库记录后，命令会校验引用、备份旧版，并自动递增版本。
 
 这里的学习是更新外部记录，不是重新训练模型，也不会自行建立后台研究任务。[学习与更新流程](copywriting-learning/references/learning.md)
 
 ## 开始使用
 
-从[版本页面](https://github.com/XavierCrea/copywriting-learning/releases/latest)下载源码，解压并保留里面完整的 `copywriting-learning` 文件夹。默认分支的 README 可能比版本包内的介绍更新。
+下载源码，解压后保留里面完整的 `copywriting-learning` 文件夹。[当前仓库文件](https://github.com/XavierCrea/copywriting-learning/archive/refs/heads/main.zip) · [历史发布版本](https://github.com/XavierCrea/copywriting-learning/releases)
 
 在本地 Codex 项目中，把该文件夹放到 `.agents/skills/`。其他支持技能的 AI 工具请遵循其安装方式。内置检索脚本需要 Python 3.9+。执行工具需要能够读取技能与资料库；网页研究需要浏览工具；保存新记录需要文件写入权限。
 
@@ -349,7 +356,7 @@
 用于：[渠道]，请写英文，长度：[...].
 ```
 
-技能以英文文案为重点。目前详细案例笔记和运行指南仍包含中文；[英文目录](copywriting-learning/library/README.en.md)提供英文导航。技能负责准备内容，不会自行发送邮件或发布营销活动。
+技能以英文文案为重点。45 篇案例提供完整英文分析、中文对照和英文表达提炼。案例和方法支持中英文检索，详细运行指南用中文维护。[英文案例库](copywriting-learning/library/README.en.md)
 
 ## 来源与维护
 
@@ -365,18 +372,18 @@
 | [SKILL.md](copywriting-learning/SKILL.md) | 技能入口与工作行为。 |
 | [references/](copywriting-learning/references) | 写作、学习与来源处理指南。 |
 | [library/catalog.json](copywriting-learning/library/catalog.json) | 可检索的来源、方法、案例与反馈。 |
-| [scripts/library.py](copywriting-learning/scripts/library.py) | 只读检索、记录读取与校验。 |
+| [scripts/library.py](copywriting-learning/scripts/library.py) | 检索、批量读取、校验与写入已确认的补丁。 |
 | [docs/assets/](docs/assets) | 两个语言版本共同使用的 SVG 卡片。 |
 
 在技能目录中运行：
 
 ```bash
-python3 scripts/library.py search "MagicStat" --kind cases --limit 3
-python3 scripts/library.py get C-sugarman-magicstat-objection-sequence
+python3 scripts/library.py search "产品比竞品贵" --kind cases --limit 3
+python3 scripts/library.py get M-005 M-013 C-shell-fleet-saving-calculation
 python3 scripts/library.py validate
 ```
 
-在子命令前加 `--library "/path/to/library"` 或设置 `COPYWRITING_LIBRARY_ROOT` 可指定其他资料库。`validate --check-files` 还可检查本地保存的来源文件。
+`get` 会返回已有案例页的相对路径，以资料库目录为起点。在子命令前加 `--library "/path/to/library"` 或设置 `COPYWRITING_LIBRARY_ROOT` 可指定其他资料库。`validate --check-files` 还可检查本地保存的书籍原件。[知识记录和更新格式](copywriting-learning/references/knowledge-contract.md)
 
 英文 README 为主介绍，本页为对应中文说明。仅修改文档时，不修改技能版本，不覆盖已有版本标签。没有实际使用证据的示范明确保留演示性质。
 

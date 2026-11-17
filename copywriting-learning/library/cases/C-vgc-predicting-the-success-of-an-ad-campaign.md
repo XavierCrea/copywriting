@@ -1,6 +1,6 @@
 # 先诊断受众与交易条件｜Predicting the success of an ad campaign
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-vgc-predicting-the-success-of-an-ad-campaign.md) · 原广告或案例记录及作者、发布方的叙述
 
 
 ## 原材料里看到什么
@@ -47,4 +47,4 @@
 
 - VeryGoodCopy。[Predicting the success of an ad campaign](https://www.verygoodcopy.com/thinking/predicting-the-success-of-an-ad-campaign)
 
-案例编号 `C-vgc-predicting-the-success-of-an-ad-campaign`，记录版本 1。
+案例编号 `C-vgc-predicting-the-success-of-an-ad-campaign`，记录版本 2。

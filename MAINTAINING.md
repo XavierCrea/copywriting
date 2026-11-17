@@ -12,7 +12,7 @@
 | 改选案例、写稿、校对或归档的详细要求 | [references/](copywriting-learning/references) |
 | 新增或修订来源、写作方法、案例和反馈 | [catalog.json](copywriting-learning/library/catalog.json) |
 
-案例和方法应保留已有编号。修订一条记录时增加它的 `version`，库更新时增加 `revision`，写清来源、适用条件和证据范围。完整约定见[知识记录格式](copywriting-learning/references/knowledge-contract.md)。
+案例和方法应保留已有编号。确认补丁内容后，在仓库根目录运行 `python3 copywriting-learning/scripts/library.py apply-patch --file patch.json`。脚本递增变更记录的版本和资料库版本。记录应写清来源、适用条件及证据范围。[知识记录和补丁格式](copywriting-learning/references/knowledge-contract.md)
 
 ## 从资料库更新网页
 
@@ -23,6 +23,15 @@ python3 copywriting-learning/scripts/library.py validate
 python3 tools/render_cases.py
 python3 tools/render_cases.py --check
 ```
+
+英文案例页独立编写，生成脚本不会覆盖。修改案例或其关联来源、方法后，对照新记录审核英文页，同时检查英文表达练习；自拟英文不能标成原广告引文。只对已审核的案例记录同步状态：
+
+```bash
+python3 tools/check_translations.py --record C-fireball-question-sequence
+python3 tools/render_cases.py --check
+```
+
+同步清单记录案例、关联来源与方法，以及英文页面的指纹。缺页、多余页面、页面改动未审核或来源变化都会使检查失败。记录同步状态本身不会自动翻译或验证文字质量。
 
 提交前看一遍改动，试检索一个受影响的关键词并打开相应的案例链接。新增或修订案例时，同步更新英文索引的题名、用法与链接。有重要能力变化时，更新中英文首页。 [英文案例索引](copywriting-learning/library/README.en.md)
 

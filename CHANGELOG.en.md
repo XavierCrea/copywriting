@@ -2,6 +2,14 @@
 
 [简体中文](CHANGELOG.md)
 
+## v1.2.2
+
+- Added full English notes for all 45 cases, with writing-craft analysis, labeled original exercises, and links to the Chinese pages and sources.
+- Added English titles and tags and bilingual descriptions of common writing problems for 45 cases and 24 methods. Search gives titles and tags more weight than mentions in longer notes.
+- Retrieve multiple records in one command and open available case pages from either language.
+- Apply reviewed updates with a preview, validation, revision checks, and a backup of the previous catalog.
+- Work from confirmed facts through concrete use and conditions. Explore distinct angles for short copy and deliver one main draft for long copy by default.
+
 ## v1.1.2
 
 - Expanded the writing guide with practical ways to select information for a reader, develop a benefit, make language concrete, build a short scene, shape rhythm, and tighten copy while preserving meaning.

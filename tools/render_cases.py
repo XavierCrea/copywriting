@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 import re
 
+from check_translations import check_translations
+
 
 LIBRARY = Path(__file__).resolve().parents[1] / "copywriting-learning" / "library"
 CASE_KINDS = {
@@ -60,7 +62,7 @@ def add_list(lines, heading, items, marker="-"):
 
 
 def render_case(case, sources, methods):
-    lines = [f"# {case['title']}", "", f"[返回案例库](../README.md) · {CASE_KINDS[case['case_type']]}", ""]
+    lines = [f"# {case['title']}", "", f"[返回案例库](../README.md) · [English](en/{case['id']}.md) · {CASE_KINDS[case['case_type']]}", ""]
     context = case.get("brief") or case.get("context") or {}
     for label, value in (
         ("背景", context.get("situation") or context.get("brand_product")),
@@ -103,7 +105,7 @@ def render_index(cases, sources):
         "",
         f"这里有 {len(cases)} 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。技能使用同目录下的资料索引检索案例和关联方法。",
         "",
-        "[返回项目首页](../../README.md) · [English index](README.en.md) · [查看可检索的资料库](catalog.json)",
+        "[返回项目首页](../../README.zh-CN.md) · [English index](README.en.md) · [查看可检索的资料库](catalog.json)",
     ]
     groups = {}
     for source_id, source in sources.items():
@@ -136,6 +138,8 @@ def main():
         generated[LIBRARY / "cases" / f"{case['id']}.md"] = render_case(case, sources, methods)
 
     if args.check:
+        if check_translations(LIBRARY):
+            return 1
         stale = [path for path, content in generated.items() if not path.is_file() or path.read_text(encoding="utf-8") != content]
         stale += sorted(set((LIBRARY / "cases").glob("*.md")) - generated.keys())
         for path in stale:

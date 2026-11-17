@@ -1,6 +1,6 @@
 # 体重秤编辑练习：把喜悦提前，再压缩不承担任务的文字
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-scale-editing-exercise.md) · 写作练习
 
 - **背景**　浴室体重秤
 - **读者**　尝试减重、期待看到进展的人
@@ -52,4 +52,4 @@
 
 关联写作方法包括分开判断草稿组织与精修质量、精简冗余并保留含义与阅读节奏。
 
-案例编号 `C-scale-editing-exercise`，记录版本 2。
+案例编号 `C-scale-editing-exercise`，记录版本 3。
