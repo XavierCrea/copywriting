@@ -1,6 +1,6 @@
 # 用情绪转折替换笼统感言｜Meeting your firstborn child
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-vgc-meeting-your-firstborn-child.md) · 写作练习
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Meeting your firstborn child](https://www.verygoodcopy.com/thinking/meeting-your-firstborn-child)
 
-案例编号 `C-vgc-meeting-your-firstborn-child`，记录版本 1。
+案例编号 `C-vgc-meeting-your-firstborn-child`，记录版本 2。

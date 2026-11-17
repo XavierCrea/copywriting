@@ -1,6 +1,6 @@
 # 固定为一个具体的人练笔｜Good copywriting practice
 
-[返回案例库](../README.md) · 写作练习
+[返回案例库](../README.md) · [English](en/C-vgc-good-copywriting-practice.md) · 写作练习
 
 
 ## 原材料里看到什么
@@ -46,4 +46,4 @@
 
 - VeryGoodCopy。[Good copywriting practice](https://www.verygoodcopy.com/writing/good-copywriting-practice)
 
-案例编号 `C-vgc-good-copywriting-practice`，记录版本 1。
+案例编号 `C-vgc-good-copywriting-practice`，记录版本 2。

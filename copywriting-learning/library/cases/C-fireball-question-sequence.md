@@ -1,6 +1,6 @@
 # Fireball 弹球机：跟随心动、说服自己和使用顾虑安排文案
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-fireball-question-sequence.md) · 原广告或案例记录及作者、发布方的叙述
 
 - **背景**　Bally Fireball 电子弹球机
 - **读者**　对新娱乐设备感兴趣，却要为650美元非必需开支寻找理由的家庭买家；兼及公司采购者
@@ -52,4 +52,4 @@
 
 关联写作方法包括按读者的问题顺序组织信息。
 
-案例编号 `C-fireball-question-sequence`，记录版本 2。
+案例编号 `C-fireball-question-sequence`，记录版本 3。

@@ -22,6 +22,13 @@
 5. 更新增加版本，保存原因、旧版本与关联反馈。失效项可 retired；单个案例不改变整个岗位或用户品牌规范。
 
 ## 写入与核验
-按 knowledge-contract 写入实际读过的内容。写前重读最新 catalog，增加 revision，先存旧版本到 history/catalog-r{旧版本}.json，再写变更；保留无关记录。并行学习由一位执行者合并最新差异。
+按 [知识记录约定](knowledge-contract.md) 写入实际读过的内容。先用 `summary` 或 `get` 查当前资料库版本和记录，拟好小份 JSON 补丁，把记录内容、依据、适用条件及证据范围交给用户确认。编辑已有记录时只提交需要改动的字段。
 
-原始文件不改动，新来源用新 ID。自己生成的示例不记录为成功案例。完成后运行 library.py validate --check-files，汇报实际新增/修改、定位、状态与未解决项。不能读写库时说明缺口，不声称已持久化。
+```bash
+python3 scripts/library.py apply-patch --file patch.json --dry-run
+python3 scripts/library.py apply-patch --file patch.json
+```
+
+第一条检查候选记录、引用和预计版本。用户确认具体内容后运行第二条。命令读取同一版本，备份当前索引，增加库版本和记录版本，再一次替换通过校验的新索引。引用无效、版本已改变或有其他写入时会失败，先查明差异再重做预览。原始材料保持独立，新来源用新 ID。
+
+入库后按需运行 `validate --check-files` 核对已保存的书籍原件与指纹。汇报实际新增或修改的记录、出处和未解决项。收到 `applied: true` 才报告已入库。自己生成的示例按练习处理，市场效果依真实证据记录。

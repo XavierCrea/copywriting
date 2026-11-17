@@ -1,0 +1,227 @@
+{
+  "C-avis-service-positioning": {
+    "english_sha256": "c615ba50470a2436e490eaf52dc3c1016706b861d1b91ff7c6cbd7a776061a14",
+    "source_sha256": "956a2cd70b52b029f1f9aecc721ce93405990c9b3a6107b4bd1a5804e109883f",
+    "source_version": 3
+  },
+  "C-cialdini-beef-supply-notice": {
+    "english_sha256": "f96ef09565d072b216b859e134d3d30acc1e8854fa737315f9c0e6c503360271",
+    "source_sha256": "00e8b2cd65887b37a315fd878dd6db4ac3249fec837cefda9f23c67b368b09e9",
+    "source_version": 3
+  },
+  "C-cialdini-car-quote-changed": {
+    "english_sha256": "33e6a1f65a8d3ee9979bd9370b43ae5893de9f77ea26d87140797f0c5b1662f7",
+    "source_sha256": "b272c19df4ed494289367cbbe9d8860bac9ae68809f5153efa6c930d48c02082",
+    "source_version": 3
+  },
+  "C-cialdini-cookie-availability": {
+    "english_sha256": "35d47e9db86c598504c5a241fac1f1d57f4eae697205a2a2b9d5581e5ad4fb87",
+    "source_sha256": "669fc81fc8adfc4e1bdcb385b503069c57a99d5142e5e4e058ffba5e8338aa3d",
+    "source_version": 3
+  },
+  "C-cialdini-samples-and-gifts": {
+    "english_sha256": "5075dc6b0a468949a9740c874453c9350dca2b520be785ee0c179b52e3138a1f",
+    "source_sha256": "a0cb932fbb03c6632a562d509bcfbd4659c7a78fa6afb10e54c1d6046bceb880",
+    "source_version": 3
+  },
+  "C-cialdini-sanka-authority": {
+    "english_sha256": "b0cacb5bd2a4894565617f67da216dc75a398bd2c7fbe92594500136f3fcf626",
+    "source_sha256": "3672b299aae8c633ceb44f6f075751c6164c859906f6c7a4c90c3aa0568514c9",
+    "source_version": 3
+  },
+  "C-cialdini-scripted-testimonials": {
+    "english_sha256": "ea6db3a49561e51bc8d9d35685efd917ad9be0e01a033f9866ffeddf734ce71a",
+    "source_sha256": "b93b857aa1b2ab0df60e400862e963c2c6163776c152879b19bff9d7fda48274",
+    "source_version": 3
+  },
+  "C-dc10-objection-rewrite": {
+    "english_sha256": "e092ac5fdc15d9ca936c335678268b1c3a5a22ca77a5a4181d4777043ea831fe",
+    "source_sha256": "c5cf88d22c4a4b8fb2609e116d307c50e0ba1c3926a5207d5e4861adc05b0bf3",
+    "source_version": 3
+  },
+  "C-dove-positioning-continuity": {
+    "english_sha256": "e6a17f32b905b0d72d6c6a5d92dae76fa58b54f0a41c4a84cd5427e63614e52d",
+    "source_sha256": "8da5033413306becdd33a3b7d0a762baa2fa0e0d92ba455719e5529b526127c3",
+    "source_version": 4
+  },
+  "C-fireball-question-sequence": {
+    "english_sha256": "e3f94b5bf2bb8c2f997896fb44b6057be611a9c2c2d728a3a37b0b4626ee47e4",
+    "source_sha256": "120218e60b2fc44e8ddab8fb11f0a908451390cb0419f8ed88d7aa68c9955de4",
+    "source_version": 3
+  },
+  "C-rinso-useful-information-strategy": {
+    "english_sha256": "5f36282d8ef828a8be2fe625fc1770a75d3e1a1a11c429d52621fd3dc1cc367c",
+    "source_sha256": "aedd985466a22aba7d2f19c14de4d663e7abb80d0ebdf7558551d774ff5fe97d",
+    "source_version": 4
+  },
+  "C-rolls-royce-specific-detail": {
+    "english_sha256": "9aa7f6f526228c8a545cc416bc5c02c9f1ba5a768380992774123ba175225334",
+    "source_sha256": "0b168d78de34640fd94970c6c7a12d8c61476cd6943b01697b0fffd1c9b13464",
+    "source_version": 4
+  },
+  "C-scale-editing-exercise": {
+    "english_sha256": "e9bc4262954986637ae99008ba54b04c24a8967b8293ace4eaaa665148695487",
+    "source_sha256": "a0eb6254568355c482a33ab6e977eefebe9e38f985cf45042085f363c12d0b92",
+    "source_version": 3
+  },
+  "C-shell-fleet-saving-calculation": {
+    "english_sha256": "8b4c9e9b0ac8e183aa33211a8cf8fedd5ebe4fafa5ea2ab066ed4a89ef902d97",
+    "source_sha256": "03efea65d1ff42e4e763a2dca98acfe2da3c14d9ca44853631161620ca90f09a",
+    "source_version": 3
+  },
+  "C-shell-pipeline-objection": {
+    "english_sha256": "21174c2c055265bf30320e300e5d65ab24d8cf05b8b6205a222d007de02b19a7",
+    "source_sha256": "9107bd663285da26e590408b9ad4be7fe67972f7eb6c15ca40b79a74cfa1ce16",
+    "source_version": 3
+  },
+  "C-sugarman-1976-commemorative-jewelry": {
+    "english_sha256": "3d15adf7109407301725e77c2a0d7317242ee115aebbbdefd56b7285b2afb063",
+    "source_sha256": "5ddc2c832971ef6de635352ef8e6f340afd0c998729d5f65a6b5c6ee69eb7cad",
+    "source_version": 3
+  },
+  "C-sugarman-apf-clock-calculator": {
+    "english_sha256": "0a2d92d25fd15e3bc56e0534f7179cfae4b605436e7ef76660ea0c4e392d287d",
+    "source_sha256": "b391d6716c23f98f06020b62f5ba04e224e56e6573b0d9f4d3afefca09a96e81",
+    "source_version": 3
+  },
+  "C-sugarman-gold-chains-confounds": {
+    "english_sha256": "b928e6e5e807fb1d113771140fa638ba1c1d373b965d3a547e94eecf0e2f0cc6",
+    "source_sha256": "8becb103bcc5e5bc258ad1074d347a262075ecf50a274302bfab446fe917192e",
+    "source_version": 3
+  },
+  "C-sugarman-grapefruit-origin-offer": {
+    "english_sha256": "863f5b359fcbe5c48c39ac61eccf65658204ec0061f191c847203e64a502f1de",
+    "source_sha256": "6483d3fa30fd7f52f3ee5192a39690a7c383ba2baa0f234773c5106844c2b368",
+    "source_version": 3
+  },
+  "C-sugarman-magicstat-objection-sequence": {
+    "english_sha256": "73ced65befd4317c7a10cbe8c2019ef0a61943f99a32a4fee88848f4ba938698",
+    "source_sha256": "6c44611a9d624968db53b42031023354418b8453a2f9fc238c3f25fb1d484029",
+    "source_version": 3
+  },
+  "C-sugarman-mail-order-mansion": {
+    "english_sha256": "1407f2e3758fa4bf7a4d7767ca2f8540f37ba36a3161119d0d7447dab73bea7f",
+    "source_sha256": "90051ea05e582ce89a9065944b0a0c32cc1c96224b6cf352540e7f313992a652",
+    "source_version": 3
+  },
+  "C-sugarman-nautilus-participation": {
+    "english_sha256": "9cde5c3f52f0b3d55c1b277865f3078ccf3a2ca0dbf566e9599447e84c214d2e",
+    "source_sha256": "e1eeb99f30dc0570281eff09402c3becc6d76fa245c3c44db1dc96097f47acf0",
+    "source_version": 3
+  },
+  "C-sugarman-precor-fiction-boundary": {
+    "english_sha256": "c63faf791e0ca6984f859ac35688b55045ee6e50c29a05b8a718cac4972b86f5",
+    "source_sha256": "14393c56e1dbb9276dc299597ab0059bf801e90df2d16c03365505f7093229b8",
+    "source_version": 3
+  },
+  "C-sugarman-scale-buyer-questions": {
+    "english_sha256": "cd95cf4a5edba308b4aa4039df56c76b37fbe89a30e4b1183b78c8dd06fc78cd",
+    "source_sha256": "f869a2c9383f0f14b75794c785fcb717f4ae910e934685ea73037b22cb029c25",
+    "source_version": 3
+  },
+  "C-sugarman-swatch-choice-context": {
+    "english_sha256": "0c39022d50d700655585c833c53f9e5bfc673df128fced1107904238763c27f3",
+    "source_sha256": "fc717a7056ca69470759160cd237fc274332d6346f725a59521884d875bfe800",
+    "source_version": 3
+  },
+  "C-vgc-a-poetic-masterpiece": {
+    "english_sha256": "89dd4308f1f3ddec28d6e97e29fd1c476a9cd5f98b37fd99f4d04c7b3870b572",
+    "source_sha256": "436ca4818fe180bba513e5ec43e582429f087901c55686bd39b41a29caa3c286",
+    "source_version": 2
+  },
+  "C-vgc-artificial-writing": {
+    "english_sha256": "aa048dd48c5beeeb260839e5b95e114286662237d88868cdff54311f8d7c9540",
+    "source_sha256": "a16df6059ae0cadff09442bf86b049a39f1f4575b5fd2d2be3f942d1ed4d4398",
+    "source_version": 2
+  },
+  "C-vgc-benefits": {
+    "english_sha256": "a82a297958ce18dcc2fe489489ea58259a43705ba9714625c73bdbfdf369fb27",
+    "source_sha256": "dce0fa8913e837992e2245a98e8349aa323b78104ee449d966ded58ebe1e8f26",
+    "source_version": 2
+  },
+  "C-vgc-good-copywriting-practice": {
+    "english_sha256": "6f058585df1fe8cb7bcef85de1dd2de4ee746b4f308211facab64d87191bba2b",
+    "source_sha256": "f896fd1e99e330ac59fa6b3c83a06151b0ae0bddc5d755c7f1fe0adf09ee56e4",
+    "source_version": 2
+  },
+  "C-vgc-horrible-horrible-copy": {
+    "english_sha256": "23d292bf4f5c1eb6394171d92b10dce6814cdaa1490b1055b07d1062179097c5",
+    "source_sha256": "dcce8add9446377dd95629ff6db8a01fee0caa049d446046f3199bbc08ef9175",
+    "source_version": 2
+  },
+  "C-vgc-love": {
+    "english_sha256": "be6b5f5dca57312c3e34fd552b0e894ba1756a9bf09e4adee009e1ed1b918790",
+    "source_sha256": "611116a90ff1e80d78c30b40941c3497d6f689f3d20f7493d88e8afc83a01cf1",
+    "source_version": 2
+  },
+  "C-vgc-meeting-your-firstborn-child": {
+    "english_sha256": "937143d62ac1837e536f729af05dcd199fb10f8073a1ff359bd549748e824766",
+    "source_sha256": "c828930fee5751092942da71eaa5713dab7764bcc400a4cf842177f24082428c",
+    "source_version": 2
+  },
+  "C-vgc-not-doing-your-job": {
+    "english_sha256": "6038e142b75d8b4538204ad47ad90a9c4e3b4e6447ba759bc0327d87cd3a5d80",
+    "source_sha256": "9b52b554fd151f511787cee740f8607fce27da13930adb85e810351a71572e4f",
+    "source_version": 2
+  },
+  "C-vgc-noticing": {
+    "english_sha256": "e0809eb824793365b0225c7e46b6433a30276ecaab40d79e9f740165ab26491a",
+    "source_sha256": "dd40ce97ca8a14856e3e9e888f135774069a2b62c18183ee7ac8812af7ee8831",
+    "source_version": 2
+  },
+  "C-vgc-one-of-the-best-copywriting-exercises": {
+    "english_sha256": "69e56a449819cd56f24941b8661194d0543c421a17217956d94bbdcb77f671df",
+    "source_sha256": "decce4b4be66ca11bcd2617556a1f46ec50fddae33fc4ccc26224b0c3983b38b",
+    "source_version": 3
+  },
+  "C-vgc-persona": {
+    "english_sha256": "5116689c6ca1da6a0241cd03bf360e69b910c3e6f1e4ba5200ba10b7eef289f7",
+    "source_sha256": "6a9ccc1ce05793f64d8b01cdea5572d8a7790d95cc626128239e44bd9b929806",
+    "source_version": 2
+  },
+  "C-vgc-predicting-the-success-of-an-ad-campaign": {
+    "english_sha256": "657dec5efa8bb4a063653d8c3b7df53ad8aa8582405325ffd457f0124da65e1e",
+    "source_sha256": "c8a6081a8338670938516a199b77c0df7792a9e529fd68199abc1e0cc2ca73ea",
+    "source_version": 2
+  },
+  "C-vgc-robbing-and-writing": {
+    "english_sha256": "892d985efa4c577cb26b518d089a6deeb23bc5a0086d324a135331866648b589",
+    "source_sha256": "29e9884cc0da5ad20fa845cb13037a16409abbdb4e24f66904f0dbaa5f46d7ef",
+    "source_version": 2
+  },
+  "C-vgc-showing-vs-telling": {
+    "english_sha256": "a3ea7c7ea147d814c6faf128815e9cb03ab00fafc1a49c81accef56e920e1b06",
+    "source_sha256": "8c059db1cb2ffdf012c0dde72f738470a29ecdeae0fb6df8be0e6067a5211b29",
+    "source_version": 2
+  },
+  "C-vgc-vignettes": {
+    "english_sha256": "f0c749230189c6a29d71be3d1b3302e32e072edf49d9b5c7fc0630877db95984",
+    "source_sha256": "bf007e303b3f80c509bcf0266c1af71b564d459a7719be8f62783dc055b6c47b",
+    "source_version": 2
+  },
+  "C-vgc-writing-better-dialogue": {
+    "english_sha256": "714088c7d07d91d242b70aeeb400d4133aeadd7f1a27e027db4a9e3d040453c8",
+    "source_sha256": "4a15f15003f18857d07c3a9e7b1685406062544b6d069aadf20c9737a714fd2a",
+    "source_version": 2
+  },
+  "C-vgc-writing-immersive-stories": {
+    "english_sha256": "7aca96b544600bae637b1fe304e12d53a7cd388b03f5fdf911e4015913858632",
+    "source_sha256": "64ab4629b9244cfe4b82df8b8730ea1f1eea1034dbd9c52e1d161b6924c5be45",
+    "source_version": 2
+  },
+  "C-vgc-writing-slow": {
+    "english_sha256": "782af1a68a5f1bc22186fef68671f66d60b0711b475918cc05d633097432813a",
+    "source_sha256": "d6339530e77a04cedff08dbf04e346d9957e9244888d7dd2726d04cc48247b53",
+    "source_version": 2
+  },
+  "C-wallachs-service-evidence": {
+    "english_sha256": "4bd68af2b1d7185b4755e15193d722976f8303cc92cb3c7e32389c7e74757ac8",
+    "source_sha256": "8a9df243dac13829669798bca9355391b32c70261e7c7e718038d60e9aae20ef",
+    "source_version": 3
+  },
+  "C-zebra-saddle-creek-workflow-proof": {
+    "english_sha256": "eeb9d964d46266cc16b8e6eb7f5778b71e4fda7d514d7080f61aa759ba2dcc6c",
+    "source_sha256": "95977309606fda543613efe3f8bf66db707ff96d98c113160ab3acbebc2495ca",
+    "source_version": 3
+  }
+}

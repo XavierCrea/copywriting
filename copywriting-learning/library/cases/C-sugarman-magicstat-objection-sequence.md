@@ -1,6 +1,6 @@
 # Magic Stat 恒温器：先解开安装顾虑，再把技术写成一天的舒适体验
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-sugarman-magicstat-objection-sequence.md) · 原广告或案例记录及作者、发布方的叙述
 
 - **背景**　Magic Stat 可编程恒温器，JS&A邮购广告
 - **读者**　希望节能和改善居家温度，却担心难装、难设定及长期可靠性的家庭买家
@@ -55,4 +55,4 @@
 
 关联写作方法包括按读者的问题顺序组织信息、正面回应有依据的关键异议、用具体产品事实证明读者利益、写清真实的交易提案与下一步。
 
-案例编号 `C-sugarman-magicstat-objection-sequence`，记录版本 2。
+案例编号 `C-sugarman-magicstat-objection-sequence`，记录版本 3。

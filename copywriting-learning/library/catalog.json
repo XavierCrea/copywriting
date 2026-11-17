@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "revision": 8,
-  "updated_at": "2026-11-16",
+  "revision": 9,
+  "updated_at": "2026-11-17",
   "sources": [
     {
       "id": "S-sugarman-adweek-cn-2011",
@@ -724,7 +724,7 @@
     {
       "id": "M-001",
       "kind": "method",
-      "version": 3,
+      "version": 4,
       "title": "同时研究产品与目标买家",
       "tags": [
         "产品研究",
@@ -800,12 +800,31 @@
         "开头和证据顺序服务于读者当前问题；没有遗漏实际反复被问到的关键信息。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Research the product and buyer",
+      "tags_en": [
+        "product research",
+        "buyer intent",
+        "product catalog",
+        "trade show follow-up",
+        "customer questions",
+        "buying criteria"
+      ],
+      "when_stuck": {
+        "zh": [
+          "发了产品目录客户没回复",
+          "要弄清买家现在在意什么"
+        ],
+        "en": [
+          "I sent a catalog but the customer stopped replying",
+          "Which facts matter to a buyer comparing options"
+        ]
+      }
     },
     {
       "id": "M-002",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "用低阅读负担的开头承接注意",
       "tags": [
         "标题",
@@ -861,12 +880,31 @@
         "标题自身的信息价值与正文的易读性均得到检查。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Open with a low reading burden",
+      "tags_en": [
+        "ad opening",
+        "opening line",
+        "email opener",
+        "headline",
+        "readability",
+        "reader attention"
+      ],
+      "when_stuck": {
+        "zh": [
+          "标题有了开头怎么接",
+          "邮件开头太绕读不下去"
+        ],
+        "en": [
+          "The headline gets attention but the opening is hard to read",
+          "How do I start the email"
+        ]
+      }
     },
     {
       "id": "M-003",
       "kind": "method",
-      "version": 3,
+      "version": 4,
       "title": "从真实共识和读者语言建立相关性",
       "tags": [
         "用户思维",
@@ -940,12 +978,30 @@
         "引用、概括和原创表达可以区分；没有从语言素材推定当前需求普遍存在。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Build relevance from shared facts and reader language",
+      "tags_en": [
+        "customer language",
+        "audience empathy",
+        "personalization",
+        "relevance",
+        "brand voice"
+      ],
+      "when_stuck": {
+        "zh": [
+          "文案像群发邮件",
+          "想用客户的说法写出共鸣"
+        ],
+        "en": [
+          "The message sounds like a mass email",
+          "How can I use the customer's own words"
+        ]
+      }
     },
     {
       "id": "M-004",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "按读者的问题顺序组织信息",
       "tags": [
         "信息顺序",
@@ -1013,12 +1069,30 @@
         "段落过渡帮助读者找到答案，重要信息可以直接定位。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Follow the reader’s questions",
+      "tags_en": [
+        "information sequence",
+        "reader questions",
+        "long-form copy",
+        "sales page",
+        "objections"
+      ],
+      "when_stuck": {
+        "zh": [
+          "详情页先讲什么后讲什么",
+          "读者的问题没有按顺序回答"
+        ],
+        "en": [
+          "What order should the product page follow",
+          "The copy answers questions before the buyer has asked them"
+        ]
+      }
     },
     {
       "id": "M-005",
       "kind": "method",
-      "version": 3,
+      "version": 4,
       "title": "正面回应有依据的关键异议",
       "tags": [
         "异议",
@@ -1105,12 +1179,31 @@
         "服务、保证和适用条件可以兑现；说明不因追求好听而掩盖限制。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Address material objections directly",
+      "tags_en": [
+        "pricing objection",
+        "buyer objection",
+        "installation concern",
+        "warranty",
+        "reliability",
+        "proof"
+      ],
+      "when_stuck": {
+        "zh": [
+          "客户说价格太高",
+          "买家担心安装或售后"
+        ],
+        "en": [
+          "The customer says your price is too high",
+          "How do I answer a buyer's real concern"
+        ]
+      }
     },
     {
       "id": "M-006",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "分开判断草稿组织与精修质量",
       "tags": [
         "写作流程",
@@ -1175,12 +1268,30 @@
         "校对没有把原本带条件的陈述改成无条件承诺。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Assess structure and polishing separately",
+      "tags_en": [
+        "draft review",
+        "editing",
+        "structure",
+        "proofreading",
+        "revision"
+      ],
+      "when_stuck": {
+        "zh": [
+          "初稿看着顺却没说清意思",
+          "先改结构还是先润色"
+        ],
+        "en": [
+          "The draft sounds polished but the point is unclear",
+          "Should I fix the structure before polishing"
+        ]
+      }
     },
     {
       "id": "M-007",
       "kind": "method",
-      "version": 3,
+      "version": 4,
       "title": "精简冗余并保留含义与阅读节奏",
       "tags": [
         "精简",
@@ -1258,12 +1369,31 @@
         "读者仍能找到作决定所需的信息；不能仅因篇幅长就判定低效。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Cut repetition while preserving meaning and rhythm",
+      "tags_en": [
+        "concise copy",
+        "concision",
+        "shorten draft",
+        "editing",
+        "rhythm",
+        "preserve meaning"
+      ],
+      "when_stuck": {
+        "zh": [
+          "太长了帮我精简",
+          "想缩短又不能丢掉条件"
+        ],
+        "en": [
+          "Make this more concise without losing meaning",
+          "The draft is too wordy"
+        ]
+      }
     },
     {
       "id": "M-008",
       "kind": "method",
-      "version": 4,
+      "version": 5,
       "title": "从案例借结构并检查迁移条件",
       "tags": [
         "案例学习",
@@ -1378,12 +1508,30 @@
         "真实投放中的虚构情节仍标作虚构，观察到的表达和作者报告的结果没有混记。"
       ],
       "validation_refs": [],
-      "evidence_basis": "author_guidance"
+      "evidence_basis": "author_guidance",
+      "title_en": "Borrow structure and check transfer conditions",
+      "tags_en": [
+        "case-based reasoning",
+        "case study",
+        "adapt technique",
+        "reusable writing method",
+        "feedback"
+      ],
+      "when_stuck": {
+        "zh": [
+          "看到好广告不知道能借什么",
+          "想把经验沉淀下来"
+        ],
+        "en": [
+          "How can I reuse a technique from this ad",
+          "Can we turn this feedback into a reusable lesson"
+        ]
+      }
     },
     {
       "id": "M-009",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "先确定产品为谁解决什么问题",
       "tags": [
         "定位",
@@ -1457,12 +1605,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。"
+      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。",
+      "title_en": "Define whom the product helps and with what",
+      "tags_en": [
+        "positioning",
+        "target audience",
+        "core promise",
+        "market fit",
+        "buyer need"
+      ],
+      "when_stuck": {
+        "zh": [
+          "说不清卖给谁",
+          "我们不是行业第一怎么定位"
+        ],
+        "en": [
+          "Who is this for and what problem does it solve",
+          "We are not the market leader"
+        ]
+      }
     },
     {
       "id": "M-010",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "在持续的品牌表达中迭代创意",
       "tags": [
         "品牌",
@@ -1514,12 +1680,29 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。"
+      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。",
+      "title_en": "Vary the creative while maintaining brand continuity",
+      "tags_en": [
+        "brand consistency",
+        "brand voice",
+        "creative variation",
+        "recurring campaign"
+      ],
+      "when_stuck": {
+        "zh": [
+          "换了几次创意品牌认不出来",
+          "同一个卖点怎么换写法"
+        ],
+        "en": [
+          "How do I vary the copy without changing the brand promise",
+          "The campaign has lost its voice"
+        ]
+      }
     },
     {
       "id": "M-011",
       "kind": "method",
-      "version": 4,
+      "version": 5,
       "title": "用具体产品事实证明读者利益",
       "tags": [
         "卖点",
@@ -1644,12 +1827,31 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。"
+      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。",
+      "title_en": "Support reader benefits with product facts",
+      "tags_en": [
+        "feature to benefit",
+        "product benefit",
+        "product proof",
+        "concrete detail",
+        "implied claims",
+        "differentiation"
+      ],
+      "when_stuck": {
+        "zh": [
+          "参数很强但读者无感",
+          "好品质缺少可核对的细节"
+        ],
+        "en": [
+          "Strong specs but buyers don't care",
+          "How can I turn a feature into a benefit"
+        ]
+      }
     },
     {
       "id": "M-012",
       "kind": "method",
-      "version": 1,
+      "version": 2,
       "title": "让标题本身交代相关利益或真实新信息",
       "tags": [
         "标题",
@@ -1698,12 +1900,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。"
+      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。",
+      "title_en": "Put a relevant benefit or real news in the headline",
+      "tags_en": [
+        "headline",
+        "ad headline",
+        "first screen hook",
+        "benefit headline",
+        "product announcement"
+      ],
+      "when_stuck": {
+        "zh": [
+          "广告标题没有让人停下来",
+          "首屏的钩子太泛"
+        ],
+        "en": [
+          "I need a headline that gives people a reason to read",
+          "What benefit should lead the ad"
+        ]
+      }
     },
     {
       "id": "M-013",
       "kind": "method",
-      "version": 1,
+      "version": 2,
       "title": "按企业买家的职责组织技术与商业信息",
       "tags": [
         "B2B",
@@ -1758,12 +1978,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。"
+      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。",
+      "title_en": "Organize technical and business information by buyer role",
+      "tags_en": [
+        "b2b copy",
+        "procurement",
+        "buyer roles",
+        "technical specifications",
+        "cost comparison"
+      ],
+      "when_stuck": {
+        "zh": [
+          "工程师和采购看同一份资料",
+          "采购想比较全周期成本"
+        ],
+        "en": [
+          "How do I write for engineers and procurement",
+          "What do business buyers need to compare"
+        ]
+      }
     },
     {
       "id": "M-014",
       "kind": "method",
-      "version": 3,
+      "version": 4,
       "title": "按沟通目标解释测试与实际反馈",
       "tags": [
         "效果",
@@ -1903,12 +2141,31 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。"
+      "adaptation_note": "作者建议已按所引页核对；执行步骤与检查项为本库的实务整理，尚无本库市场效果验证。",
+      "title_en": "Interpret tests and feedback against the communication goal",
+      "tags_en": [
+        "ad performance",
+        "copy testing",
+        "evidence",
+        "attribution",
+        "customer feedback",
+        "conversion"
+      ],
+      "when_stuck": {
+        "zh": [
+          "广告效果差应该改什么",
+          "有参与但不知道有没有带来销量"
+        ],
+        "en": [
+          "The ad underperformed, what should I test",
+          "Does more engagement mean more sales"
+        ]
+      }
     },
     {
       "id": "M-015",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "让图片、标题与正文共同表达同一承诺",
       "tags": [
         "图文配合",
@@ -1994,12 +2251,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。"
+      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。",
+      "title_en": "Align image, headline, and body around one promise",
+      "tags_en": [
+        "visual copy",
+        "image and headline",
+        "art direction",
+        "caption",
+        "creative consistency"
+      ],
+      "when_stuck": {
+        "zh": [
+          "图片和标题各讲一件事",
+          "主视觉会让读者误解卖点"
+        ],
+        "en": [
+          "The image and headline make different promises",
+          "Does this visual support the product benefit"
+        ]
+      }
     },
     {
       "id": "M-016",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "按决策需要和实际媒介安排篇幅与层次",
       "tags": [
         "篇幅",
@@ -2118,12 +2393,31 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。"
+      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。",
+      "title_en": "Match length and hierarchy to the decision and medium",
+      "tags_en": [
+        "copy length",
+        "information hierarchy",
+        "scannability",
+        "format",
+        "product page",
+        "email length"
+      ],
+      "when_stuck": {
+        "zh": [
+          "正文太长不知道怎么分层",
+          "短广告该留哪些信息"
+        ],
+        "en": [
+          "What should fit in a short ad",
+          "Readers struggle to scan the product page"
+        ]
+      }
     },
     {
       "id": "M-017",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "把视频脚本写成可检查的画面、声音与字幕",
       "tags": [
         "视频",
@@ -2206,12 +2500,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。"
+      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。",
+      "title_en": "Write inspectable video scenes, sound, and captions",
+      "tags_en": [
+        "video script",
+        "storyboard",
+        "voiceover",
+        "subtitles",
+        "product demo"
+      ],
+      "when_stuck": {
+        "zh": [
+          "视频旁白和画面对不上",
+          "要把卖点写成能拍的镜头"
+        ],
+        "en": [
+          "How do I show the product benefit in a video",
+          "What belongs in the shot and voiceover"
+        ]
+      }
     },
     {
       "id": "M-018",
       "kind": "method",
-      "version": 1,
+      "version": 2,
       "title": "按目标市场重选利益、语言与语境",
       "tags": [
         "本地化",
@@ -2269,12 +2581,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。"
+      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。",
+      "title_en": "Adapt benefit, language, and context to the market",
+      "tags_en": [
+        "localization",
+        "cross-cultural copy",
+        "market adaptation",
+        "translation",
+        "audience context"
+      ],
+      "when_stuck": {
+        "zh": [
+          "同一文案跨市场水土不服",
+          "英文稿看着像逐字翻译"
+        ],
+        "en": [
+          "The translation reads literally but misses the market",
+          "Do we need to change the benefit for this audience"
+        ]
+      }
     },
     {
       "id": "M-019",
       "kind": "method",
-      "version": 3,
+      "version": 4,
       "title": "写清真实的交易提案与下一步",
       "tags": [
         "交易条件",
@@ -2402,12 +2732,34 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。"
+      "adaptation_note": "所引页的作者建议已核对；步骤与检查项为本库面向当前任务的整理，不是作者原文，也没有本库市场效果验证。",
+      "title_en": "Clarify the real offer and next step",
+      "tags_en": [
+        "offer",
+        "call to action",
+        "CTA",
+        "pricing",
+        "price objection",
+        "next step",
+        "sample request",
+        "quote",
+        "scarcity"
+      ],
+      "when_stuck": {
+        "zh": [
+          "对方不知道下一步做什么",
+          "要写清报价价格条件和交期"
+        ],
+        "en": [
+          "How can I make the next step easier",
+          "The price and offer terms are unclear"
+        ]
+      }
     },
     {
       "id": "M-020",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "判断热点是否值得写进文案",
       "tags": [
         "热点",
@@ -2474,12 +2826,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者关于潮流、长期价值、时机不确定和语境变化的建议已按页核对；时间窗口、常青备选与退出条件为本库的实务整理，暂无市场验证。"
+      "adaptation_note": "作者关于潮流、长期价值、时机不确定和语境变化的建议已按页核对；时间窗口、常青备选与退出条件为本库的实务整理，暂无市场验证。",
+      "title_en": "Assess whether a trend belongs in the copy",
+      "tags_en": [
+        "trend",
+        "timely campaign",
+        "news hook",
+        "seasonality",
+        "evergreen value"
+      ],
+      "when_stuck": {
+        "zh": [
+          "想借热点但跟产品关系弱",
+          "热点过后还有没有购买理由"
+        ],
+        "en": [
+          "Should this trend go into the ad",
+          "What makes the offer relevant after the event"
+        ]
+      }
     },
     {
       "id": "M-021",
       "kind": "method",
-      "version": 1,
+      "version": 2,
       "title": "用有来源的故事解释产品价值",
       "tags": [
         "故事",
@@ -2547,12 +2917,30 @@
       ],
       "validation_refs": [],
       "evidence_basis": "case_analysis",
-      "adaptation_note": "从作者的故事建议、葡萄柚和眼镜案例，以及Precor混入虚构购买情节的反例综合提炼；叙事工作流程仍为待验证方法。"
+      "adaptation_note": "从作者的故事建议、葡萄柚和眼镜案例，以及Precor混入虚构购买情节的反例综合提炼；叙事工作流程仍为待验证方法。",
+      "title_en": "Use sourced stories to explain product value",
+      "tags_en": [
+        "brand story",
+        "customer story",
+        "lived experience",
+        "scene",
+        "fictional scenario"
+      ],
+      "when_stuck": {
+        "zh": [
+          "故事好看但产品出现得突兀",
+          "客户故事没有真实细节"
+        ],
+        "en": [
+          "How do I connect the story to product value",
+          "The story needs a firsthand detail"
+        ]
+      }
     },
     {
       "id": "M-022",
       "kind": "method",
-      "version": 2,
+      "version": 3,
       "title": "按比较任务决定收束还是展开选择",
       "tags": [
         "单品广告",
@@ -2613,12 +3001,31 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "作者简化提案的建议与目录章节的不同观察对读；按任务分层是实务适配，不是基于单个历史对照得出的通则。"
+      "adaptation_note": "作者简化提案的建议与目录章节的不同观察对读；按任务分层是实务适配，不是基于单个历史对照得出的通则。",
+      "title_en": "Narrow or expand choice to fit the comparison task",
+      "tags_en": [
+        "too many models",
+        "product assortment",
+        "choice overload",
+        "above the fold",
+        "shortlist",
+        "catalog"
+      ],
+      "when_stuck": {
+        "zh": [
+          "型号太多首屏放哪个",
+          "客户不知道怎么从目录选型号"
+        ],
+        "en": [
+          "What should go above the fold with too many models",
+          "Help the buyer choose from a long catalog"
+        ]
+      }
     },
     {
       "id": "M-023",
       "kind": "method",
-      "version": 1,
+      "version": 2,
       "title": "先给买家一份可以自行使用的选型资料",
       "tags": [
         "互惠",
@@ -2668,12 +3075,31 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "根据书中对免费体验和互惠压力的讨论，整理为面向买家决策的文案方法。"
+      "adaptation_note": "根据书中对免费体验和互惠压力的讨论，整理为面向买家决策的文案方法。",
+      "title_en": "Give buyers useful selection material first",
+      "tags_en": [
+        "guide",
+        "trial",
+        "sample",
+        "selection guide",
+        "buyer enablement",
+        "spec sheet"
+      ],
+      "when_stuck": {
+        "zh": [
+          "客户想先看样品再决定",
+          "给买家一份能独立用的选型资料"
+        ],
+        "en": [
+          "What can a buyer check before talking to sales",
+          "Can a sample answer the buyer's question"
+        ]
+      }
     },
     {
       "id": "M-024",
       "kind": "method",
-      "version": 1,
+      "version": 2,
       "title": "挑选能回答买家疑问的真实客户案例",
       "tags": [
         "社会认同",
@@ -2725,14 +3151,33 @@
       ],
       "validation_refs": [],
       "evidence_basis": "author_guidance",
-      "adaptation_note": "根据书中的相似性、决策不确定和伪造社会认同讨论整理。旧实验没有测量本产品成交。"
+      "adaptation_note": "根据书中的相似性、决策不确定和伪造社会认同讨论整理。旧实验没有测量本产品成交。",
+      "title_en": "Choose real customer evidence that answers the buyer’s question",
+      "tags_en": [
+        "customer case",
+        "testimonial",
+        "social proof",
+        "relatable example",
+        "trade show follow-up",
+        "buyer hesitation"
+      ],
+      "when_stuck": {
+        "zh": [
+          "对口客户发了目录没回复",
+          "客户见证没有回答适配疑问"
+        ],
+        "en": [
+          "The prospect went quiet after receiving the catalog",
+          "Which customer case would answer the buyer's concern"
+        ]
+      }
     }
   ],
   "cases": [
     {
       "id": "C-fireball-question-sequence",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "Fireball 弹球机：跟随心动、说服自己和使用顾虑安排文案",
       "tags": [
         "信息顺序",
@@ -2821,12 +3266,30 @@
       ],
       "method_ids": [
         "M-004"
-      ]
+      ],
+      "title_en": "Fireball: move from excitement to purchase justification and ownership concerns",
+      "tags_en": [
+        "long-form ad",
+        "reader questions",
+        "information sequence",
+        "product explanation",
+        "ownership concerns"
+      ],
+      "when_stuck": {
+        "zh": [
+          "长文案先讲什么后讲什么",
+          "有兴趣后读者还会问什么"
+        ],
+        "en": [
+          "How do I order a long sales page",
+          "What will an interested reader ask next"
+        ]
+      }
     },
     {
       "id": "C-dc10-objection-rewrite",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "DC-10 假设改稿：先回答读者真正担心的事，让专业证据有着落",
       "tags": [
         "异议",
@@ -2922,12 +3385,30 @@
       ],
       "method_ids": [
         "M-005"
-      ]
+      ],
+      "title_en": "DC-10: answer the actual concern before presenting technical reassurance",
+      "tags_en": [
+        "objection",
+        "trust after incident",
+        "technical proof",
+        "crisis response",
+        "hypothetical rewrite"
+      ],
+      "when_stuck": {
+        "zh": [
+          "客户担心具体事故却只给了资历",
+          "技术证据没有回答质疑"
+        ],
+        "en": [
+          "We have proof but it doesn't answer the safety concern",
+          "How do I address the actual objection after an incident"
+        ]
+      }
     },
     {
       "id": "C-scale-editing-exercise",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "体重秤编辑练习：把喜悦提前，再压缩不承担任务的文字",
       "tags": [
         "精简",
@@ -3015,12 +3496,31 @@
       "method_ids": [
         "M-006",
         "M-007"
-      ]
+      ],
+      "title_en": "Scale editing: bring the rewarding moment forward, then remove idle words",
+      "tags_en": [
+        "concise",
+        "concision",
+        "edit",
+        "rhythm",
+        "emotional pacing",
+        "compress copy"
+      ],
+      "when_stuck": {
+        "zh": [
+          "稿太长而且亮点出现太晚",
+          "精简时怎么保留节奏"
+        ],
+        "en": [
+          "Make this more concise without losing emotion",
+          "The most engaging moment comes too late"
+        ]
+      }
     },
     {
       "id": "C-rolls-royce-specific-detail",
       "kind": "case",
-      "version": 3,
+      "version": 4,
       "title": "劳斯莱斯：用可听见的品质细节，引出一套值得付高价的理由",
       "tags": [
         "劳斯莱斯",
@@ -3140,12 +3640,31 @@
         "M-001",
         "M-011",
         "M-012"
-      ]
+      ],
+      "title_en": "Rolls-Royce: an audible detail opens a larger argument for quality",
+      "tags_en": [
+        "headline",
+        "premium positioning",
+        "craftsmanship",
+        "concrete detail",
+        "quietness",
+        "sensory proof"
+      ],
+      "when_stuck": {
+        "zh": [
+          "工艺溢价怎么写",
+          "产品有质感但标题只说高端"
+        ],
+        "en": [
+          "How can I make craftsmanship justify a premium",
+          "The headline says premium but offers no concrete detail"
+        ]
+      }
     },
     {
       "id": "C-dove-positioning-continuity",
       "kind": "case",
-      "version": 3,
+      "version": 4,
       "title": "多芬：固定洗浴滋润的利益，让不同创意都把体验讲活",
       "tags": [
         "多芬",
@@ -3273,12 +3792,30 @@
         "M-009",
         "M-010",
         "M-012"
-      ]
+      ],
+      "title_en": "Dove: keep the benefit consistent while letting the creative change",
+      "tags_en": [
+        "positioning",
+        "brand continuity",
+        "product benefit",
+        "consistent message",
+        "creative variation"
+      ],
+      "when_stuck": {
+        "zh": [
+          "同一个核心利益怎么换创意",
+          "新品广告丢了原有品牌定位"
+        ],
+        "en": [
+          "How do I vary an ad without shifting the core benefit",
+          "The brand promise changes across campaigns"
+        ]
+      }
     },
     {
       "id": "C-rinso-useful-information-strategy",
       "kind": "case",
-      "version": 3,
+      "version": 4,
       "title": "林索：把广告做成可查用的去渍指南，同时检验它在强化什么利益",
       "tags": [
         "Rinso",
@@ -3405,12 +3942,30 @@
         "M-010",
         "M-012",
         "M-014"
-      ]
+      ],
+      "title_en": "Rinso: make the ad useful, then check which benefit it actually teaches",
+      "tags_en": [
+        "useful information",
+        "how-to guide",
+        "ad design",
+        "visual index",
+        "message fit"
+      ],
+      "when_stuck": {
+        "zh": [
+          "广告想做成有用的指南",
+          "教程带来的关注和产品卖点脱节"
+        ],
+        "en": [
+          "What useful guide could make someone keep the ad",
+          "The tutorial draws attention to the wrong benefit"
+        ]
+      }
     },
     {
       "id": "C-shell-fleet-saving-calculation",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "壳牌车队用油：公开一笔能重算的净收益账，让更高单价成为可判断的投资",
       "tags": [
         "壳牌",
@@ -3545,12 +4100,35 @@
         "oil_costs": "旧机油100000加仑 × 1.70 = 170000美元。6%减少只作用于50000加仑消耗部分：新总用量97000 × 1.90 = 184300美元，增支14300。12%情景新总用量94000 × 1.90 = 178600美元，增支8600。",
         "net": "120000 - 14300 = 105700；120000 - 8600 = 111400美元。",
         "meaning": "展示可复算的推导链；并不代表本轮核验了性能、现场数据或客户实现值。"
+      },
+      "title_en": "Shell fleet oil: make the net-savings calculation inspectable",
+      "tags_en": [
+        "pricing objection",
+        "price objection",
+        "cost comparison",
+        "total cost",
+        "total cost of ownership",
+        "higher unit price",
+        "fleet savings",
+        "b2b procurement"
+      ],
+      "when_stuck": {
+        "zh": [
+          "产品比竞品贵",
+          "单价高怎么说服采购",
+          "价格贵怎么让买家算总账"
+        ],
+        "en": [
+          "Our product costs more than competitors",
+          "The buyer says the price is too high",
+          "How can I justify a higher price with total cost"
+        ]
       }
     },
     {
       "id": "C-wallachs-service-evidence",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "沃勒斯：用一件小麻烦、一份服务记录和清楚规则，把友善变成可体验的理由",
       "tags": [
         "Wallachs",
@@ -3679,12 +4257,30 @@
           "observation": "英文主体写1153项，结尾写1158；译文两处均为1153。",
           "handling": "描述主体统计使用1153，同时保留末尾差异；不把任一数字认作独立核实的经营记录。"
         }
-      ]
+      ],
+      "title_en": "Wallachs: prove friendliness through small services and clear access rules",
+      "tags_en": [
+        "service proof",
+        "customer care",
+        "after-sales",
+        "policy",
+        "real service examples"
+      ],
+      "when_stuck": {
+        "zh": [
+          "服务好却缺少细节",
+          "售后承诺怎么写可信"
+        ],
+        "en": [
+          "How can I demonstrate good service",
+          "The customer needs to know what the policy actually covers"
+        ]
+      }
     },
     {
       "id": "C-shell-pipeline-objection",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "壳牌管道：先承认保护风景的共同立场，再让读者重看已经复原的现场",
       "tags": [
         "壳牌",
@@ -3812,12 +4408,30 @@
         "M-005",
         "M-011",
         "M-015"
-      ]
+      ],
+      "title_en": "Shell pipeline: acknowledge the shared concern, then re-examine the restored site",
+      "tags_en": [
+        "public objection",
+        "shared concern",
+        "site restoration",
+        "visual evidence",
+        "engineering proof"
+      ],
+      "when_stuck": {
+        "zh": [
+          "公众担心工程破坏环境",
+          "怎么用现场结果回应质疑"
+        ],
+        "en": [
+          "How can I address a public objection with on-site evidence",
+          "Readers worry the project damaged the landscape"
+        ]
+      }
     },
     {
       "id": "C-avis-service-positioning",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "爱维斯：把第二名转成服务动机，再用旅客会遇到的小事兑现",
       "tags": [
         "爱维斯",
@@ -3944,12 +4558,31 @@
         "M-009",
         "M-010",
         "M-011"
-      ]
+      ],
+      "title_en": "Avis: turn a competitive position into a service reason readers can inspect",
+      "tags_en": [
+        "challenger positioning",
+        "market leader",
+        "second place",
+        "underdog",
+        "service proof",
+        "category positioning"
+      ],
+      "when_stuck": {
+        "zh": [
+          "不是行业第一怎么立人设",
+          "行业第二怎么写出服务优势"
+        ],
+        "en": [
+          "We are not the market leader",
+          "How do I position a number two brand"
+        ]
+      }
     },
     {
       "id": "C-sugarman-scale-buyer-questions",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "秤的重量问询：把被忽略的规格变成足以决策的答案",
       "tags": [
         "买家提问",
@@ -4040,12 +4673,33 @@
         "M-001",
         "M-005",
         "M-016"
-      ]
+      ],
+      "title_en": "Scale-weight inquiries: turn an overlooked specification into a decision-ready answer",
+      "tags_en": [
+        "buyer question",
+        "missing specification",
+        "procurement",
+        "decision input",
+        "catalog follow-up",
+        "fit check"
+      ],
+      "when_stuck": {
+        "zh": [
+          "发了目录客户没回复",
+          "参数写全了买家还在问",
+          "选型还差一项关键参数"
+        ],
+        "en": [
+          "The prospect went quiet after getting the catalog",
+          "Which missing specification is blocking the buyer",
+          "What does the buyer still need to know"
+        ]
+      }
     },
     {
       "id": "C-sugarman-grapefruit-origin-offer",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "葡萄柚：用可想象的筛选动作建立品质，再让家庭试吃完成说服",
       "tags": [
         "葡萄柚",
@@ -4180,12 +4834,31 @@
         "M-011",
         "M-019",
         "M-021"
-      ]
+      ],
+      "title_en": "Grapefruit: make selection visible, then let a household trial test the promise",
+      "tags_en": [
+        "origin story",
+        "selection process",
+        "sensory copy",
+        "product trial",
+        "offer design",
+        "fruit"
+      ],
+      "when_stuck": {
+        "zh": [
+          "产地故事太空泛",
+          "要通过试吃说明品质"
+        ],
+        "en": [
+          "How do I make a sourcing story tangible",
+          "What lets a buyer try the quality for themselves"
+        ]
+      }
     },
     {
       "id": "C-sugarman-magicstat-objection-sequence",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "Magic Stat 恒温器：先解开安装顾虑，再把技术写成一天的舒适体验",
       "tags": [
         "MagicStat",
@@ -4297,12 +4970,32 @@
         "M-005",
         "M-011",
         "M-019"
-      ]
+      ],
+      "title_en": "Magic Stat: clear the installation barrier, then put the technology into a daily routine",
+      "tags_en": [
+        "Magic Stat",
+        "MagicStat",
+        "installation concerns",
+        "installation objection",
+        "thermostat",
+        "warranty",
+        "product explanation"
+      ],
+      "when_stuck": {
+        "zh": [
+          "装起来会不会麻烦",
+          "买家担心接线和安装"
+        ],
+        "en": [
+          "Will it be hard to install",
+          "Where should I address installation concerns"
+        ]
+      }
     },
     {
       "id": "C-sugarman-swatch-choice-context",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "瑞士军用手表：首轮广告聚焦单款，型录再帮助比较",
       "tags": [
         "瑞士军用手表",
@@ -4410,12 +5103,32 @@
         "M-014",
         "M-016",
         "M-022"
-      ]
+      ],
+      "title_en": "Swiss Army watch: focus the first ad, then support comparison in the catalog",
+      "tags_en": [
+        "too many models",
+        "above the fold",
+        "first screen",
+        "choice overload",
+        "product selection",
+        "swiss army",
+        "catalog"
+      ],
+      "when_stuck": {
+        "zh": [
+          "型号太多首屏放哪个",
+          "单品广告是否要列出所有型号"
+        ],
+        "en": [
+          "What should go above the fold with too many models",
+          "Which model should lead the ad"
+        ]
+      }
     },
     {
       "id": "C-sugarman-apf-clock-calculator",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "APF 时钟计算器：先把新功能接到买家的工作，再决定如何推销",
       "tags": [
         "APF",
@@ -4519,12 +5232,31 @@
         "M-001",
         "M-009",
         "M-014"
-      ]
+      ],
+      "title_en": "APF clock calculator: connect a new feature to the buyer’s work before selling it",
+      "tags_en": [
+        "product market fit",
+        "new feature",
+        "feature relevance",
+        "demand",
+        "calculator",
+        "weak offer"
+      ],
+      "when_stuck": {
+        "zh": [
+          "加了功能但是用户看不出用处",
+          "新功能增加成本但没有需求"
+        ],
+        "en": [
+          "Does this new feature solve a real problem",
+          "People don't care about the feature we added"
+        ]
+      }
     },
     {
       "id": "C-sugarman-mail-order-mansion",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "邮购豪宅：故事能制造欲望，但仍要辨认真正的购买意向",
       "tags": [
         "豪宅",
@@ -4602,12 +5334,30 @@
         "M-014",
         "M-016",
         "M-019"
-      ]
+      ],
+      "title_en": "Mail-order mansion: separate story interest from qualified buying intent",
+      "tags_en": [
+        "high ticket",
+        "curiosity",
+        "lead qualification",
+        "narrative offer",
+        "luxury product"
+      ],
+      "when_stuck": {
+        "zh": [
+          "高客单内容有人看却没人问价",
+          "故事如何筛出真正买家"
+        ],
+        "en": [
+          "The story attracts attention but not qualified inquiries",
+          "How should a high-ticket ad qualify buyers"
+        ]
+      }
     },
     {
       "id": "C-sugarman-1976-commemorative-jewelry",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "1976 年灯笼项链：把会过期的纪念主题转成持久的佩戴理由",
       "tags": [
         "热点",
@@ -4708,12 +5458,31 @@
         "M-008",
         "M-014",
         "M-020"
-      ]
+      ],
+      "title_en": "The 1976 lantern necklace: find a wearing reason that survives the occasion",
+      "tags_en": [
+        "seasonal copy",
+        "commemoration",
+        "trend",
+        "lasting use",
+        "jewelry",
+        "evergreen benefit"
+      ],
+      "when_stuck": {
+        "zh": [
+          "纪念品过了节点就没人买",
+          "怎么写出热点之后还能用的理由"
+        ],
+        "en": [
+          "Why would someone buy this after the anniversary",
+          "How can seasonal copy show a lasting use"
+        ]
+      }
     },
     {
       "id": "C-sugarman-precor-fiction-boundary",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "Precor 划船机：让故事里的空间限制成为产品出场理由",
       "tags": [
         "Precor",
@@ -4812,12 +5581,30 @@
         "M-004",
         "M-008",
         "M-021"
-      ]
+      ],
+      "title_en": "Precor: let a story’s space constraint explain why the product appears",
+      "tags_en": [
+        "product story",
+        "space constraint",
+        "scene",
+        "fictional example",
+        "verified benefits"
+      ],
+      "when_stuck": {
+        "zh": [
+          "产品在故事里出现得太生硬",
+          "故事情境需要一个真实限制"
+        ],
+        "en": [
+          "How can I give the product a reason to appear in the story",
+          "What space constraint makes the demonstration meaningful"
+        ]
+      }
     },
     {
       "id": "C-sugarman-nautilus-participation",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "Nautilus拼写活动：把广告变成参与任务，同时区分解谜者与买家",
       "tags": [
         "Nautilus",
@@ -4900,12 +5687,31 @@
         "M-008",
         "M-014",
         "M-019"
-      ]
+      ],
+      "title_en": "Nautilus: make reading participatory, then distinguish players from buyers",
+      "tags_en": [
+        "interactive copy",
+        "audience participation",
+        "puzzle",
+        "engagement",
+        "promotion",
+        "purchase intent"
+      ],
+      "when_stuck": {
+        "zh": [
+          "互动很多却看不到购买意向",
+          "广告能不能加一个参与动作"
+        ],
+        "en": [
+          "Does puzzle engagement indicate purchase intent",
+          "How could readers participate in this promotion"
+        ]
+      }
     },
     {
       "id": "C-sugarman-gold-chains-confounds",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "黄金空间项链：用选择故事制造幽默，同时检验品牌关联与真实销量原因",
       "tags": [
         "黄金项链",
@@ -4991,12 +5797,31 @@
         "M-003",
         "M-008",
         "M-014"
-      ]
+      ],
+      "title_en": "Gold Space Chains: use a selection story without confusing humor and sales causation",
+      "tags_en": [
+        "humor",
+        "product story",
+        "reversal",
+        "sales attribution",
+        "catalog",
+        "creative testing"
+      ],
+      "when_stuck": {
+        "zh": [
+          "想用反差写产品故事",
+          "销量上涨能不能归因于创意"
+        ],
+        "en": [
+          "How do I make a product choice into a funny story",
+          "Did the copy alone increase sales"
+        ]
+      }
     },
     {
       "id": "C-zebra-saddle-creek-workflow-proof",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "Zebra × Saddle Creek：用岗位动作串起技术能力、经营价值与实施信心",
       "tags": [
         "Zebra",
@@ -5096,12 +5921,33 @@
         "M-008",
         "M-011",
         "M-013"
-      ]
+      ],
+      "title_en": "Zebra × Saddle Creek: connect technical capability to work, value, and implementation",
+      "tags_en": [
+        "b2b",
+        "feature to benefit",
+        "workflow proof",
+        "implementation",
+        "customer case",
+        "warehouse",
+        "technical specs",
+        "trade show follow-up"
+      ],
+      "when_stuck": {
+        "zh": [
+          "参数很强但读者无感",
+          "如何拿相似应用唤回展会客户"
+        ],
+        "en": [
+          "Strong specs but buyers don't care",
+          "How do I show what changes in the customer's workflow"
+        ]
+      }
     },
     {
       "id": "C-cialdini-samples-and-gifts",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "免费试用的双重力量：先让产品被体验，再让下一步自然发生",
       "tags": [
         "互惠",
@@ -5225,12 +6071,31 @@
         "M-023",
         "M-019",
         "M-014"
-      ]
+      ],
+      "title_en": "Samples and gifts: distinguish useful experience from an obligation to reciprocate",
+      "tags_en": [
+        "reciprocity",
+        "sample",
+        "trial",
+        "buyer enablement",
+        "product experience",
+        "offer"
+      ],
+      "when_stuck": {
+        "zh": [
+          "客户还不敢试用",
+          "送样怎么帮助买家验证"
+        ],
+        "en": [
+          "How can a sample help the buyer evaluate the product",
+          "What's the right next step after a trial"
+        ]
+      }
     },
     {
       "id": "C-cialdini-car-quote-changed",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "汽车低价诱饵：决定为何会长出新的支持理由",
       "tags": [
         "承诺和一致",
@@ -5327,12 +6192,31 @@
       "method_ids": [
         "M-019",
         "M-014"
-      ]
+      ],
+      "title_en": "The changed car quote: how a preliminary choice acquires its own supporting reasons",
+      "tags_en": [
+        "quote changed",
+        "price terms",
+        "lowball",
+        "commitment",
+        "decision",
+        "offer integrity"
+      ],
+      "when_stuck": {
+        "zh": [
+          "报价变了客户已经做了决定",
+          "试用后再改条件有什么问题"
+        ],
+        "en": [
+          "The quote changed after the buyer committed",
+          "How do I keep the offer clear after a trial"
+        ]
+      }
     },
     {
       "id": "C-cialdini-scripted-testimonials",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "街访见证的说服力：让同类人的经历回答眼前疑问",
       "tags": [
         "社会认同",
@@ -5451,12 +6335,30 @@
         "M-024",
         "M-011",
         "M-008"
-      ]
+      ],
+      "title_en": "Street testimonials: use comparable experience to answer a specific question",
+      "tags_en": [
+        "testimonial",
+        "social proof",
+        "customer proof",
+        "authentic review",
+        "selection bias"
+      ],
+      "when_stuck": {
+        "zh": [
+          "想用证言但像背稿",
+          "选什么见证能回答客户疑问"
+        ],
+        "en": [
+          "Our testimonial sounds scripted",
+          "Which real customer story would reassure this buyer"
+        ]
+      }
     },
     {
       "id": "C-cialdini-sanka-authority",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "桑卡咖啡广告：发言者身份如何改变同一句主张的分量",
       "tags": [
         "权威",
@@ -5563,12 +6465,31 @@
         "M-011": "直接用于把背书落到具体产品事实与证据链。",
         "M-014": "保留对作者定性销量、因果解释与实际反馈的区分。",
         "M-020": "按要求保留旧关联。此方法关于热点与产品/受众相关性，仅可作检查名人或角色借势相关性的旁系参照；本案不是热点文案效果的直接证据，也不据此修改方法。"
+      },
+      "title_en": "Sanka: how the speaker’s identity changes the weight of a claim",
+      "tags_en": [
+        "authority",
+        "expert endorsement",
+        "credibility",
+        "spokesperson",
+        "proof",
+        "claim scope"
+      ],
+      "when_stuck": {
+        "zh": [
+          "发言者看起来像专家却没有资质",
+          "背书能证明到什么程度"
+        ],
+        "en": [
+          "Does the spokesperson have expertise for this claim",
+          "The endorsement sounds more authoritative than the evidence"
+        ]
       }
     },
     {
       "id": "C-cialdini-beef-supply-notice",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "牛肉供货通知：把真实稀缺与信息提前量写成采购理由",
       "tags": [
         "短缺",
@@ -5668,12 +6589,31 @@
       "method_ids": [
         "M-019",
         "M-014"
-      ]
+      ],
+      "title_en": "Beef supply notices: turn a real change and useful advance information into a purchasing reason",
+      "tags_en": [
+        "supply shortage",
+        "procurement",
+        "real scarcity",
+        "advance notice",
+        "order timing",
+        "b2b"
+      ],
+      "when_stuck": {
+        "zh": [
+          "确实会缺货怎么提前告诉客户",
+          "采购要不要提前下单"
+        ],
+        "en": [
+          "How should I explain a real supply shortage",
+          "What does a buyer need to plan an order"
+        ]
+      }
     },
     {
       "id": "C-cialdini-cookie-availability",
       "kind": "case",
-      "version": 2,
+      "version": 3,
       "title": "曲奇实验：静态稀缺、刚失去的机会与他人需求，分别改变什么",
       "tags": [
         "短缺",
@@ -5780,11 +6720,30 @@
         "M-019",
         "M-011",
         "M-014"
-      ]
+      ],
+      "title_en": "Cookie availability: distinguish low stock, recent loss, and demand from others",
+      "tags_en": [
+        "scarcity",
+        "availability",
+        "stock changes",
+        "perceived value",
+        "experiment",
+        "urgency"
+      ],
+      "when_stuck": {
+        "zh": [
+          "库存减少和一直缺货有何区别",
+          "大家抢购怎么影响价值感"
+        ],
+        "en": [
+          "Does a drop in availability change perceived value",
+          "How do low stock and demand differ"
+        ]
+      }
     },
     {
       "id": "C-vgc-noticing",
-      "version": 1,
+      "version": 2,
       "title": "从观察细节找到联系｜Noticing",
       "tags": [
         "观察",
@@ -5831,11 +6790,29 @@
           "text": "One hand on the handle. One free for the stairs.",
           "note": "自拟搬运工具练习，需先验证单手操作条件。"
         }
+      },
+      "title_en": "Find a useful connection by looking longer | Noticing",
+      "tags_en": [
+        "observation",
+        "product research",
+        "concrete detail",
+        "sensory detail",
+        "creative angle"
+      ],
+      "when_stuck": {
+        "zh": [
+          "文案只有通用优点",
+          "想从真实操作里找一个细节"
+        ],
+        "en": [
+          "The benefits sound generic",
+          "How do I find a product detail worth writing about"
+        ]
       }
     },
     {
       "id": "C-vgc-horrible-horrible-copy",
-      "version": 1,
+      "version": 2,
       "title": "检查承诺怎样影响读者｜Horrible, horrible copy",
       "tags": [
         "承诺",
@@ -5881,11 +6858,29 @@
           "text": "Compare the course outline with the skills your next role requires.",
           "note": "自拟课程文案练习，需提供实际课程大纲。"
         }
+      },
+      "title_en": "Examine what a promise asks readers to believe | Horrible, horrible copy",
+      "tags_en": [
+        "claim review",
+        "implied promise",
+        "misleading copy",
+        "evidence",
+        "trust"
+      ],
+      "when_stuck": {
+        "zh": [
+          "广告承诺太满",
+          "读者会不会误以为保证有效"
+        ],
+        "en": [
+          "What might readers infer from this promise",
+          "Does the ad imply a guaranteed outcome"
+        ]
       }
     },
     {
       "id": "C-vgc-artificial-writing",
-      "version": 1,
+      "version": 2,
       "title": "为表达补入亲历细节｜Artificial writing",
       "tags": [
         "真实经历",
@@ -5931,11 +6926,29 @@
           "text": "I kept the first rejected sketch. It reminds me why we moved the handle.",
           "note": "自拟创始人访谈练习，使用前须确认确有该草图与改动。"
         }
+      },
+      "title_en": "Give a story traceable lived detail | Artificial writing",
+      "tags_en": [
+        "lived experience",
+        "voice",
+        "interview detail",
+        "AI writing",
+        "firsthand account"
+      ],
+      "when_stuck": {
+        "zh": [
+          "稿子很流畅却没有人物自己的声音",
+          "怎么给AI提供亲历细节"
+        ],
+        "en": [
+          "The story reads like generic AI writing",
+          "How do I give the draft a real person's voice"
+        ]
       }
     },
     {
       "id": "C-vgc-meeting-your-firstborn-child",
-      "version": 1,
+      "version": 2,
       "title": "用情绪转折替换笼统感言｜Meeting your firstborn child",
       "tags": [
         "场景",
@@ -5981,11 +6994,29 @@
           "text": "“Will it fit?” She slid the case under the seat. “We can keep it with us.”",
           "note": "自拟旅行产品练习，适配条件待核实。"
         }
+      },
+      "title_en": "Make an emotional turn visible | Meeting your firstborn child",
+      "tags_en": [
+        "emotional turn",
+        "specific detail",
+        "dialogue",
+        "storytelling",
+        "scene"
+      ],
+      "when_stuck": {
+        "zh": [
+          "只说感动但看不到过程",
+          "情绪是怎么变化的"
+        ],
+        "en": [
+          "The story announces emotion without showing a change",
+          "How do I make the emotional turn visible"
+        ]
       }
     },
     {
       "id": "C-vgc-not-doing-your-job",
-      "version": 1,
+      "version": 2,
       "title": "给已有素材留出联想时间｜Not doing your job",
       "tags": [
         "创意",
@@ -6031,11 +7062,29 @@
           "text": "Your desk, packed for the next stop.",
           "note": "自拟便携办公包练习，需核实容纳物品与使用场景。"
         }
+      },
+      "title_en": "Let researched material form new connections | Not doing your job",
+      "tags_en": [
+        "creative block",
+        "ideation",
+        "incubation",
+        "headline angles",
+        "association"
+      ],
+      "when_stuck": {
+        "zh": [
+          "老是生成同一类标题",
+          "资料齐全但没有新切口"
+        ],
+        "en": [
+          "I keep writing the same headline",
+          "How can I find a fresh angle from existing facts"
+        ]
       }
     },
     {
       "id": "C-vgc-persona",
-      "version": 1,
+      "version": 2,
       "title": "从一个人的处境找到共鸣｜Person(a)",
       "tags": [
         "受众",
@@ -6081,11 +7130,29 @@
           "text": "Need to reach your charger before boarding? Keep it in the front pocket.",
           "note": "自拟旅行收纳练习，用户情境与口袋适配需验证。"
         }
+      },
+      "title_en": "Write from one real person’s situation | Person(a)",
+      "tags_en": [
+        "persona",
+        "audience research",
+        "customer interview",
+        "specific reader",
+        "audience empathy"
+      ],
+      "when_stuck": {
+        "zh": [
+          "画像只有年龄职业",
+          "用户画像怎么变成一句文案"
+        ],
+        "en": [
+          "The persona is just demographics",
+          "How can a real person's situation guide the copy"
+        ]
       }
     },
     {
       "id": "C-vgc-predicting-the-success-of-an-ad-campaign",
-      "version": 1,
+      "version": 2,
       "title": "先诊断受众与交易条件｜Predicting the success of an ad campaign",
       "tags": [
         "投放诊断",
@@ -6132,11 +7199,31 @@
           "text": "For teams replacing cracked sample cases: request the hinge-test report before ordering.",
           "note": "本轮自拟；仅在买家情境及测试报告真实时可用，非原文或实测广告。"
         }
+      },
+      "title_en": "Diagnose the audience and offer before rewriting | Predicting the success of an ad campaign",
+      "tags_en": [
+        "40/40/20",
+        "advertising performance",
+        "weak campaign",
+        "audience",
+        "offer",
+        "creative",
+        "direct response"
+      ],
+      "when_stuck": {
+        "zh": [
+          "广告效果差只想改标题",
+          "怎么判断是人群还是报价的问题"
+        ],
+        "en": [
+          "The ad campaign underperformed",
+          "Is the problem the audience, the offer, or the creative"
+        ]
       }
     },
     {
       "id": "C-vgc-robbing-and-writing",
-      "version": 1,
+      "version": 2,
       "title": "把反复修改写进具体场景｜Robbing and writing",
       "tags": [
         "修改",
@@ -6181,11 +7268,29 @@
           "text": "She read the opening again. Then crossed out the first sentence. The story finally started.",
           "note": "本轮自拟的虚构练习，非原文或真实客户经历。"
         }
+      },
+      "title_en": "Give revision a scene and a rhythm | Robbing and writing",
+      "tags_en": [
+        "revision",
+        "narrative pacing",
+        "action beats",
+        "podcast story",
+        "dialogue"
+      ],
+      "when_stuck": {
+        "zh": [
+          "访谈全文都是引语太拖",
+          "怎样让抽象改稿过程有画面"
+        ],
+        "en": [
+          "How can I break up long quotations",
+          "How do actions pace a scene about revision"
+        ]
       }
     },
     {
       "id": "C-vgc-love",
-      "version": 1,
+      "version": 2,
       "title": "用一个具体时刻表达大概念｜Love",
       "tags": [
         "具体化",
@@ -6230,11 +7335,29 @@
           "text": "At 6 a.m., the spare mug was already warming beside hers.",
           "note": "本轮自拟的虚构场景，仅演示关怀的具体化，非作者原作。"
         }
+      },
+      "title_en": "Express a large idea through a small moment | Love",
+      "tags_en": [
+        "sensory detail",
+        "micro-scene",
+        "abstract feeling",
+        "concrete moment",
+        "emotional copy"
+      ],
+      "when_stuck": {
+        "zh": [
+          "想写关怀但很空泛",
+          "怎么用一个时刻写出感受"
+        ],
+        "en": [
+          "How do I express care without naming it",
+          "The emotion is too abstract"
+        ]
       }
     },
     {
       "id": "C-vgc-good-copywriting-practice",
-      "version": 1,
+      "version": 2,
       "title": "固定为一个具体的人练笔｜Good copywriting practice",
       "tags": [
         "读者意识",
@@ -6279,11 +7402,29 @@
           "text": "Maya, start with the side pocket. Your charger fits there, so you can reach it without unpacking.",
           "note": "本轮自拟，演示针对一个人的信息选择；袋型与容量均为假设。"
         }
+      },
+      "title_en": "Practice choosing words for one reader | Good copywriting practice",
+      "tags_en": [
+        "one reader",
+        "deliberate practice",
+        "reader awareness",
+        "audience adaptation",
+        "writing exercise"
+      ],
+      "when_stuck": {
+        "zh": [
+          "稿子像对所有人广播",
+          "怎么练习为一个读者写"
+        ],
+        "en": [
+          "How do I practice writing to one reader",
+          "The draft sounds like a broadcast"
+        ]
       }
     },
     {
       "id": "C-vgc-writing-immersive-stories",
-      "version": 1,
+      "version": 2,
       "title": "用动作、对话与留白制造临场感｜Writing immersive stories",
       "tags": [
         "场景",
@@ -6329,11 +7470,30 @@
           "text": "The latch clicks. He lifts the case by one handle, pauses, then puts the sample inside.",
           "note": "本轮自拟的虚构练习；不能作为真实测试或客户证言。"
         }
+      },
+      "title_en": "Build presence with action, dialogue, and restraint | Writing immersive stories",
+      "tags_en": [
+        "immersive story",
+        "scene",
+        "present tense",
+        "dialogue",
+        "action",
+        "realism"
+      ],
+      "when_stuck": {
+        "zh": [
+          "写满意焦虑却没有现场感",
+          "想写出正在发生的体验"
+        ],
+        "en": [
+          "How do I make the scene feel immediate",
+          "The story tells what people felt without showing what happened"
+        ]
       }
     },
     {
       "id": "C-vgc-writing-slow",
-      "version": 1,
+      "version": 2,
       "title": "让思考跟上成稿速度｜Writing, slow",
       "tags": [
         "慢写",
@@ -6379,11 +7539,29 @@
           "text": "Abstract draft: Enjoy effortless organization. / Revision: Keep receipts in one pocket and tickets in the other.",
           "note": "自拟双口袋文件袋练习，结构与用途待确认。"
         }
+      },
+      "title_en": "Make meaning catch up with a polished draft | Writing, slow",
+      "tags_en": [
+        "draft review",
+        "deliberate writing",
+        "claim audit",
+        "causal logic",
+        "revision"
+      ],
+      "when_stuck": {
+        "zh": [
+          "成稿顺但论点含糊",
+          "句子之间逻辑跳跃"
+        ],
+        "en": [
+          "The copy is fluent but the reasoning jumps",
+          "How do I check whether a polished draft actually makes sense"
+        ]
       }
     },
     {
       "id": "C-vgc-a-poetic-masterpiece",
-      "version": 1,
+      "version": 2,
       "title": "用共同记忆赋予物品价值｜A poetic masterpiece",
       "tags": [
         "排比",
@@ -6430,11 +7608,30 @@
           "text": "It held your first sketches, your late revisions, your finished plans. Give the next designer a place to begin.",
           "note": "本轮自拟练习；虚构共享工作室募款语境，非原作或已验证文案。"
         }
+      },
+      "title_en": "Give an object value through shared memories | A poetic masterpiece",
+      "tags_en": [
+        "fundraising",
+        "anaphora",
+        "rule of three",
+        "repetition",
+        "shared memory",
+        "cadence"
+      ],
+      "when_stuck": {
+        "zh": [
+          "募款理由缺少共鸣",
+          "怎么用排比串起共同经历"
+        ],
+        "en": [
+          "How can shared memories support a fundraising request",
+          "How do I use repetition without padding copy"
+        ]
       }
     },
     {
       "id": "C-vgc-showing-vs-telling",
-      "version": 1,
+      "version": 2,
       "title": "让具体行为承担情感｜Showing vs. telling",
       "tags": [
         "展示而非告知",
@@ -6480,11 +7677,30 @@
           "text": "Before the first customer arrived, she had already set a dry towel beside every wet umbrella.",
           "note": "本轮自拟服务场景练习，非原广告或真实客户证言。"
         }
+      },
+      "title_en": "Let visible behavior carry feeling | Showing vs. telling",
+      "tags_en": [
+        "show don't tell",
+        "concrete action",
+        "emotional copy",
+        "chivas regal",
+        "father's day",
+        "action detail"
+      ],
+      "when_stuck": {
+        "zh": [
+          "稿子写贴心可靠却没画面",
+          "怎样用动作写出感谢"
+        ],
+        "en": [
+          "How do I show instead of telling",
+          "The copy calls the service thoughtful without an example"
+        ]
       }
     },
     {
       "id": "C-vgc-vignettes",
-      "version": 1,
+      "version": 2,
       "title": "用一个瞬间练习叙事收放｜Vignettes",
       "tags": [
         "微场景",
@@ -6531,11 +7747,29 @@
           "text": "The shop was dark. She turned the key, then reached back through the doorway to straighten the little OPEN sign.",
           "note": "本轮自拟虚构微场景，非原作或真实营销案例。"
         }
+      },
+      "title_en": "Practice narrative focus in a single moment | Vignettes",
+      "tags_en": [
+        "vignette",
+        "scene",
+        "micro-story",
+        "narrative compression",
+        "sensory detail"
+      ],
+      "when_stuck": {
+        "zh": [
+          "短文需要有故事但篇幅不够",
+          "该停在哪个细节"
+        ],
+        "en": [
+          "How do I tell a story in one short scene",
+          "Where should the vignette end"
+        ]
       }
     },
     {
       "id": "C-vgc-benefits",
-      "version": 1,
+      "version": 2,
       "title": "追问收益背后的收益｜Benefits",
       "tags": [
         "利益挖掘",
@@ -6582,11 +7816,30 @@
           "text": "A removable divider → room for a larger tool → one case for the job → less repacking before departure.",
           "note": "本轮自拟虚构工具箱推演；各层前提待核验，不是产品承诺。"
         }
+      },
+      "title_en": "Ask what a benefit makes possible | Benefits",
+      "tags_en": [
+        "feature to benefit",
+        "benefit ladder",
+        "dimensionalization",
+        "product benefit",
+        "reader motivation",
+        "so what"
+      ],
+      "when_stuck": {
+        "zh": [
+          "产品参数很强读者无感",
+          "怎么从规格追问到真正卖点"
+        ],
+        "en": [
+          "How can I turn a feature into a benefit",
+          "Which deeper benefit actually matters to the reader"
+        ]
       }
     },
     {
       "id": "C-vgc-one-of-the-best-copywriting-exercises",
-      "version": 2,
+      "version": 3,
       "title": "压缩文章并核对信息损耗｜One of the best copywriting exercises",
       "tags": [
         "精简",
@@ -6633,11 +7886,31 @@
           "text": "Draft: Orders received before noon leave that afternoon. This schedule applies on working days only. / Edit: On working days, orders received before noon ship that afternoon.",
           "note": "本轮自拟虚构物流练习，不是原作或真实服务承诺。"
         }
+      },
+      "title_en": "Compress a passage, then audit what was lost | One of the best copywriting exercises",
+      "tags_en": [
+        "concise",
+        "concision",
+        "edit",
+        "compression",
+        "shorten",
+        "meaning preservation",
+        "editing exercise"
+      ],
+      "when_stuck": {
+        "zh": [
+          "怎么缩短又不遗漏限制",
+          "字数太多如何精简"
+        ],
+        "en": [
+          "Make this more concise without losing conditions",
+          "How do I shorten copy and keep the facts intact"
+        ]
       }
     },
     {
       "id": "C-vgc-writing-better-dialogue",
-      "version": 1,
+      "version": 2,
       "title": "让对话标签退到背景｜Writing better dialogue",
       "tags": [
         "对话",
@@ -6684,8 +7957,106 @@
           "text": "“You kept the receipt?”\n“I kept every receipt.”\nShe opened the drawer. “Since the first day.”",
           "note": "本轮自拟虚构对白，非作者原文或真实客户证言。"
         }
+      },
+      "title_en": "Keep dialogue attribution in the background | Writing better dialogue",
+      "tags_en": [
+        "dialogue tags",
+        "said-bookisms",
+        "dialogue",
+        "attribution",
+        "read aloud",
+        "rhythm"
+      ],
+      "when_stuck": {
+        "zh": [
+          "对白标签太多打断阅读",
+          "怎么让人物对话更自然"
+        ],
+        "en": [
+          "How do I make dialogue sound natural",
+          "Do we need a speaker tag on every line"
+        ]
       }
     }
   ],
-  "feedback": []
+  "feedback": [],
+  "change_log": [
+    {
+      "revision": 9,
+      "date": "2026-11-17",
+      "reason": "Add English titles and keywords and bilingual writing symptoms to the case and method index.",
+      "added": [],
+      "updated": [
+        "M-001",
+        "M-002",
+        "M-003",
+        "M-004",
+        "M-005",
+        "M-006",
+        "M-007",
+        "M-008",
+        "M-009",
+        "M-010",
+        "M-011",
+        "M-012",
+        "M-013",
+        "M-014",
+        "M-015",
+        "M-016",
+        "M-017",
+        "M-018",
+        "M-019",
+        "M-020",
+        "M-021",
+        "M-022",
+        "M-023",
+        "M-024",
+        "C-fireball-question-sequence",
+        "C-dc10-objection-rewrite",
+        "C-scale-editing-exercise",
+        "C-rolls-royce-specific-detail",
+        "C-dove-positioning-continuity",
+        "C-rinso-useful-information-strategy",
+        "C-shell-fleet-saving-calculation",
+        "C-wallachs-service-evidence",
+        "C-shell-pipeline-objection",
+        "C-avis-service-positioning",
+        "C-sugarman-scale-buyer-questions",
+        "C-sugarman-grapefruit-origin-offer",
+        "C-sugarman-magicstat-objection-sequence",
+        "C-sugarman-swatch-choice-context",
+        "C-sugarman-apf-clock-calculator",
+        "C-sugarman-mail-order-mansion",
+        "C-sugarman-1976-commemorative-jewelry",
+        "C-sugarman-precor-fiction-boundary",
+        "C-sugarman-nautilus-participation",
+        "C-sugarman-gold-chains-confounds",
+        "C-zebra-saddle-creek-workflow-proof",
+        "C-cialdini-samples-and-gifts",
+        "C-cialdini-car-quote-changed",
+        "C-cialdini-scripted-testimonials",
+        "C-cialdini-sanka-authority",
+        "C-cialdini-beef-supply-notice",
+        "C-cialdini-cookie-availability",
+        "C-vgc-noticing",
+        "C-vgc-horrible-horrible-copy",
+        "C-vgc-artificial-writing",
+        "C-vgc-meeting-your-firstborn-child",
+        "C-vgc-not-doing-your-job",
+        "C-vgc-persona",
+        "C-vgc-predicting-the-success-of-an-ad-campaign",
+        "C-vgc-robbing-and-writing",
+        "C-vgc-love",
+        "C-vgc-good-copywriting-practice",
+        "C-vgc-writing-immersive-stories",
+        "C-vgc-writing-slow",
+        "C-vgc-a-poetic-masterpiece",
+        "C-vgc-showing-vs-telling",
+        "C-vgc-vignettes",
+        "C-vgc-benefits",
+        "C-vgc-one-of-the-best-copywriting-exercises",
+        "C-vgc-writing-better-dialogue"
+      ]
+    }
+  ]
 }

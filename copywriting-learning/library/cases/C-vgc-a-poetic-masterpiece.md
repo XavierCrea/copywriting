@@ -1,6 +1,6 @@
 # 用共同记忆赋予物品价值｜A poetic masterpiece
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-vgc-a-poetic-masterpiece.md) · 原广告或案例记录及作者、发布方的叙述
 
 
 ## 原材料里看到什么
@@ -44,4 +44,4 @@
 
 - VeryGoodCopy。[A poetic masterpiece:](https://www.verygoodcopy.com/writing/a-poetic-masterpiece)
 
-案例编号 `C-vgc-a-poetic-masterpiece`，记录版本 1。
+案例编号 `C-vgc-a-poetic-masterpiece`，记录版本 2。

@@ -1,6 +1,6 @@
 # Precor 划船机：让故事里的空间限制成为产品出场理由
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-sugarman-precor-fiction-boundary.md) · 原广告或案例记录及作者、发布方的叙述
 
 - **背景**　Precor 精密划船机系列
 - **读者**　可能关注家庭健身，但尚未主动寻找划船机的平面广告读者；具体人群未交代
@@ -52,4 +52,4 @@
 
 关联写作方法包括按读者的问题顺序组织信息、从案例借结构并检查迁移条件、用有来源的故事解释产品价值。
 
-案例编号 `C-sugarman-precor-fiction-boundary`，记录版本 2。
+案例编号 `C-sugarman-precor-fiction-boundary`，记录版本 3。

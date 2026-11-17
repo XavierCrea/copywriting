@@ -1,6 +1,6 @@
 # Zebra × Saddle Creek：用岗位动作串起技术能力、经营价值与实施信心
 
-[返回案例库](../README.md) · 原广告或案例记录及作者、发布方的叙述
+[返回案例库](../README.md) · [English](en/C-zebra-saddle-creek-workflow-proof.md) · 原广告或案例记录及作者、发布方的叙述
 
 - **背景**　Zebra 多类仓储设备用于 Saddle Creek 的分阶段现代化改造。
 - **读者**　需评估仓库效率、岗位设备与系统实施的运营和技术决策者；这是基于内容的受众判断。
@@ -57,4 +57,4 @@
 
 关联写作方法包括同时研究产品与目标买家、正面回应有依据的关键异议、从案例借结构并检查迁移条件、用具体产品事实证明读者利益、按企业买家的职责组织技术与商业信息。
 
-案例编号 `C-zebra-saddle-creek-workflow-proof`，记录版本 2。
+案例编号 `C-zebra-saddle-creek-workflow-proof`，记录版本 3。
