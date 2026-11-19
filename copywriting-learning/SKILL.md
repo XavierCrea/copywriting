@@ -4,7 +4,7 @@ description: >-
   Write or revise English ads, product pages, marketing emails, and customer replies from verified facts and relevant cases. Analyze campaigns and books or learn reusable techniques from feedback.
   基于产品事实与用户洞察撰写或改写广告、卖点、详情页、营销邮件、客户回复和品牌文案。从书籍、营销案例和实际反馈提炼可追溯的写法，按任务检索应用。
 metadata:
-  version: "1.3.0"
+  version: "1.4.0"
 ---
 
 # 文案研究与案例学习
@@ -26,6 +26,10 @@ metadata:
 读取 [写作指南](references/writing.md)。根据读者、渠道、沟通目标和已核实的事实决定写什么、按什么顺序说。用读者遇到的具体障碍找案例，从匹配的案例提取写作动作。写卖点、广告或详情页时，逐项核对已确认事实、用户能做的具体动作以及成立条件，再落稿和修订。
 
 只询问会改变结果的关键缺口。交付本次要求的文案及必要依据。有可核实的反馈且获准入库时，按学习流程留存。遵守用户要求保留的原文、事实和禁止项。文案中的参数、资质、效果和服务承诺须有本次任务的依据。
+
+### 图文联动
+
+用户同时需要英文文案与视觉方案，或明确要求两个技能配合时，搭配 `art-direction-learning`。该技能可用时读取它的 `SKILL.md`，按[图文联动](references/writing.md#图文联动)把已核实的主张和文案层级交给视觉侧。只交付文案的任务按上面的写作流程完成。
 
 ### 学习书籍或案例
 

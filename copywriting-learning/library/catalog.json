@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "revision": 11,
-  "updated_at": "2026-11-18",
+  "revision": 12,
+  "updated_at": "2026-11-19",
   "sources": [
     {
       "id": "S-sugarman-adweek-cn-2011",
@@ -812,6 +812,102 @@
       "version": 1,
       "publisher": "小米汽车",
       "url": "https://www.sina.cn/news/detail/5293802468412604.html"
+    },
+    {
+      "id": "S-bly-copywriters-handbook-cn-3e-2013",
+      "kind": "book",
+      "title": "文案创作完全手册",
+      "title_en": "The Copywriter’s Handbook",
+      "author": "Robert W. Bly",
+      "translators": [
+        "刘怡女",
+        "袁婧"
+      ],
+      "publisher": "北京联合出版公司",
+      "edition": "原书第 3 版中译本，2013 年中文书目",
+      "isbn": "978-7-5502-1652-5",
+      "series": "The Copywriter’s Handbook",
+      "retrieved_at": "2026-11-19",
+      "reading_status": "partial_review",
+      "original_availability": "citation_only",
+      "pdf_pages": 206,
+      "bibliographic_url": "https://opac.gxu.edu.cn/machineCodes_01h0434609.html",
+      "coverage_note": "核对封面、版权页及部分目录，详细核阅第 2、4、7 章正文，对应所提供重排 PDF 物理页 26–37、51–66、91–102，共 40 页。查看了 PDF 第 64 页的文案长度图。英文练习为自拟，原书整本及英文原版未在本轮逐页核对。",
+      "learning_origin": "book_canon",
+      "reviewed_locations": [
+        {
+          "locator": "封面、版权页及目录开头",
+          "pdf_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "locator": "第 2 章，标题",
+          "pdf_pages": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        {
+          "locator": "第 4 章，卖点、证据和篇幅图",
+          "pdf_pages": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ]
+        },
+        {
+          "locator": "第 7 章，销售信",
+          "pdf_pages": [
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102
+          ]
+        }
+      ],
+      "version": 1
     }
   ],
   "methods": [
@@ -8443,6 +8539,321 @@
           "note": "自拟遮阳篷广告练习。假设画面已经清楚展示遮阳篷和露台，用日常节奏写使用体验。并非小米原文或官方译文。"
         }
       }
+    },
+    {
+      "id": "C-bly-headlines-filter-readers",
+      "title": "标题先筛选读者，再决定要不要双关",
+      "title_en": "Headlines that filter readers and earn their wordplay",
+      "tags": [
+        "广告标题",
+        "筛选读者",
+        "双关",
+        "具体卖点",
+        "4U"
+      ],
+      "tags_en": [
+        "headline",
+        "reader qualification",
+        "wordplay",
+        "specific benefit",
+        "4U"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "learning_origin": "book_canon",
+      "method_ids": [
+        "M-003",
+        "M-012",
+        "M-015"
+      ],
+      "source_refs": [
+        {
+          "source_id": "S-bly-copywriters-handbook-cn-3e-2013",
+          "pdf_pages": [
+            27,
+            28,
+            29,
+            30,
+            34,
+            35,
+            36,
+            37
+          ]
+        }
+      ],
+      "when_stuck": {
+        "zh": [
+          "标题吸引人但不指向目标买家"
+        ],
+        "en": [
+          "The headline is clever but does not qualify the reader"
+        ]
+      },
+      "observations": [
+        "贺尔曼广告用烘焙问题吸引在意蛋糕口感的读者，并承诺提供信息。",
+        "工业混合设备广告的比值先像赔率，正文再把它解释成产品工况。",
+        "布莱先列产品事实与材料动作词，再为牙套尝试将贴合和转弯联系起来。"
+      ],
+      "analysis": "先让读者自认这是自己的任务，再决定用直接叙述、悬念或双关呈现。巧表达应能在图或下一句落到相同的产品事实。",
+      "application": {
+        "steps": [
+          "写清受众正在做什么，用任务或对象作标题入口。",
+          "先写一个直接、边界清楚的基准稿，再试节奏或双层含义。",
+          "阅读标题与配图的组合，检查首屏或首段是否兑现它让读者期待的信息。"
+        ],
+        "checks": [
+          "读者能否复述对象和用途？",
+          "双关的第二层含义有证据并能快速读懂吗？"
+        ],
+        "applies_when": "短广告、邮件主题和影响读者资格判断的标题。",
+        "example": {
+          "type": "hypothetical",
+          "text": "Replace the drive roller without removing the belt.\nThe roller slides out. The belt stays on.",
+          "note": "自拟的两个独立备选标题。练习设定为已确认 A 型输送线可侧抽驱动滚筒，无须拆下皮带。第二行适合画面已说明产品类型的版位。"
+        }
+      },
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "作者称客户采用了其中一个牙套标题。未披露对照测试或可核对效果数据。",
+        "verification_status": "not_independently_verified"
+      },
+      "transfer_limits": [
+        "标题单独出现时优先保留必要的识别和适用条件。",
+        "4U 只用于编辑检查，紧迫性须有真实依据。历史广告中的数字不转用。"
+      ],
+      "version": 1
+    },
+    {
+      "id": "C-bly-blackmer-application-fit",
+      "title": "布莱克默泵：缩小卖点范围，再用工况资料证明",
+      "title_en": "Blackmer pumps: make the case for one application",
+      "tags": [
+        "卖点",
+        "工况",
+        "工业品",
+        "技术手册",
+        "同质化"
+      ],
+      "tags_en": [
+        "product benefit",
+        "application fit",
+        "industrial copy",
+        "technical literature",
+        "positioning"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "learning_origin": "book_canon",
+      "method_ids": [
+        "M-011",
+        "M-013",
+        "M-023"
+      ],
+      "source_refs": [
+        {
+          "source_id": "S-bly-copywriters-handbook-cn-3e-2013",
+          "pdf_pages": [
+            55,
+            56,
+            57
+          ]
+        }
+      ],
+      "when_stuck": {
+        "zh": [
+          "产品和同行差不多怎么写出有说服力的卖点"
+        ],
+        "en": [
+          "Competing products sound alike and buyers need to check fit"
+        ]
+      },
+      "observations": [
+        "布莱描述广告用泵厂目录圈出品牌，问读者哪些情况才值得联系它。",
+        "正文承认许多工况无特别优势，聚焦特定介质，并提供技术手册。"
+      ],
+      "analysis": "把笼统的品类优劣问题缩到一个会改变推荐的工况，说明理由并交出读者可自行核对的资料。对照应在同一口径下成立。",
+      "application": {
+        "steps": [
+          "找出会改变选型的真实变量和参照条件。",
+          "用该任务限定主张，注明验证条件。",
+          "链接规格页、测试或选型资料，交代下一步需要确认什么。"
+        ],
+        "checks": [
+          "测试口径覆盖了标题主张吗？",
+          "读者能核对自己的工况吗？"
+        ],
+        "applies_when": "B2B 技术卖点、详情页或选型说明。",
+        "example": {
+          "type": "hypothetical",
+          "text": "For short runs of paper labels.\nTested in batches of 100 to 300. Ask for the setup sheet to check your label stock.",
+          "note": "自拟贴标机练习。仅以给定的 100–300 张纸质标签测试为依据。"
+        }
+      },
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "布莱转述策划人对活动的正面评价。未提供原始试验、响应率或对照数据。",
+        "verification_status": "not_independently_verified"
+      },
+      "transfer_limits": [
+        "没有同口径的竞品数据时，只陈述本产品的已知能力和适配条件。",
+        "行业共用的真实工艺也可成为有价值的说明，称为独家要额外核实。"
+      ],
+      "version": 1
+    },
+    {
+      "id": "C-bly-stock-shipment-implied-claim",
+      "title": "库存发货案例：检查真实数字引出的隐含主张",
+      "title_en": "Stock shipments: check the inference behind a true number",
+      "tags": [
+        "隐含主张",
+        "库存",
+        "比较口径",
+        "交期",
+        "审稿"
+      ],
+      "tags_en": [
+        "implied claim",
+        "supplier stock",
+        "availability",
+        "comparison scope",
+        "claim review"
+      ],
+      "status": "candidate",
+      "case_type": "counterfactual_rewrite",
+      "learning_origin": "book_canon",
+      "method_ids": [
+        "M-011",
+        "M-014",
+        "M-019"
+      ],
+      "source_refs": [
+        {
+          "source_id": "S-bly-copywriters-handbook-cn-3e-2013",
+          "pdf_pages": [
+            54,
+            55
+          ]
+        }
+      ],
+      "when_stuck": {
+        "zh": [
+          "文案数字没错但买家可能会误解库存归属和现在的交期"
+        ],
+        "en": [
+          "A true stock or lead-time claim could imply more than the evidence supports"
+        ]
+      },
+      "observations": [
+        "书中一家金属进口代理商写有一定比例订单从库存发出。作者说明库存归供应商。",
+        "另一例把演讲要点资料与完整代写的价格放在同一个比较里，交付范围不同。"
+      ],
+      "analysis": "把事实、明说的内容和读者可能得出的结论分开。若归属、时间、分母或参照交付会改变判断，把条件放在主张旁边。",
+      "application": {
+        "steps": [
+          "以买家的口吻复述这句话可能意味着什么。",
+          "把历史履约、供应商归属和本单可供状态分开。",
+          "明确比较口径。给买家一个能查当前情况的入口。"
+        ],
+        "checks": [
+          "读者会不会将历史表现理解为本单保证？",
+          "比较双方提供的东西一样吗？"
+        ],
+        "applies_when": "库存、交期、性能和对比主张的审稿。",
+        "example": {
+          "type": "hypothetical",
+          "text": "Last quarter, 82 of 100 orders shipped from supplier stock. Send us the model and quantity to check current availability.",
+          "note": "自拟练习，样本与口径均为给定模拟输入，不复用原案例的经营数字。"
+        }
+      },
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "作者举例，未提供受众理解测试或市场结果。将其用于审稿的写法是本次逆向提炼。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "真正需要的限定放在主张近处。无法核对的现货承诺不加入稿件。"
+      ],
+      "version": 1
+    },
+    {
+      "id": "C-bly-sales-letter-brochure-reply",
+      "title": "销售信与附件分工：开头先给一个值得回的理由",
+      "title_en": "Sales letters: make the opening earn the reply",
+      "tags": [
+        "销售信",
+        "展会跟进",
+        "目录附件",
+        "第一句",
+        "回信"
+      ],
+      "tags_en": [
+        "sales letter",
+        "trade show follow-up",
+        "opening",
+        "attachment",
+        "reply friction"
+      ],
+      "status": "reference",
+      "case_type": "author_report",
+      "learning_origin": "book_canon",
+      "method_ids": [
+        "M-002",
+        "M-019",
+        "M-023"
+      ],
+      "source_refs": [
+        {
+          "source_id": "S-bly-copywriters-handbook-cn-3e-2013",
+          "pdf_pages": [
+            92,
+            93,
+            94,
+            95,
+            100,
+            101,
+            102
+          ]
+        }
+      ],
+      "when_stuck": {
+        "zh": [
+          "发完目录不知道跟进第一句怎么写"
+        ],
+        "en": [
+          "I sent the catalog and need a useful opening for the follow-up"
+        ]
+      },
+      "observations": [
+        "书中贝多芬套装的信先介绍试听方案，另一封信先给读者一份有用途的资料。",
+        "布莱把信件、宣传册和回函的工作分开，并给出允许读者说明时机未到的回函设计。"
+      ],
+      "analysis": "开场取决于希望得到的下一步。已知问题先回问题，尚需评估先给能查用的资料。让附件提供细节，让邮件给出相关理由和一个容易做的动作。",
+      "application": {
+        "steps": [
+          "先确定读者要做的下一项判断。",
+          "根据实际交流选择一个开场入口，点明附件能帮助他核对什么。",
+          "请读者回答一个有用的问题，或者把时间状态说清楚。"
+        ],
+        "checks": [
+          "本次开场的资料或问题是否真实？",
+          "读者能否用一句回答帮助推进判断？"
+        ],
+        "applies_when": "展会后跟进、发资料后跟进及有一项明确下游动作的邮件。",
+        "example": {
+          "type": "hypothetical",
+          "text": "You asked whether the labeler could sit against a wall. The attached drawing shows the footprint and the side clearance. Which side would face the wall?",
+          "note": "自拟邮件片段。练习设定为对方实际问过、安装图已核对并已附。没有相应材料时先确认事实。"
+        }
+      },
+      "outcome_evidence": {
+        "evidence_type": "author_report",
+        "claim": "书中直邮写法与示例由作者提供。本例英文改稿未发送，也无回复数据。",
+        "verification_status": "unknown"
+      },
+      "transfer_limits": [
+        "按读者关系和购买进度取舍、核对可兑现的请求。纸质投递、抽奖与回复表现不能直接迁移到电子邮件。"
+      ],
+      "version": 1
     }
   ],
   "feedback": [
@@ -8558,6 +8969,19 @@
         "F-001",
         "M-027",
         "C-xiaomi-su7-2026-capri-blue-billboard-copy"
+      ],
+      "updated": []
+    },
+    {
+      "revision": 12,
+      "date": "2026-11-19",
+      "reason": "Review four reusable writing cases from Robert W. Bly’s third edition, based on the supplied Chinese translation. Preserve evidence scope and label original English exercises.",
+      "added": [
+        "S-bly-copywriters-handbook-cn-3e-2013",
+        "C-bly-headlines-filter-readers",
+        "C-bly-blackmer-application-fit",
+        "C-bly-stock-shipment-implied-claim",
+        "C-bly-sales-letter-brochure-reply"
       ],
       "updated": []
     }

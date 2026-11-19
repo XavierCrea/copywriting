@@ -2,6 +2,11 @@
 
 [简体中文](CHANGELOG.md)
 
+## v1.4.0
+
+- Added an optional workflow with `art-direction-learning` for ads, hero sections, product pages, and trade-show materials. Pass along the copy hierarchy, supporting evidence, and conditions the visual treatment needs to preserve.
+- Added four bilingual cases from Robert W. Bly's *The Copywriter's Handbook*, bringing the library to 50 entries. The writing guide includes ways to find and apply them to headlines, application-specific claims, implied promises, and sales follow-ups.
+
 ## v1.3.0
 
 - Added one bilingual Xiaomi SU7 Capri Blue copy teardown with an original English exercise and clear evidence limits. The library now contains 46 cases and exercises.

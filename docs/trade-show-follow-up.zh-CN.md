@@ -22,6 +22,8 @@
 
 [方法原始记录](../copywriting-learning/library/catalog.json)。这些案例用于指导分析和表达，其中的产品、客户情境与结果，不会成为这位客户的事实。
 
+如果手头有客户原话和能回答它的资料，可以从原问题开场，指出客户能查的那一页或那张图，最后只问一项能推进选型的条件。[布莱的销售信与资料分工](../copywriting-learning/library/cases/C-bly-sales-letter-brochure-reply.md)
+
 **03 · 客户可能卡在哪里？**
 
 | 可能的原因 | 回看之前的沟通，寻找什么 | 可以改进的方向 |

@@ -1,6 +1,6 @@
 # 文案案例库
 
-这里有 46 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。可按写作困境检索，也可以用 --origin 按出处类别筛选。
+这里有 50 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。可按写作困境检索，也可以用 --origin 按出处类别筛选。
 
 [返回项目首页](../../README.zh-CN.md) · [English index](README.en.md) · [查看可检索的资料库](catalog.json)
 
@@ -67,3 +67,10 @@
 ## 新一代小米 SU7 卡布里蓝户外文案与「蓝色慢游节」拆解（1 例）
 
 - [小米 SU7 卡布里蓝：把颜色写成一种可感知的节奏](cases/C-xiaomi-su7-2026-capri-blue-billboard-copy.md)
+
+## The Copywriter’s Handbook（4 例）
+
+- [标题先筛选读者，再决定要不要双关](cases/C-bly-headlines-filter-readers.md)
+- [布莱克默泵：缩小卖点范围，再用工况资料证明](cases/C-bly-blackmer-application-fit.md)
+- [库存发货案例：检查真实数字引出的隐含主张](cases/C-bly-stock-shipment-implied-claim.md)
+- [销售信与附件分工：开头先给一个值得回的理由](cases/C-bly-sales-letter-brochure-reply.md)

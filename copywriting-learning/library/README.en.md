@@ -2,11 +2,18 @@
 
 [English homepage](../../README.md) · [项目中文首页](../../README.zh-CN.md) · [中文案例索引](README.md)
 
-All 46 cases, teardowns, and exercises have English notes and a linked Chinese counterpart. Each page covers source observations, interpretation, application steps, limits, and reported results, followed by an English writing-craft section. Original practice is labeled separately from source quotations. Book references retain the edition and available page locators; English practice is not presented as recovered original advertising copy.
+All 50 cases, teardowns, and exercises have English notes and a linked Chinese counterpart. Each page covers source observations, interpretation, application steps, limits, and reported results, followed by an English writing-craft section. Original practice is labeled separately from source quotations. Book references retain the edition and available page locators; English practice is not presented as recovered original advertising copy.
 
 The 18 VeryGoodCopy entries also link to their original English lessons. These pages contain our case analysis and practice, not reproductions of the lessons.
 
 Start from the problem you are trying to write about. From the skill folder, run `python3 scripts/library.py search "pricing objection" --kind cases`. Use `python3 scripts/library.py get M-013 C-shell-fleet-saving-calculation` to open the method and case together. [Searchable catalog](catalog.json)
+
+## Robert W. Bly: The Copywriter's Handbook
+
+- [Headlines that help the right readers recognize themselves](cases/en/C-bly-headlines-filter-readers.md) – Draft a plain line to establish the claim, then try rhythm or wordplay the product detail can support.
+- [Blackmer pumps](cases/en/C-bly-blackmer-application-fit.md) – Make the case for a specific application and give buyers a way to check their fit.
+- [Stock shipments and implied claims](cases/en/C-bly-stock-shipment-implied-claim.md) – Check what the wording implies about ownership, past performance, and current availability.
+- [Sales letters that earn a reply](cases/en/C-bly-sales-letter-brochure-reply.md) – Start with a question that matters to the buyer, explain what an attachment helps them check, and make replying simple.
 
 ## Outdoor copy teardown
 
