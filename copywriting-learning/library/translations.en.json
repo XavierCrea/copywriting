@@ -4,6 +4,26 @@
     "source_sha256": "d3bc00d0ed29f92bb9ab249aa97f5e27268ce77f8773ec3ea3a585335a98096c",
     "source_version": 3
   },
+  "C-bly-blackmer-application-fit": {
+    "english_sha256": "1a6480a353efaffe9965bad5e6bf49220b4ca3b43089a076305ed9783f11af92",
+    "source_sha256": "a863b9e33528a4415aa9c682f55b1bc83eeaa4d93fb01129f32cfcceb04825d5",
+    "source_version": 1
+  },
+  "C-bly-headlines-filter-readers": {
+    "english_sha256": "bb96de0af147a8d31be91f9a4032e6254d6f14916f9fa47447178e02d559301f",
+    "source_sha256": "d3d8b9647e11ee0ebeaa200f9abdd72b48d5106e82275e92c7a3bffdb8744f21",
+    "source_version": 1
+  },
+  "C-bly-sales-letter-brochure-reply": {
+    "english_sha256": "4e86337c15416890b0d4644cfc2bdbb1d2742385efbc9dfa98c1e3a847dc548a",
+    "source_sha256": "dbce8ef250dac0ee37782871a5ca3cbd5573c43913b9bcb46fc1946f84d9da77",
+    "source_version": 1
+  },
+  "C-bly-stock-shipment-implied-claim": {
+    "english_sha256": "f91cc930cfabe824d18d1bf3f481ce7f76b0e65754c150c6a5c8a37e8e65e6f8",
+    "source_sha256": "00caf41591af538d0f7f3042c795ace09758184f1569369bfd25f9047a9330f4",
+    "source_version": 1
+  },
   "C-cialdini-beef-supply-notice": {
     "english_sha256": "f96ef09565d072b216b859e134d3d30acc1e8854fa737315f9c0e6c503360271",
     "source_sha256": "55299fab470a42b89bf294aa610b94d38d1b5fa5df2ea90f279f18a529e8f76f",

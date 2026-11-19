@@ -8,7 +8,7 @@
 
 你可能非常了解产品，却还没有找到让价值变得鲜明的那个细节。也可能遇到客户沉默、标题平淡，或一份面面俱到却没有说到重点的草稿。`copywriting-learning` 帮你从选择信息开始，一直推敲到具体用词。
 
-**v1.3.0 · 46 个中英双语案例与练习 · 27 条可检索方法**
+**v1.4.0 · 50 个中英双语案例与练习 · 27 条可检索方法**
 
 ## 展会跟进示范
 
@@ -93,9 +93,13 @@ flowchart LR
 
 [写作指南](copywriting-learning/references/writing.md) · [案例推理的方法出处](https://www.iiia.csic.es/~enric/papers/Aamodt_1994_Case.pdf)
 
+同时需要文案和视觉方案时，可以这样调用：「用 `copywriting-learning` 和 `art-direction-learning`，为这个展会邀请函写英文文案并规划视觉。」文案先明确主张、依据和下一步，视觉技能再决定画面展示什么、图文怎样分工及版面先看哪里。[视觉技能](https://github.com/XavierCrea/art-direction-learning)
+
 ## 案例库与学习积累
 
-案例库收录奥格威、休格曼和公开品牌案例，以及 18 篇 VeryGoodCopy 短课提炼。新增的[小米 SU7 卡布里蓝拆解](copywriting-learning/library/cases/C-xiaomi-su7-2026-capri-blue-billboard-copy.md)展示怎样把颜色写成读者能体会的节奏。另有两条来自 Steve Krug 的方法，可用来精简网页说明、写清首屏定位、回应真实的常见问题。
+案例库收录奥格威、休格曼和公开品牌案例，以及 18 篇 VeryGoodCopy 短课提炼。[小米 SU7 卡布里蓝拆解](copywriting-learning/library/cases/C-xiaomi-su7-2026-capri-blue-billboard-copy.md)展示怎样把颜色写成读者能体会的节奏。另有两条来自 Steve Krug 的方法，可用来精简网页说明、写清首屏定位、回应真实的常见问题。
+
+新增布莱的四篇，覆盖标题筛选读者、按具体工况写卖点、审查隐含主张，以及给客户一个容易回复的邮件开头。[布莱案例与英文练习](copywriting-learning/library/README.en.md#robert-w-bly-the-copywriters-handbook)
 
 你也可以带来一则广告、一份改过的稿子或可核实的反馈。先看拟入库记录，确认提炼的写法和适用范围，再让脚本校验、备份并保存。把编辑对措辞的评价、客户实际回复、投放数据分别记清楚。
 

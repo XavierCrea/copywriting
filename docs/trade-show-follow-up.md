@@ -22,6 +22,8 @@ That is the whole brief. The product, the buyer's exact requirements, and the re
 
 [Read the method records](../copywriting-learning/library/catalog.json). These cases guide the analysis and writing choices; their products, customer situations, and results do not become facts about this prospect.
 
+If you have the buyer's exact question and a verified document that helps answer it, open with the question, point to the place in the document they can check, and ask for one detail that will move the conversation forward. [Bly on sales letters and supporting material](../copywriting-learning/library/cases/en/C-bly-sales-letter-brochure-reply.md)
+
 **03 · What might be getting in the way?**
 
 | Possible obstacle | What to look for in the previous exchange | Useful response |

@@ -8,7 +8,7 @@ Turn product facts, customer questions, and rough drafts into English copy that 
 
 Sometimes you know your product inside out but haven’t found the detail that makes its value click. Sometimes a prospect goes quiet, a headline feels flat, or a draft says everything except what matters most. `copywriting-learning` helps you work through those moments—from choosing the message to finding the words.
 
-**v1.3.0 · 46 bilingual cases and exercises · 27 searchable methods**
+**v1.4.0 · 50 bilingual cases and exercises · 27 searchable methods**
 
 ## See it in action
 
@@ -93,9 +93,13 @@ A full email or product page usually gets one main draft. When you’re explorin
 
 [Writing guide (Chinese)](copywriting-learning/references/writing.md) · [Background on case-based reasoning](https://www.iiia.csic.es/~enric/papers/Aamodt_1994_Case.pdf)
 
+For a project that needs both, try “Use `copywriting-learning` and `art-direction-learning` to prepare the English copy and visual brief for this trade-show invitation.” The copy establishes the message, supporting facts, and next step. Art direction decides what the image should show and how the page should guide the eye. [Art direction skill](https://github.com/XavierCrea/art-direction-learning)
+
 ## Inside the library
 
-The library includes advertising cases from Ogilvy and Sugarman, 18 VeryGoodCopy Micro-Lesson notes, and public brand examples. The new [Xiaomi SU7 teardown](copywriting-learning/library/cases/en/C-xiaomi-su7-2026-capri-blue-billboard-copy.md) looks at how a color can suggest a change of pace. Two methods from Steve Krug cover writing for readers who scan, homepage taglines, and FAQs that answer real questions.
+The library includes advertising cases from Ogilvy and Sugarman, 18 VeryGoodCopy Micro-Lesson notes, and public brand examples. The [Xiaomi SU7 teardown](copywriting-learning/library/cases/en/C-xiaomi-su7-2026-capri-blue-billboard-copy.md) looks at how a color can suggest a change of pace. Two methods from Steve Krug cover writing for readers who scan, homepage taglines, and FAQs that answer real questions.
+
+Four cards from Robert W. Bly cover headlines that help the right readers recognize their task, industrial claims scoped to a real use, wording that implies more than the evidence supports, and sales follow-ups that are easy to answer. [Bly's four cases and English exercises](copywriting-learning/library/README.en.md#robert-w-bly-the-copywriters-handbook)
 
 A useful edit can go back into the library. Bring a source, a revision you made, or feedback you can verify. The skill can show you a proposed entry with the source and the reusable move. After you approve it, the library tool checks the update, keeps a backup, and saves it as a new revision. Keep an editor’s wording preference, a customer’s reply, and measured campaign results in their own evidence categories.
 
