@@ -4,7 +4,7 @@ description: >-
   Write or revise English ads, product pages, marketing emails, and customer replies from verified facts and relevant cases. Analyze campaigns and books or learn reusable techniques from feedback.
   基于产品事实与用户洞察撰写或改写广告、卖点、详情页、营销邮件、客户回复和品牌文案。从书籍、营销案例和实际反馈提炼可追溯的写法，按任务检索应用。
 metadata:
-  version: "1.2.2"
+  version: "1.3.0"
 ---
 
 # 文案研究与案例学习
@@ -14,7 +14,7 @@ metadata:
 ## 资料入口
 
 - 位置见 [library-location.json](references/library-location.json)；用户本轮指定的资料库优先。默认库不可读时说明实际缺口。
-- 用 `python3 scripts/library.py search "写作困境或关键词"` 检索中英文索引。用 `python3 scripts/library.py get M-001 M-019 C-sugarman-scale-buyer-questions` 一次打开相关记录。案例如有 Markdown 路径，按需读完整卡片。命令路径相对本技能目录。
+- 用 `python3 scripts/library.py search "写作困境或关键词"` 检索中英文索引；需要按出处筛选时使用 `--origin`，例如 `search "billboard" --kind cases --origin co_dissected_teardown`。用 `python3 scripts/library.py get M-001 M-027 C-xiaomi-su7-2026-capri-blue-billboard-copy` 一次打开相关记录。案例如有 Markdown 路径，按需读完整卡片。命令路径相对本技能目录。
 - `summary` 查看资料量及阅读范围，`validate --check-files` 核对记录、指纹与引用。学习记录按 [学习与更新](references/learning.md) 准备补丁，由用户确认后用 `apply-patch` 入库。
 - 实际打开对应记录及必要原始页后，才能说明使用了该方法或读过该来源。文件已保存不表示整本已读。
 - 新增或改动记录时读取 [知识记录约定](references/knowledge-contract.md)。

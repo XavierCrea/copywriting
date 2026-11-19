@@ -16,6 +16,7 @@ CASE_KINDS = {
     "counterfactual_rewrite": "原广告点评与假设改写",
     "writing_exercise": "写作练习",
     "synthetic": "模拟示例",
+    "comparative_field_teardown": "实战对比拆解",
 }
 EVIDENCE_STATES = {
     "unknown": "效果未知",
@@ -103,7 +104,7 @@ def render_index(cases, sources):
     lines = [
         "# 文案案例库",
         "",
-        f"这里有 {len(cases)} 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。技能使用同目录下的资料索引检索案例和关联方法。",
+        f"这里有 {len(cases)} 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。可按写作困境检索，也可以用 --origin 按出处类别筛选。",
         "",
         "[返回项目首页](../../README.zh-CN.md) · [English index](README.en.md) · [查看可检索的资料库](catalog.json)",
     ]

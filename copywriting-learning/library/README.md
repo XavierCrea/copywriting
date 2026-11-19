@@ -1,6 +1,6 @@
 # 文案案例库
 
-这里有 45 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。技能使用同目录下的资料索引检索案例和关联方法。
+这里有 46 个案例和练习，每张卡提供原文观察、解读、可借用的步骤、适用边界和来源。可按写作困境检索，也可以用 --origin 按出处类别筛选。
 
 [返回项目首页](../../README.zh-CN.md) · [English index](README.en.md) · [查看可检索的资料库](catalog.json)
 
@@ -63,3 +63,7 @@
 - [追问收益背后的收益｜Benefits](cases/C-vgc-benefits.md)
 - [压缩文章并核对信息损耗｜One of the best copywriting exercises](cases/C-vgc-one-of-the-best-copywriting-exercises.md)
 - [让对话标签退到背景｜Writing better dialogue](cases/C-vgc-writing-better-dialogue.md)
+
+## 新一代小米 SU7 卡布里蓝户外文案与「蓝色慢游节」拆解（1 例）
+
+- [小米 SU7 卡布里蓝：把颜色写成一种可感知的节奏](cases/C-xiaomi-su7-2026-capri-blue-billboard-copy.md)

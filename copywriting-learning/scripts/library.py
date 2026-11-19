@@ -15,6 +15,7 @@ import tempfile
 import unicodedata
 
 GROUPS = ("sources", "methods", "cases", "feedback")
+LEARNING_ORIGINS = {"book_canon", "benchmark_study", "co_dissected_teardown", "task_feedback"}
 BASE = {"id", "version", "title"}
 REQUIRED = {
     "sources": BASE | {"kind", "reading_status", "reviewed_locations", "retrieved_at"},
@@ -179,7 +180,7 @@ def validate(root, data, check_files):
                 if not text_list(method_ids) or any(key not in methods for key in method_ids):
                     errors.append(rid + " 引用了不存在的方法")
                 if record.get("case_type") not in {
-                    "deployed", "author_report", "counterfactual_rewrite", "writing_exercise", "synthetic"
+                    "deployed", "author_report", "counterfactual_rewrite", "writing_exercise", "synthetic", "comparative_field_teardown"
                 }:
                     errors.append(rid + " 案例类型无效")
                 if not has_text(record.get("analysis")) or not all(
@@ -222,14 +223,40 @@ def search_fields(record):
     return {weight: [search_text(value) for value in values] for weight, values in fields.items()}
 
 
-def search_catalog(data, query, kind, limit):
+def infer_learning_origin(record, group, sources_by_id):
+    explicit = record.get("learning_origin")
+    if isinstance(explicit, str) and explicit in LEARNING_ORIGINS:
+        return explicit
+    if group == "feedback":
+        return "task_feedback"
+    if group == "sources":
+        kind = record.get("kind")
+        if kind == "book":
+            return "book_canon"
+        if kind == "field_teardown":
+            return "co_dissected_teardown"
+        return "benchmark_study"
+    for ref in record.get("source_refs", []):
+        sid = ref.get("source_id") if isinstance(ref, dict) else None
+        src = sources_by_id.get(sid) if isinstance(sid, str) else None
+        if src:
+            s_origin = infer_learning_origin(src, "sources", sources_by_id)
+            if s_origin in ("co_dissected_teardown", "book_canon"):
+                return s_origin
+    return "benchmark_study"
+
+
+def search_catalog(data, query, kind, limit, origin_filter=None):
     normalized = search_text(query)
     terms = set(normalized.split()) - STOP_WORDS
     if not terms or not 1 <= limit <= 20:
         raise ValueError("需要关键词，limit 范围为 1-20")
+    sources_by_id = {s.get("id"): s for s in data.get("sources", []) if isinstance(s, dict) and s.get("id")}
     records = [
         (group, record) for group, record in all_records(data)
-        if (kind is None or group == kind) and record.get("status") != "retired"
+        if (kind is None or group == kind)
+        and record.get("status") != "retired"
+        and (origin_filter is None or infer_learning_origin(record, group, sources_by_id) == origin_filter)
     ]
     # Match authored Chinese keywords inside a question without requiring a tokenizer.
     han_queries = [term for term in terms if HAN.search(term)]
@@ -260,6 +287,7 @@ def search_catalog(data, query, kind, limit):
         results.append({
             "group": group,
             "id": record["id"],
+            "learning_origin": infer_learning_origin(record, group, sources_by_id),
             "title": record["title"],
             **{key: record[key] for key in ("title_en", "tags_en") if key in record},
             "version": record["version"],
@@ -430,6 +458,7 @@ def main():
     search = subs.add_parser("search")
     search.add_argument("query")
     search.add_argument("--kind", choices=GROUPS)
+    search.add_argument("--origin", choices=sorted(LEARNING_ORIGINS))
     search.add_argument("--limit", type=int, default=5)
     get = subs.add_parser("get")
     get.add_argument("ids", nargs="+")
@@ -443,13 +472,21 @@ def main():
     root, catalog = locate_catalog(args.library)
     original = catalog.read_bytes()
     data = parse_catalog(original)
+    sources_by_id = {s.get("id"): s for s in data.get("sources", []) if isinstance(s, dict) and s.get("id")}
     context = {"library": str(root), "catalog_revision": data["revision"]}
     if args.command == "summary":
-        emit({**context, "counts": {g: len(data[g]) for g in GROUPS}, "sources": [{k: s.get(k) for k in ("id", "title", "reading_status", "pdf_pages", "coverage_note", "reviewed_locations")} for s in data["sources"]]})
+        by_origin = {}
+        for g in GROUPS:
+            g_counts = {}
+            for item in data[g]:
+                orig = infer_learning_origin(item, g, sources_by_id)
+                g_counts[orig] = g_counts.get(orig, 0) + 1
+            by_origin[g] = g_counts
+        emit({**context, "counts": {g: len(data[g]) for g in GROUPS}, "by_learning_origin": by_origin, "sources": [{**{k: s.get(k) for k in ("id", "title", "reading_status", "pdf_pages", "coverage_note", "reviewed_locations")}, "learning_origin": infer_learning_origin(s, "sources", sources_by_id)} for s in data["sources"]]})
     elif args.command == "get":
         emit({**context, **get_records(root, data, args.ids)})
     elif args.command == "search":
-        emit({**context, **search_catalog(data, args.query, args.kind, args.limit)})
+        emit({**context, **search_catalog(data, args.query, args.kind, args.limit, getattr(args, "origin", None))})
     elif args.command == "apply-patch":
         patch = json.loads(args.file.expanduser().read_text(encoding="utf-8"))
         result = apply_catalog_patch(root, catalog, original, data, patch, args.dry_run, args.check_files)

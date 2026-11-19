@@ -2,6 +2,13 @@
 
 [简体中文](CHANGELOG.md)
 
+## v1.3.0
+
+- Added one bilingual Xiaomi SU7 Capri Blue copy teardown with an original English exercise and clear evidence limits. The library now contains 46 cases and exercises.
+- Added three writing methods for spare web instructions, clear homepage wording and FAQs, and sensory outdoor copy.
+- Search and library summaries now distinguish books, external articles and case reports, collaborative teardowns, and task feedback.
+- Reorganized both homepages into six sections. The full trade-show follow-up walkthrough and three email structures have dedicated pages.
+
 ## v1.2.2
 
 - Added full English notes for all 45 cases, with writing-craft analysis, labeled original exercises, and links to the Chinese pages and sources.
