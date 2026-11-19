@@ -2,11 +2,21 @@
 
 [English homepage](../../README.md) · [项目中文首页](../../README.zh-CN.md) · [中文案例索引](README.md)
 
-All 45 cases and exercises have English notes and a linked Chinese counterpart. Each page covers source observations, interpretation, application steps, limits, and reported results, followed by an English writing-craft section. Original practice is labeled separately from source quotations. Book references retain the page numbers of the Chinese editions used; English practice is not presented as recovered original advertising copy.
+All 46 cases, teardowns, and exercises have English notes and a linked Chinese counterpart. Each page covers source observations, interpretation, application steps, limits, and reported results, followed by an English writing-craft section. Original practice is labeled separately from source quotations. Book references retain the edition and available page locators; English practice is not presented as recovered original advertising copy.
 
 The 18 VeryGoodCopy entries also link to their original English lessons. These pages contain our case analysis and practice, not reproductions of the lessons.
 
 Start from the problem you are trying to write about. From the skill folder, run `python3 scripts/library.py search "pricing objection" --kind cases`. Use `python3 scripts/library.py get M-013 C-shell-fleet-saving-calculation` to open the method and case together. [Searchable catalog](catalog.json)
+
+## Outdoor copy teardown
+
+- [Xiaomi SU7 Capri Blue](cases/en/C-xiaomi-su7-2026-capri-blue-billboard-copy.md) · [中文](cases/C-xiaomi-su7-2026-capri-blue-billboard-copy.md) – Use a physical color to express a felt pace. Check what the audience recognizes and where the detailed information belongs.
+
+## Web copy methods from Steve Krug
+
+`M-025` covers pruning filler and instructions. `M-026` covers homepage taglines, matching navigation to headings, and FAQs that answer real questions. From the skill folder, run `python3 scripts/library.py get M-025 M-026`. [Steve Krug’s book](https://sensible.com/dont-make-me-think/)
+
+By origin, try `python3 scripts/library.py search "billboard" --kind cases --origin co_dissected_teardown`.
 
 ## The Adweek Copywriting Handbook
 

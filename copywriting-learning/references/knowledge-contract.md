@@ -22,7 +22,7 @@ validated 必须有可解析且 verified=true 的 validation_refs；编辑认可
 
 ## cases
 必填：id、version、title、tags、status、source_refs、case_type、observations、analysis、outcome_evidence、transfer_limits。
-case_type：deployed、author_report、counterfactual_rewrite、writing_exercise、synthetic。
+case_type：deployed、author_report、counterfactual_rewrite、writing_exercise、synthetic、comparative_field_teardown。
 observations 为材料所见，analysis 为本轮解释；outcome_evidence 写 evidence_type、claim、verification_status。无结果写 unknown。作者预测与假设重写不能填为真实营销结果。
 
 ## feedback
@@ -31,7 +31,9 @@ observations 为材料所见，analysis 为本轮解释；outcome_evidence 写 e
 新增可带补充字段。被引用记录通常以 retired 和版本保留，不直接删除。
 
 ## 检索
-- summary：数量及来源阅读范围。
+可用 learning_origin 区分书籍（book_canon）、外部文章和案例（benchmark_study）、共创对比拆解（co_dissected_teardown）与任务反馈（task_feedback）。此字段用于检索，不代表效果已验证。
+
+- summary：数量、来源阅读范围和习得出处分布。
 - search "关键词或写作困境" [--kind sources|methods|cases|feedback] [--limit 5]：编号、标题、标签和症状权重 3，规则和适用条件权重 2，观察、分析和迁移边界权重 1。词出现多次只按最高匹配字段计一次。
 - 方法和案例可用 `title_en`、`tags_en`（字符串数组）及 `when_stuck`（`zh` 与 `en` 各一组简短写作困境）。原有记录可逐步补齐。
 - get ID [ID ...]：按顺序读取完整记录。单 ID 返回 `group` 和 `record`，多 ID 返回 `records` 数组，每项有同样的 `group` 和 `record`。案例的 `markdown_path`、`markdown_path_en` 指向已存在的中英文卡片，以返回的 `library` 为起点。
